@@ -1,9 +1,9 @@
 # ETK — HEAD (stare curentă)
 **Proiecție a jurnalului · reconstruit 2026-08-17 · NU se editează de mână**
 
-> **Vârf:** v3.101 · Partea CV (2026-08-16)  
+> **Vârf:** v3.102 · Partea CVI (2026-08-17)  
 > **Sursă:** `ETK_LEDGER.md`  
-> **STARE:** Acoperire **0/I → Partea CV** (v3.101) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-17  
+> **STARE:** Acoperire **0/I → Partea CVI** (v3.102) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-17  
 > **Regulă:** HEAD = artefact de build ȘI autoritatea de stare (LXXXIV). INDEX-ul de mai jos e REGENERAT din markerii `# APPEND` — nu-l citi din jurnal (acolo e înghețat). Orice schimbare aterizează întâi în jurnal (append + grep), apoi se re-rulează `etk_project_head.py`.
 > **📤 PROCEDURĂ UPLOAD (regulă vie, imună la `-N`):** la finalul sesiunii operatorul urcă **DOAR 2 fișiere** — jurnalul nou `ETK_LEDGER_v3_XX_<stamp>.md` + `ETK_HEAD.md` — și **șterge jurnalul precedent** (ca să nu se adune). Tooling-ul (`etk_ledger_commit.py` + `etk_project_head*.py`) se urcă **o singură dată**. Append-urile **NU se urcă** (commit-ul le pliază). **Interfața poate adăuga sufixe `-N` la upload — E INOFENSIV:** pipeline-ul e imun (commit-ul alege automat jurnalul cel mai recent + proiectorul cel mai capabil, indiferent de `-N`). **Nu redenumi nimic** — singurul gest de igienă e ștergerea jurnalului vechi.
 
@@ -12,7 +12,6 @@
 ## 🗺 INDEX PĂRȚI — regenerat, viu (12 părți-append)
 *Era append XLV→vârf, proiectată din jurnal la fiecare build (O1, fix M-2/M-3). ERA I (0–XLIV) = pliată/înghețată.*
 
-- **v3.90 · Partea XCIV** (2026-08-13) — XCIV.1 Defectul — prins prin test funcțional, nu inspecție
 - **v3.91 · Partea XCV** (2026-08-15) — XCV.1 Defectul — narat în XCIV, absent de pe disc (prins prin grep + rulare)
 - **v3.92 · Partea XCVI** (2026-08-15) — XCVI.1 Cele patru inserții — ce s-a aterizat și unde
 - **v3.93 · Partea XCVII** (2026-08-15) — XCVII.1 Ce s-a reconciliat și cum
@@ -24,10 +23,11 @@
 - **v3.99 · Partea CIII** (2026-08-16) — CIII.1 Ce s-a verificat (gate + disc + primar)
 - **v3.100 · Partea CIV** (2026-08-16) — CIV.1 FSSP v2_6 — container reparat (A4 ÎNCHIS)
 - **v3.101 · Partea CV** (2026-08-16) — CV.1 Reverificare — verdict pe starea reală (disc acum)
+- **v3.102 · Partea CVI** (2026-08-17) — CVI.1 Validare — provenanță
 
 ---
 
-## ⚠ ERORI / FLAG-URI ACTIVE (6)
+## ⚠ ERORI / FLAG-URI ACTIVE (7)
 *Doar cele deschise. Cele închise trăiesc în jurnal.*
 
 - C-2 (marcaj specie — gata)
@@ -35,7 +35,8 @@
 - eCB_tonus_Modul_v1 (R-41; „mergi")
 - clase-capcană T11/T12/T13
 - FLAG OR Cochran (R-43)
-- FSSP ODE — a_NM/g_NM [S] + Q_opt.
+- FSSP ODE — a_NM/g_NM [S] + Q_opt
+- G-ETK-R2 (7 predicții [S] noi — netestate, de sharpen R3).
 
 _Erori închise (în jurnal, nu aici): ~0._
 
@@ -137,4 +138,4 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-83 | Talbot CF, Oztan O, …, Capitanio JP, Parker KJ (2024). Nebulized vasopressin penetrates CSF and improves social cognitio | replicare NHP a ipotezei AVP-deficit (completează R-27/R-29) | (D) |
 
 ---
-*Generat de etk_project_head.py din ETK_LEDGER.md. 59 referințe · 6 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
+*Generat de etk_project_head.py din ETK_LEDGER.md. 59 referințe · 7 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
