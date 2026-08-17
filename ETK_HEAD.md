@@ -1,9 +1,9 @@
 # ETK — HEAD (stare curentă)
 **Proiecție a jurnalului · reconstruit 2026-08-17 · NU se editează de mână**
 
-> **Vârf:** v3.102 · Partea CVI (2026-08-17)  
+> **Vârf:** v3.103 · Partea CVII (2026-08-17)  
 > **Sursă:** `ETK_LEDGER.md`  
-> **STARE:** Acoperire **0/I → Partea CVI** (v3.102) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-17  
+> **STARE:** Acoperire **0/I → Partea CVII** (v3.103) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-17  
 > **Regulă:** HEAD = artefact de build ȘI autoritatea de stare (LXXXIV). INDEX-ul de mai jos e REGENERAT din markerii `# APPEND` — nu-l citi din jurnal (acolo e înghețat). Orice schimbare aterizează întâi în jurnal (append + grep), apoi se re-rulează `etk_project_head.py`.
 > **📤 PROCEDURĂ UPLOAD (regulă vie, imună la `-N`):** la finalul sesiunii operatorul urcă **DOAR 2 fișiere** — jurnalul nou `ETK_LEDGER_v3_XX_<stamp>.md` + `ETK_HEAD.md` — și **șterge jurnalul precedent** (ca să nu se adune). Tooling-ul (`etk_ledger_commit.py` + `etk_project_head*.py`) se urcă **o singură dată**. Append-urile **NU se urcă** (commit-ul le pliază). **Interfața poate adăuga sufixe `-N` la upload — E INOFENSIV:** pipeline-ul e imun (commit-ul alege automat jurnalul cel mai recent + proiectorul cel mai capabil, indiferent de `-N`). **Nu redenumi nimic** — singurul gest de igienă e ștergerea jurnalului vechi.
 
@@ -12,7 +12,6 @@
 ## 🗺 INDEX PĂRȚI — regenerat, viu (12 părți-append)
 *Era append XLV→vârf, proiectată din jurnal la fiecare build (O1, fix M-2/M-3). ERA I (0–XLIV) = pliată/înghețată.*
 
-- **v3.91 · Partea XCV** (2026-08-15) — XCV.1 Defectul — narat în XCIV, absent de pe disc (prins prin grep + rulare)
 - **v3.92 · Partea XCVI** (2026-08-15) — XCVI.1 Cele patru inserții — ce s-a aterizat și unde
 - **v3.93 · Partea XCVII** (2026-08-15) — XCVII.1 Ce s-a reconciliat și cum
 - **v3.94 · Partea XCVIII** (2026-08-15) — XCVIII.1 Coeficienții calibrați (8) — valoare + țintă + status
@@ -24,6 +23,7 @@
 - **v3.100 · Partea CIV** (2026-08-16) — CIV.1 FSSP v2_6 — container reparat (A4 ÎNCHIS)
 - **v3.101 · Partea CV** (2026-08-16) — CV.1 Reverificare — verdict pe starea reală (disc acum)
 - **v3.102 · Partea CVI** (2026-08-17) — CVI.1 Validare — provenanță
+- **v3.103 · Partea CVII** (2026-08-17) — CVII.1 Corecția imprecizilor CVI (D2/D3/D5/D6)
 
 ---
 
@@ -35,8 +35,8 @@
 - eCB_tonus_Modul_v1 (R-41; „mergi")
 - clase-capcană T11/T12/T13
 - FLAG OR Cochran (R-43)
-- FSSP ODE — a_NM/g_NM [S] + Q_opt
-- G-ETK-R2 (7 predicții [S] noi — netestate, de sharpen R3).
+- FSSP ODE — a_NM/g_NM [S] (punte propusă, valori pending RASP) + Q_opt
+- G-ETK-R2/R3 (9 predicții [S] — netestate, Braț A gata de proiectat).
 
 _Erori închise (în jurnal, nu aici): ~0._
 
@@ -72,7 +72,7 @@ _Erori închise (în jurnal, nu aici): ~0._
 
 ---
 
-## 📚 REFERINȚE — verdict curent (59)
+## 📚 REFERINȚE — verdict curent (65)
 *Cea mai recentă mențiune per ID câștigă. ⛔=neverificat/blocat · ✔/✅=verificat · (C)/(D)/(S)=marcaj epistemic · ⚠=rezervă.*
 
 | ID | Referință | Subiect | Verdict |
@@ -136,6 +136,12 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-81 | Theofanopoulou C, Gedman G, Cahill JA, Boeckx C, Jarvis ED (2021). Universal nomenclature for oxytocin-vasotocin ligand  | filogenie OT/VT — VT reține mai mult din secvența parentală | (D) |
 | R-82 | Clarke L, Gesundheit N, Sherr EH, Hardan AY, Parker KJ (2024). Vasopressin deficiency: a hypothesized driver of both soc | CONVERGENȚĂ CLINICĂ cu §VIII: Parker leagă AVP-deficit de de | (D) |
 | R-83 | Talbot CF, Oztan O, …, Capitanio JP, Parker KJ (2024). Nebulized vasopressin penetrates CSF and improves social cognitio | replicare NHP a ipotezei AVP-deficit (completează R-27/R-29) | (D) |
+| R-93 | Inagaki TK, Muscatell KA, Irwin MR, Cole SW, Eisenberger NI (2012), *NeuroImage* 59(4):3222–3226, DOI 10.1016/j.neuroima | I(t)→amigdală→amenințare socială (reasignat din R-84/coliziu | (D) |
+| R-94 | Bilbo SD et al. (2005), *J Neurosci* 25(35):8000–8009, DOI 10.1523/JNEUROSCI.1748-05.2005, PMID 16135757 | microglie primed (reasignat din R-85/coliziune) | (D) |
+| R-95 | McLaughlin KA, Sheridan MA, Tibu F, Fox NA, Zeanah CH, Nelson CA (2015), *PNAS* 112(18):5637–5642, DOI 10.1073/pnas.1423 | BEIP: perioadă sensibilă umană <24/18 luni (ancoră A1/A6) | (C) |
+| R-96 | Kang J et al. (2005), *Cell* 123(5):833–847, DOI 10.1016/j.cell.2005.09.011, PMID 16325578 | β-arrestin1 nuclear→p300→acetilare H4 (δ-opioid) — BARR-0 | (D) |
+| R-97 | Gimpl G, Fahrenholz F (2001), *Physiol Rev* 81(2):629–683, DOI 10.1152/physrev.2001.81.2.629, PMID 11274341 | OXTR→Gq/11→PLCβ canonic (GATE3-1) | (C) |
+| R-98 | Tronick E, Als H, Adamson L, Wise S, Brazelton TB (1978), *J Am Acad Child Psychiatry* 17(1):1–13, DOI 10.1016/s0002-713 | still-face original (perturbator g_NM) | (C) |
 
 ---
-*Generat de etk_project_head.py din ETK_LEDGER.md. 59 referințe · 7 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
+*Generat de etk_project_head.py din ETK_LEDGER.md. 65 referințe · 7 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
