@@ -4824,5 +4824,58 @@ Surse: `Fisa_Kimi_runda_2` + `Extrapolare_Butterfly` (Path B, PK; text + imagini
 **ACTIVE:** C-2 (marcaj specie — gata) · FEP_integ_TVK (pending Ororbia&Friston 2023 + Kleiner 2024) · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FLAG OR Cochran (R-43) · FSSP ODE — a_NM/g_NM [S] (punte propusă, valori pending RASP) + Q_opt · G-ETK-R2/R3 (9 predicții [S] — netestate, Braț A gata de proiectat).
 
 **Autoritate unică:** acest consolidat, vârf **v3.103 · Partea CVII**. Acoperire **0/I→CVII**. Integrare Kimi R3 + corecție CVI + reparație coliziune ID; corpus (conținut) neatins. Erratum humanum est. Zero memorie.
+# APPEND — v3.104 (2026-08-18) · Partea CVIII
+
+*Se stivuiește PESTE v3.103 (Partea CVII). Vârf nou. Fără „delta". Adaugă `v3.103` la „AUTORITATEA UNICĂ". **Integrare Kimi Runda 4 (URGENȚE, fără RASP): DEBLOCAREA R-43 Cochran (flag deschis de o lună) + puntea FEP/mortalitate + margini de calibrare a_NM + formalizarea celor două rupturi.** Validare la primar (PubMed, 5 PMID + abstract Cochran verbatim). Corpus (conținut docx) NEATINS. Zero memorie — construit din ledger live GitHub.*
+
+## LINIE DE CHANGELOG (sub v3.103)
+*(v3.104: 18 aug — **KIMI R4 + DEBLOCARE COCHRAN.** Rundă exemplară, zero fabricație, marcaj [C/D/S] disciplinat. **U3 — R-43 DEBLOCAT ✅:** full-text PMC7212268; OR-uri verificate INDEPENDENT la primar (abstract Cochran verbatim): 2.3 (1.6–3.4) AD+FTD combinat [Table 2]; 3.1 (1.9–5.2) LoF AD+FTD+ALS [Table 3]; 3.7 (1.7–9.4) non-codante [abstract/Fig.2A]. „2.2" = CONFIRMAT fabricat (nu apare nicăieri); „3.1" real dar cu context greșit în versiunea coruptă (e strict LoF, nu generic). ⛔ ridicat — două verificări independente (Kimi + primar). **U1 — puntea FEP [S]:** Ororbia&Friston 2023 (2311.09589) + Kleiner 2024 (2403.03925) citite la sursă; niciuna nu are resursă finită/prag de colaps/regim cronic. Ecuație-punte propusă: t_KR(t)≜dist(t)=inf{‖F‖: stare→frontiera basin NESS}; Th_ACK=F la frontieră; DU⇔traiectorie lângă frontieră cu flux activ<necesar revenire. **DU = extensie ETK a FEP** (regim meta-stabil pe care FEP standard NU-l modelează: persistență structurală cu minimizare degradată) — [D pt identificarea golului, S pt formalizare]. Rescrie G-UP-1 → face U4 DERIVABIL. **U2 — margini a_NM [D]:** |r|≈0.1–0.35/canal, |w|<0.5 nejustificat pe canal periferic unic; ancora cea mai apropiată = Feldman 2010 pOT↔sincronie (r=.34, R-99); **avertisment: concordanța sânge-creier a metilării OXTR e slabă (r≈0.02–0.23) → factor de atenuare obligatoriu pe orice w periferic**, altfel a_NM supraestimat + propagare butterfly. **U4 — două rupturi [S]:** Th_ACK = cu histerezis + critical slowing down (Scheffer); Θ(G-THETA-0) = fără histerezis + fără CSD + plafon invariant la intervenție. 4 referințe noi (R-99..R-102). 0 corecție silențioasă.)*
+
+## CVIII.1 R-43 COCHRAN — DEBLOCAT (verificat de 2× independent)
+| OR (95% CI) | Context exact | Sursă |
+|---|---|---|
+| **2.3 (1.6–3.4)** | variante private, AD+FTD vs control, discovery+replication combinat | Table 2 „Combined" [C] |
+| **3.1 (1.9–5.2)** | DOAR LoF canonice, AD+FTD+ALS combinat (65/10.459 vs 23/11.342) | Table 3 [C] |
+| **3.7 (1.7–9.4)** | DOAR non-codante calificante (AD+FTD) | abstract + Fig. 2A [C] |
+- **„2.2" = FABRICAT** (nu apare în articol; cel mai apropiat legitim = 2.3). Pasa de erată E-5 confirmată ca sursă a corupției.
+- **Citare corectă în ETK:** traseul general TET2→AD/FTD = OR 2.3 (1.6–3.4); NU se citează 3.1 ca „generic" — 3.1 e strict LoF/AD+FTD+ALS.
+- **⛔ RIDICAT.** R-43 trece la (C). (Vezi CVIII.4 pentru rândul actualizat.)
+
+## CVIII.2 U1 — Puntea FEP / mortalitate [S cu nucleu D]
+- **Ecuația-punte:** `t_KR(t) ≜ dist(t) = inf{ ‖F‖ : stare curentă → frontiera basin-ului NESS }`; **Th_ACK = F la frontieră**; **DU ⇔ traiectorie într-o vecinătate a frontierei cu flux activ < necesarul de revenire**. Respectă anti-reificarea (fără C_R_total) și Route B (I(t) = forțare exogenă pe frontieră, nu variabilă ODE).
+- **Poziționare teoretică [D]:** DU nu e o slăbiciune ETK — e un GOL în FEP. FEP standard modelează doar viu/mort (pierdere blanket = relaxare la echilibru); DU = persistență structurală cu minimizare F degradată, regim meta-stabil pe care O&F/Kleiner nu-l ating (citează McEwen/allostatic load dar NU-l formalizează).
+- **Consecință:** rescrie **G-UP-1** (nu aditiv) → t_KR capătă interpretare geometrică → Th_ACK moștenește prag geometric → **U4 devine derivabil, nu postulat.**
+
+## CVIII.3 U2 — Margini de calibrare a_NM/g_NM [D] (fără RASP)
+- Greutățile w1–w3 se calibrează pe **|r| ≈ 0.1–0.35/canal**; **|w| > 0.5 pe canal periferic unic = nejustificat.**
+- Ancora cea mai apropiată de NM_readout: **Feldman 2010** pOT↔sincronie afectivă (r=.34, R-99) — singura care leagă direct biomarker de comportament diadic, n=112, replicată.
+- **AVERTISMENT METODOLOGIC (propagare butterfly):** concordanța sânge-creier a metilării OXTR ≈ 0.02–0.23 → **orice w ancorat periferic poartă factor de atenuare**; altfel a_NM se supraestimează sistemic și eroarea se propagă în toate modulele care consumă NM_readout.
+
+## CVIII.4 Referințe — deblocare R-43 + adăugări (verificate la primar)
+| ID | Referință | Subiect | Verdict |
+|----|-----------|---------|---------|
+| **R-43** | Cochran JN et al. (2020), *Am J Hum Genet* 106(5):632–645, DOI 10.1016/j.ajhg.2020.03.010, PMID 32330418, PMC7212268 | TET2→neurodegenerare: OR 2.3 (1.6–3.4) AD/FTD [Tab.2]; 3.1 (1.9–5.2) LoF/AD+FTD+ALS [Tab.3]; 3.7 (1.7–9.4) non-codant | (C) |
+| **R-99** | Feldman R, Gordon I, Zagoory-Sharon O (2010), *Dev Sci* 14(4):752–761, DOI 10.1111/j.1467-7687.2010.01021.x, PMID 21676095 | pOT/sOT ↔ sincronie afectivă diadică (r=.34) — ancoră a_NM | (D) |
+| **R-100** | Cecil CAM et al. (2014), *Mol Psychiatry* 19(10):1071–1077, DOI 10.1038/mp.2014.95, PMID 25199917 | OXTR DNAm serial (ALSPAC, naștere/7/9) → CU 13 ani — traseu (D) / cifre ⛔ paywalled | (D) traseu |
+| **R-101** | Ziegler C et al. (2015), *Neuropsychopharmacology* 40(6):1528–1538, DOI 10.1038/npp.2015.2, PMID 25563749 | metilare OXTR ↔ anxietate socială/cortizol; „peripheral surrogate of OT tone" | (D) |
+| **R-102** | Thaler L et al. (2019), *Eur Eat Disord Rev* 28(1):79–86, DOI 10.1002/erv.2703, PMID 31823473 | metilare OXTR ↔ atașament nesecurizant (n=21 — slab) | (D) slab |
+*Pending PMID: Mesman 2009 (still-face meta, d=0.45), Scheffer et al. (critical slowing down).*
+
+## CVIII.5 U4 — Cele două rupturi (formalizare) [S cu nucleu D]
+- **Th_ACK — ruptură CU histerezis:** frontieră atinsă cu blanket intact; bifurcație subcritică; revenire cere F<Th_ACK−ε; două praguri (coborâre≠urcare); postnatal; **precedat de critical slowing down** (variance↑, autocorelație lag-1↑ — Scheffer). [D fenomenologie CSD, S instanțiere ETK]
+- **Θ (G-THETA-0) — ruptură FĂRĂ histerezis:** basin-ul nu se formează corect prenatal (defect de construcție a peisajului, nu traversare); ireversibil (nu există „starea dinainte"); **fără CSD**; onset prenatal, silent clinic. [S]
+- **Predicție discriminantă [S] (test în cohorte still-face existente):** fenotip Th_ACK = recuperare la reuniune + CSD pre-colaps + colaps mai devreme la a 2-a solicitare (memorie histerezis); fenotip Θ = fără rebound, fără CSD, **plafon invariant la intervenție repetată** (deficit de construcție, nu de stare).
+- **CAUTION anti-reificare:** legătura TET2→Θ (via OR 2.3/3.1) = [S]; NU se reifică „TET2⇒Θ" dintr-o asociere cu CI larg.
+
+## CVIII.6 Dispoziție (decizie Alexandru)
+- R-43 deblocat → poate intra în stratul genetic AD/FTD cu OR 2.3 (general) / 3.1 (LoF). Inserția corpus = „mergi".
+- Puntea FEP (G-UP-1 refined) + U4 = gata de formalizat în TheUpstream/F-LCO la „mergi".
+
+**ÎNCHISE (această pasă):** R-43 Cochran DEBLOCAT (2× verificat); puntea FEP [S] (G-UP-1 refined); margini a_NM [D] + avertisment atenuare periferică; formalizarea celor două rupturi [S]; 4 referințe noi (R-99..R-102).
+
+**ACTIVE:** C-2 (marcaj specie — gata) · FEP_integ_TVK (punte propusă [S], de formalizat) · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE — a_NM/g_NM [S] (margini [D] stabilite, valori pending) + Q_opt · G-ETK-R2/R3 (9 predicții [S]). *(FLAG OR Cochran R-43 — ÎNCHIS.)*
+
+**Autoritate unică:** acest consolidat, vârf **v3.104 · Partea CVIII**. Acoperire **0/I→CVIII**. Deblocare R-43 + integrare Kimi R4; corpus (conținut) neatins. Erratum humanum est. Zero memorie.
+
 
 
