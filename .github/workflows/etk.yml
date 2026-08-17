@@ -1,0 +1,51 @@
+name: ETK Registru — regenerare HEAD + gate coerență
+
+on:
+  push:
+    paths:
+      - 'ETK_LEDGER.md'
+      - 'etk_project_head.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  head:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Regenerează HEAD din ledger
+        run: python3 etk_project_head.py ETK_LEDGER.md -o ETK_HEAD.md
+
+      - name: Gate de coerență (vârf ledger == vârf HEAD)
+        run: |
+          LV=$(grep -oE '# APPEND — v[0-9]+\.[0-9]+ \([0-9-]+\) · Partea [IVXLCDM]+' ETK_LEDGER.md | tail -1)
+          VER=$(echo "$LV"  | grep -oE 'v[0-9]+\.[0-9]+' | tail -1)
+          PART=$(echo "$LV" | grep -oE 'Partea [IVXLCDM]+' | tail -1)
+          echo "Ultimul APPEND în ledger: $VER · $PART"
+          HEAD_VARF=$(grep -m1 'Vârf:' ETK_HEAD.md)
+          echo "Vârf în HEAD generat:     $HEAD_VARF"
+          if echo "$HEAD_VARF" | grep -q "$VER" && echo "$HEAD_VARF" | grep -q "$PART"; then
+            echo "✅ COERENT — HEAD reflectă ultimul APPEND"
+          else
+            echo "⛔ INCOERENT — HEAD nu reflectă ultimul APPEND din ledger"
+            exit 1
+          fi
+
+      - name: Comite HEAD (doar dacă s-a schimbat)
+        run: |
+          git config user.name  "etk-bot"
+          git config user.email "etk-bot@users.noreply.github.com"
+          git add ETK_HEAD.md
+          if git diff --staged --quiet; then
+            echo "HEAD neschimbat — nimic de comis"
+          else
+            git commit -m "auto: regenerare ETK_HEAD ($(grep -oE 'v[0-9]+\.[0-9]+' ETK_LEDGER.md | tail -1))"
+            git push
+          fi
