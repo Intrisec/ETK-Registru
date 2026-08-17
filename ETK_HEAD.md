@@ -1,9 +1,9 @@
 # ETK — HEAD (stare curentă)
 **Proiecție a jurnalului · reconstruit 2026-08-17 · NU se editează de mână**
 
-> **Vârf:** v3.103 · Partea CVII (2026-08-17)  
+> **Vârf:** v3.104 · Partea CVIII (2026-08-18)  
 > **Sursă:** `ETK_LEDGER.md`  
-> **STARE:** Acoperire **0/I → Partea CVII** (v3.103) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-17  
+> **STARE:** Acoperire **0/I → Partea CVIII** (v3.104) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-17  
 > **Regulă:** HEAD = artefact de build ȘI autoritatea de stare (LXXXIV). INDEX-ul de mai jos e REGENERAT din markerii `# APPEND` — nu-l citi din jurnal (acolo e înghețat). Orice schimbare aterizează întâi în jurnal (append + grep), apoi se re-rulează `etk_project_head.py`.
 > **📤 PROCEDURĂ UPLOAD (regulă vie, imună la `-N`):** la finalul sesiunii operatorul urcă **DOAR 2 fișiere** — jurnalul nou `ETK_LEDGER_v3_XX_<stamp>.md` + `ETK_HEAD.md` — și **șterge jurnalul precedent** (ca să nu se adune). Tooling-ul (`etk_ledger_commit.py` + `etk_project_head*.py`) se urcă **o singură dată**. Append-urile **NU se urcă** (commit-ul le pliază). **Interfața poate adăuga sufixe `-N` la upload — E INOFENSIV:** pipeline-ul e imun (commit-ul alege automat jurnalul cel mai recent + proiectorul cel mai capabil, indiferent de `-N`). **Nu redenumi nimic** — singurul gest de igienă e ștergerea jurnalului vechi.
 
@@ -12,7 +12,6 @@
 ## 🗺 INDEX PĂRȚI — regenerat, viu (12 părți-append)
 *Era append XLV→vârf, proiectată din jurnal la fiecare build (O1, fix M-2/M-3). ERA I (0–XLIV) = pliată/înghețată.*
 
-- **v3.92 · Partea XCVI** (2026-08-15) — XCVI.1 Cele patru inserții — ce s-a aterizat și unde
 - **v3.93 · Partea XCVII** (2026-08-15) — XCVII.1 Ce s-a reconciliat și cum
 - **v3.94 · Partea XCVIII** (2026-08-15) — XCVIII.1 Coeficienții calibrați (8) — valoare + țintă + status
 - **v3.95 · Partea XCIX** (2026-08-15) — XCIX.1 Coada de priorități parcată (autoritate de stare)
@@ -24,19 +23,19 @@
 - **v3.101 · Partea CV** (2026-08-16) — CV.1 Reverificare — verdict pe starea reală (disc acum)
 - **v3.102 · Partea CVI** (2026-08-17) — CVI.1 Validare — provenanță
 - **v3.103 · Partea CVII** (2026-08-17) — CVII.1 Corecția imprecizilor CVI (D2/D3/D5/D6)
+- **v3.104 · Partea CVIII** (2026-08-18) — CVIII.1 R-43 COCHRAN — DEBLOCAT (verificat de 2× independent)
 
 ---
 
-## ⚠ ERORI / FLAG-URI ACTIVE (7)
+## ⚠ ERORI / FLAG-URI ACTIVE (6)
 *Doar cele deschise. Cele închise trăiesc în jurnal.*
 
 - C-2 (marcaj specie — gata)
-- FEP_integ_TVK (pending Ororbia&Friston 2023 + Kleiner 2024)
+- FEP_integ_TVK (punte propusă [S], de formalizat)
 - eCB_tonus_Modul_v1 (R-41; „mergi")
 - clase-capcană T11/T12/T13
-- FLAG OR Cochran (R-43)
-- FSSP ODE — a_NM/g_NM [S] (punte propusă, valori pending RASP) + Q_opt
-- G-ETK-R2/R3 (9 predicții [S] — netestate, Braț A gata de proiectat).
+- FSSP ODE — a_NM/g_NM [S] (margini [D] stabilite, valori pending) + Q_opt
+- G-ETK-R2/R3 (9 predicții [S]). *(FLAG OR Cochran R-43 — ÎNCHIS.)*
 
 _Erori închise (în jurnal, nu aici): ~0._
 
@@ -72,7 +71,7 @@ _Erori închise (în jurnal, nu aici): ~0._
 
 ---
 
-## 📚 REFERINȚE — verdict curent (65)
+## 📚 REFERINȚE — verdict curent (69)
 *Cea mai recentă mențiune per ID câștigă. ⛔=neverificat/blocat · ✔/✅=verificat · (C)/(D)/(S)=marcaj epistemic · ⚠=rezervă.*
 
 | ID | Referință | Subiect | Verdict |
@@ -94,7 +93,7 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-40 | (rezervat) | — |  |
 | R-41 | PMID 24227742, finding #13 (Results) | disocierea 2-AG / AEA | ⚠ |
 | R-42 | secvența dezvoltării CB1/DAGLα | — | ⚠ |
-| R-43 | Cochran JN et al. (2020), *Am J Hum Genet* 106(5):632–645, DOI 10.1016/j.ajhg.2020.03.010, PMID 32330418 + Holstege 2020 | TET2 → neurodegenerare | ⛔ |
+| R-43 | Cochran JN et al. (2020), *Am J Hum Genet* 106(5):632–645, DOI 10.1016/j.ajhg.2020.03.010, PMID 32330418, PMC7212268 | TET2→neurodegenerare: OR 2.3 (1.6–3.4) AD/FTD [Tab.2]; 3.1 ( | (C) |
 | R-44 | George K, Hoang HTM, Tibbs T, …, Ahmad M (2024), *iScience* 27(6):110047, PMID 38883814, PMC11179071 | cinetică OXTR neuronală | ✔ |
 | R-45 | Iremonger KJ, Bains JS (2009), *J Neurosci* 29(22):7349–7358, PMID 19494156, PMC6666467 | dinorfină ca mesager retrograd al neuronilor VP | ✔ |
 | R-46 | Hatton GI et al. (1992), PMID 1393572 · Chen Y, Zhao Z, Hertz L (2000), *J Neurosci Res* 60(6):761–766, PMID 10861788 ·  | AVP → Ca²⁺ astrocitar | ✔ |
@@ -142,6 +141,10 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-96 | Kang J et al. (2005), *Cell* 123(5):833–847, DOI 10.1016/j.cell.2005.09.011, PMID 16325578 | β-arrestin1 nuclear→p300→acetilare H4 (δ-opioid) — BARR-0 | (D) |
 | R-97 | Gimpl G, Fahrenholz F (2001), *Physiol Rev* 81(2):629–683, DOI 10.1152/physrev.2001.81.2.629, PMID 11274341 | OXTR→Gq/11→PLCβ canonic (GATE3-1) | (C) |
 | R-98 | Tronick E, Als H, Adamson L, Wise S, Brazelton TB (1978), *J Am Acad Child Psychiatry* 17(1):1–13, DOI 10.1016/s0002-713 | still-face original (perturbator g_NM) | (C) |
+| R-99 | Feldman R, Gordon I, Zagoory-Sharon O (2010), *Dev Sci* 14(4):752–761, DOI 10.1111/j.1467-7687.2010.01021.x, PMID 216760 | pOT/sOT ↔ sincronie afectivă diadică (r=.34) — ancoră a_NM | (D) |
+| R-100 | Cecil CAM et al. (2014), *Mol Psychiatry* 19(10):1071–1077, DOI 10.1038/mp.2014.95, PMID 25199917 | OXTR DNAm serial (ALSPAC, naștere/7/9) → CU 13 ani — traseu  | (D) |
+| R-101 | Ziegler C et al. (2015), *Neuropsychopharmacology* 40(6):1528–1538, DOI 10.1038/npp.2015.2, PMID 25563749 | metilare OXTR ↔ anxietate socială/cortizol; „peripheral surr | (D) |
+| R-102 | Thaler L et al. (2019), *Eur Eat Disord Rev* 28(1):79–86, DOI 10.1002/erv.2703, PMID 31823473 | metilare OXTR ↔ atașament nesecurizant (n=21 — slab) | (D) |
 
 ---
-*Generat de etk_project_head.py din ETK_LEDGER.md. 65 referințe · 7 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
+*Generat de etk_project_head.py din ETK_LEDGER.md. 69 referințe · 6 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
