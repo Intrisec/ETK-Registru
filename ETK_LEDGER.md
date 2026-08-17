@@ -4732,3 +4732,52 @@ Acțiuni concrete (toate executabile din ⋮):
 **ACTIVE:** C-2 (marcaj specie — gata) · FEP_integ_TVK (pending Ororbia&Friston 2023 + Kleiner 2024) · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FLAG OR Cochran (R-43) · FSSP ODE — a_NM/g_NM [S] + Q_opt.
 
 **Autoritate unică:** acest consolidat, vârf **v3.101 · Partea CV**. Acoperire **0/I→CV**. Pipeline reparat; igienă corectată (doar-ștergere); corpus (conținut) NEATINS. Erratum humanum est. Zero memorie.
+# APPEND — v3.102 (2026-08-17) · Partea CVI
+
+*Se stivuiește PESTE v3.101 (Partea CV). Vârf nou. Fără „delta". Adaugă `v3.101` la „AUTORITATEA UNICĂ". **Integrare Kimi Runda 2** (Fișă + Butterfly, text + 39 imagini/cascade citite integral): înregistrare 7 predicții [S] + 2 downgrade-uri de referință + 6 derivabile aprobate pentru inserție în corpus. Validare la primar (PubMed 2×) + test ODE pe sim. Corpus științific (conținutul docx ACPS/FSSP/…) NEATINS aici — derivabilele sunt aprobate, inserția chirurgicală rămâne operație de corpus separată (cere „mergi" + confirmare ancoră pe disc). Zero memorie.*
+
+## LINIE DE CHANGELOG (sub v3.101)
+*(v3.102: 17 aug — **INTEGRARE KIMI R2.** „Butterfly" folosit ca INSTRUMENT de interogare, nu teză. Verdict: documente disciplinate (marcaje C/D/S, Route B/E-13/Cochran respectate, gol β-arrestină semnalat onest), **zero fabricație PMID**. Verificat primar: Barnhart 15229000 ✔, Wilcox 10362823 ✔, Oliet 17287507 ✔, Inagaki 22079507 (real, **[D]** nu [C]), Bilbo 16135757 (real, **[D]** nu [C]). Numere FSSP (NP 69.41/60.15, R²=0.6327, ponderi Q_target) coincid cu sim-ul. **Test butterfly pe ODE calibrat:** elasticitate endpoint/subansamblu = 0.08–0.50 (sub-unitară) → sistem AMORTIZAT, nu amplificator; amplificarea din cascadele desenate de Kimi trăiește în buclele ε(m)↔C_R↔t_KR + Th_ACK, care NU sunt în ODE-ul de construcție → teză [S] CONDIȚIONATĂ, testabilă. Corecție de metodă proprie: text-only ratase 39 imagini încorporate (cascadele = capstone); citite acum. **Înregistrate: 7 predicții G-ETK [S]** (CVI.4). **Aprobate pt inserție corpus: 6 derivabile** (CVI.3). **2 referințe adăugate** [D] (CVI.2). 0 corecție silențioasă.)*
+
+## CVI.1 Validare — provenanță
+Surse: `Fisa_Kimi_runda_2` + `Extrapolare_Butterfly` (Path B, PK; text + imagini extrase separat). Metodă: validator LLM + PubMed `get_article_metadata` (2×) + rulare sim `fssp_sim_v1_3_calibrated` cu perturbații de subansamblu. Verdict: valoros ca hartă de sensibilitate + generator de predicții [S]; NU ca sursă de calibrare cantitativă. Butterfly = instrument, confirmat util (a scos conexiuni latente reale).
+
+## CVI.2 Referințe — adăugări [D]
+| ID | Referință | Subiect | Verdict |
+|----|-----------|---------|---------|
+| R-84 | Inagaki TK, Muscatell KA, Irwin MR, Cole SW, Eisenberger NI (2012), *NeuroImage* 59(4):3222–3226, DOI 10.1016/j.neuroimage.2011.10.090, PMID 22079507 | inflamație→amigdală→percepție amenințare socială (I(t)→V) | (D) |
+| R-85 | Bilbo SD, Biedenkapp JC, Der-Avakian A, Watkins LR, Rudy JW, Maier SF (2005), *J Neurosci* 25(35):8000–8009, DOI 10.1523/JNEUROSCI.1748-05.2005, PMID 16135757 | infecție neonatală → microglie „primed" (I(t) ca memorie) | (D) |
+*Notă: ambele erau marcate [C] de Kimi → corectate [D] (un singur RCT uman / rozătoare, un laborator). NU se citează ca [C] nicăieri.*
+
+## CVI.3 Derivabile APROBATE pentru inserție în corpus (inserția = operație separată, cere „mergi")
+| # | Item | Document țintă | Marcaj |
+|---|------|----------------|--------|
+| D1 | T_eCB = câmp scalar transversal (nu variabilă locală) | ACPS_v14 (gardă glială) + eCB_tonus | derivabil |
+| D2 | OXT = coborâre prag Γ_OXTR, NU „trust" (Lane 2016 d=0.003, Declerck 2020) | RASP + F-MSC-001 §3.4 | [C] |
+| D3 | Ortogonalitate JZL184 ⊥ OXT (substrat × ligand) | ACPS_v14 Eq.14c | [D] |
+| D4 | I_PSW = construcție ≠ C_R = confirmare (regiunea de disociere formalizată) | FSSP + ACPS_v14 | derivabil |
+| D5 | Q_target ierarhie filogenetică (60% S₂+S₃); Q_target(W34)≈0.64 prematuri | FSSP §3.4.1 + Q_v5 | [D] |
+| D6 | Cadru: 8 straturi ordonate după constanta de timp | front-matter Registru | sinteză |
+
+## CVI.4 Predicții noi ÎNREGISTRATE (G-ETK [S] — netestate, falsificabile)
+- **G-ETK-ThACK-1:** Th_ACK(t)=Th₀·(1+κ·max(0,−t_KR)). DU promovată din model clinic în ecuație de stare (prag care urcă → confirmare statistic imposibilă). Falsif: prag reacție socială vs non-socială la t_KR scăzut. Țintă: NP_Depresia (DU) + F-TKR-001.
+- **G-ETK-CASC-1:** cascada amplificatoare ε(m)↔C_R↔t_KR (secunde→luni→ani), desenată explicit de Kimi. ODE de construcție calibrat = amortizat (elast 0.08–0.50); amplificarea = [S] condiționată de aceste bucle. Test decisiv: implementare în sim + re-rulare.
+- **G-ETK-GATE3-1:** a treia poartă OXTR-Gq (rapid, 2-AG, C_R) vs OXTR-β-arrestină (lent, ERK→TET2, demetilare). Falsif: agonist biased β-arrestină → demetilare OXTR fără 2-AG. Candidați: LIT-001, analogi carbetocină. Țintă: ACPS_v14 Dual-Gate.
+- **G-ETK-CONV-1:** Operator Convergent I(t)·COX_IV·TET2·NO → bifurcație în 2 atractori (declin lent/rapid), t_KR inițial = parametru de control. Țintă: Fișa Alzheimer.
+- **G-σPORT-2:** S₄(GW40)→σ_c→Poarta 2 (scurtătură trans-temporală GW40→geriatrie). Test: ALSPAC. Țintă: F-LCO-001.
+- **G-ETK-TAUS-1:** τ_sens=τ₀·(1−η(1−I_FSSP)) — I_FSSP determină durata perioadei sensibile → MIA comprimă fereastra de recuperare. Test: BEIP (MIA × vârstă-plasare). Țintă: F-TKR-001 §4.
+- **G-ETK-BARR-0:** β-arrestină→ERK1/2→TET2 — gol deschis (0 rezultate PubMed, Kimi onest). NU se inseră; se marchează ca gol de căutat.
+
+## CVI.5 CE NU SE ATINGE (Kimi le respectă)
+- I(t) NU devine variabilă ODE (Route B). λ NU se promovează 0→1 (E-13). Route B / ν≡0 / gardă glială — neschimbate. Numere butterfly (0.01→5→8 ani) = ilustrative [S], NU rezultate. NM 3.09→4.55 = [S] neancorat.
+
+## CVI.6 Dispoziție (decizie Alexandru)
+- Inserția corpus D1–D6 (docx ACPS/FSSP/RASP/…) = operație separată la „mergi" + confirmare ancoră pe disc (skill surgical-edit).
+- G-ETK-urile CVI.4 sunt înregistrate ca predicții canonice [S] — de sharpen în protocoale testabile (temă Kimi R3).
+
+**ÎNCHISE (această pasă):** validare Kimi R2 (primar + test ODE); 7 predicții G-ETK înregistrate; 2 referințe [D] adăugate; downgrade Inagaki/Bilbo [C]→[D]; corecția de metodă (imagini) documentată.
+
+**ACTIVE:** C-2 (marcaj specie — gata) · FEP_integ_TVK (pending Ororbia&Friston 2023 + Kleiner 2024) · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FLAG OR Cochran (R-43) · FSSP ODE — a_NM/g_NM [S] + Q_opt · G-ETK-R2 (7 predicții [S] noi — netestate, de sharpen R3).
+
+**Autoritate unică:** acest consolidat, vârf **v3.102 · Partea CVI**. Acoperire **0/I→CVI**. Integrare Kimi R2 (register + downgrade + derivabile aprobate); corpus (conținut) neatins. Erratum humanum est. Zero memorie.
+
