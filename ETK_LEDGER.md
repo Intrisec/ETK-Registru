@@ -4780,4 +4780,49 @@ Surse: `Fisa_Kimi_runda_2` + `Extrapolare_Butterfly` (Path B, PK; text + imagini
 **ACTIVE:** C-2 (marcaj specie — gata) · FEP_integ_TVK (pending Ororbia&Friston 2023 + Kleiner 2024) · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FLAG OR Cochran (R-43) · FSSP ODE — a_NM/g_NM [S] + Q_opt · G-ETK-R2 (7 predicții [S] noi — netestate, de sharpen R3).
 
 **Autoritate unică:** acest consolidat, vârf **v3.102 · Partea CVI**. Acoperire **0/I→CVI**. Integrare Kimi R2 (register + downgrade + derivabile aprobate); corpus (conținut) neatins. Erratum humanum est. Zero memorie.
+# APPEND — v3.103 (2026-08-17) · Partea CVII
+
+*Se stivuiește PESTE v3.102 (Partea CVI). Vârf nou. Fără „delta". Adaugă `v3.102` la „AUTORITATEA UNICĂ". **Integrare Kimi Runda 3 + corecția a 4 imprecizii din CVI (semnalate de Kimi) + reparație coliziune ID + 4 referințe noi.** Validare la primar (PubMed, 6 PMID) + inspecție imagini (2 diagrame). Corpus științific (conținut docx) NEATINS. Zero memorie — construit din ledger-ul live de pe GitHub (raw), nu din HEAD.*
+
+## LINIE DE CHANGELOG (sub v3.102)
+*(v3.103: 17 aug — **INTEGRARE KIMI R3 + AUTO-CORECȚIE CVI.** Runda R3 = exemplară: Kimi și-a corectat singur reformulările din R2, 6/6 PMID verificate la primar și corect atribuite, zero fabricație, ancore lipsă declarate onest. **Două avansuri majore (ambele în IMAGINI — invizibile text-only):** (1) puntea a_NM/g_NM — NM_readout(t)=w1·coordonare-HR-lag<1s(Feldman2011)+w2·recuperare-RSA-post-still-face(Tronick1978)+w3·NNNS(Lester&Tronick2004); a_NM←panta coordonării W6→W12, g_NM←declinul la still-face; leagă golul-cheie de RASP(pilot N=30)+Feldman(partener); valori numerice rămân [S] până la pilot. (2) rezoluția butterfly = **bistabilitate la latch**: regim funcțional C_R_max>Th_ACK → amortizat (butterfly mort, ce a măsurat testul ODE); regim post-colaps C_R_max<Th_ACK → amplificator (economie defensivă → OXT↓ → C_R_max↓ → distanță↑ → feedback pozitiv, butterfly viu); dovadă internă = histerezisul canonic (colaps ΔK≈0.305 ≠ recovery ΔK≈0.190). **CORECȚIE CVI (Kimi mai riguros — de creditat):** D2 „OXT coboară pragul" → GREȘIT: Th_ACK e prag FIX, OXT ↑C_R via Γ_OXTR *către* prag; D3 „JZL184⊥OXT" → canonic ortogonalitatea e **s(Syt4)⊥ε** [C], JZL184 ↑C_R_max via T_eCB; D6 „8 straturi cu τ" → 6+1 straturi FSSP(Hill)+8 coeficienți ODE; D5 Q_target(W34) 0.64→**0.663** (recalculat Tab.3). **REPARAȚIE COLIZIUNE ID:** CVI a pus Inagaki/Bilbo pe R-84/R-85, dar acele ID aparțin Seckl2000/Wyrwoll2008 (Partea XXIII.5); R-84..R-92 ocupate → reasignat Inagaki→R-93, Bilbo→R-94; adăugate R-95..R-98. **Notație:** σPORT-2 → **σ_P2** (σ_c e deja ocupat = index confuzie izosterică AVP→OXTR). **G-THETA-0** [S] înregistrat. 0 corecție silențioasă.)*
+
+## CVII.1 Corecția imprecizilor CVI (D2/D3/D5/D6)
+| ID | CVI (imprecis) | CVII (canonic) |
+|----|----------------|----------------|
+| D2 | OXT „coboară pragul" | Th_ACK = prag FIX; OXT **↑C_R** via Γ_OXTR *către* pragul fix |
+| D3 | „JZL184 ⊥ OXT" | ortogonalitate canonică = **s(Syt4) ⊥ ε** [C]; JZL184 **↑C_R_max via T_eCB** |
+| D5 | Q_target(W34) ≈ 0.64 | **0.663** (recalculat din Tab. 3) |
+| D6 | „8 straturi cu τ" | **6+1 straturi FSSP (Hill) + 8 coeficienți ODE** (nu identice) |
+*Restul CVI (D1, D4, cele 7 G-ETK, downgrade Inagaki/Bilbo [C]→[D]) rămâne valid.*
+
+## CVII.2 Referințe — reparație coliziune + adăugări (verificate la primar)
+| ID | Referință | Subiect | Verdict |
+|----|-----------|---------|---------|
+| **R-93** | Inagaki TK, Muscatell KA, Irwin MR, Cole SW, Eisenberger NI (2012), *NeuroImage* 59(4):3222–3226, DOI 10.1016/j.neuroimage.2011.10.090, PMID 22079507 | I(t)→amigdală→amenințare socială (reasignat din R-84/coliziune) | (D) |
+| **R-94** | Bilbo SD et al. (2005), *J Neurosci* 25(35):8000–8009, DOI 10.1523/JNEUROSCI.1748-05.2005, PMID 16135757 | microglie primed (reasignat din R-85/coliziune) | (D) |
+| **R-95** | McLaughlin KA, Sheridan MA, Tibu F, Fox NA, Zeanah CH, Nelson CA (2015), *PNAS* 112(18):5637–5642, DOI 10.1073/pnas.1423363112, PMID 25902515 | BEIP: perioadă sensibilă umană <24/18 luni (ancoră A1/A6) | (C) |
+| **R-96** | Kang J et al. (2005), *Cell* 123(5):833–847, DOI 10.1016/j.cell.2005.09.011, PMID 16325578 | β-arrestin1 nuclear→p300→acetilare H4 (δ-opioid) — BARR-0 | (D) pt OXTR |
+| **R-97** | Gimpl G, Fahrenholz F (2001), *Physiol Rev* 81(2):629–683, DOI 10.1152/physrev.2001.81.2.629, PMID 11274341 | OXTR→Gq/11→PLCβ canonic (GATE3-1) | (C) |
+| **R-98** | Tronick E, Als H, Adamson L, Wise S, Brazelton TB (1978), *J Am Acad Child Psychiatry* 17(1):1–13, DOI 10.1016/s0002-7138(09)62273-1, PMID 632477 | still-face original (perturbator g_NM) | (C) |
+*De verificat înainte de citare: Mesman 2009 (still-face meta), Lester&Tronick 2004 (NNNS), Passoni 2016 (PMID neghicit — DOI 10.1111/jne.12363 confirmat). NU se marchează R-84/R-85 aici — aparțin Seckl/Wyrwoll.*
+
+## CVII.3 Predicții / rafinări noi
+- **G-THETA-0** [S] — Θ(I_PSW) = a doua zonă de rupere, prenatală, binară (ruptură fără histerezis; „unde moare CONSTRUCȚIA", complementar lui Th_ACK „unde moare CONFIRMAREA"). Singurul element tot-sau-nimic; Θ=0 → I_PSW=0 indiferent de maturizare. Testabil doar prin consecințe (I_FSSP(GW40) ca p). Țintă: FSSP + Fișa Alzheimer.
+- **G-ETK-CASC-1 rafinat** — nu „amortizat SAU amplificator", ci **bistabil, comutat la Th_ACK** (regim funcțional amortizat / post-colaps amplificator). Rezolvă ancheta butterfly.
+- **Puntea a_NM/g_NM** — schema de măsurare (CVII changelog) leagă cel mai mare deficit matematic de endpoint-ul RASP. a_NM/g_NM rămân [S] până la pilot N=30; NU se inventează valori.
+
+## CVII.4 Adoptare notație
+- **σPORT-2 → σ_P2** (evită coliziunea cu σ_c = index confuzie izosterică AVP→OXTR, Eq. σ-1). Aplicat la G-σPORT / A5.
+
+## CVII.5 Dispoziție (decizie Alexandru)
+- Inserția corpus (D1–D6 corectate) = operație separată la „mergi" + confirmare ancoră pe disc.
+- Braț A (7 protocoale de falsificare) = gata de proiectat pentru pilotul RASP (temă potențială Kimi R4).
+
+**ÎNCHISE (această pasă):** integrare Kimi R3; corecția D2/D3/D5/D6 din CVI; reparație coliziune ID (Inagaki→R-93, Bilbo→R-94); 4 referințe noi verificate (R-95..R-98); G-THETA-0 înregistrat; rename σ_P2; rezoluția butterfly (bistabil la latch); puntea a_NM/g_NM.
+
+**ACTIVE:** C-2 (marcaj specie — gata) · FEP_integ_TVK (pending Ororbia&Friston 2023 + Kleiner 2024) · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FLAG OR Cochran (R-43) · FSSP ODE — a_NM/g_NM [S] (punte propusă, valori pending RASP) + Q_opt · G-ETK-R2/R3 (9 predicții [S] — netestate, Braț A gata de proiectat).
+
+**Autoritate unică:** acest consolidat, vârf **v3.103 · Partea CVII**. Acoperire **0/I→CVII**. Integrare Kimi R3 + corecție CVI + reparație coliziune ID; corpus (conținut) neatins. Erratum humanum est. Zero memorie.
+
 
