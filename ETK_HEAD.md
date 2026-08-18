@@ -1,9 +1,9 @@
 # ETK — HEAD (stare curentă)
 **Proiecție a jurnalului · reconstruit 2026-08-18 · NU se editează de mână**
 
-> **Vârf:** v3.106 · Partea CX (2026-08-18)  
+> **Vârf:** v3.107 · Partea CXI (2026-08-18)  
 > **Sursă:** `ETK_LEDGER.md`  
-> **STARE:** Acoperire **0/I → Partea CX** (v3.106) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-18  
+> **STARE:** Acoperire **0/I → Partea CXI** (v3.107) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-18  
 > **Regulă:** HEAD = artefact de build ȘI autoritatea de stare (LXXXIV). INDEX-ul de mai jos e REGENERAT din markerii `# APPEND` — nu-l citi din jurnal (acolo e înghețat). Orice schimbare aterizează întâi în jurnal (append + grep), apoi se re-rulează `etk_project_head.py`.
 > **📤 PROCEDURĂ UPLOAD (regulă vie, imună la `-N`):** la finalul sesiunii operatorul urcă **DOAR 2 fișiere** — jurnalul nou `ETK_LEDGER_v3_XX_<stamp>.md` + `ETK_HEAD.md` — și **șterge jurnalul precedent** (ca să nu se adune). Tooling-ul (`etk_ledger_commit.py` + `etk_project_head*.py`) se urcă **o singură dată**. Append-urile **NU se urcă** (commit-ul le pliază). **Interfața poate adăuga sufixe `-N` la upload — E INOFENSIV:** pipeline-ul e imun (commit-ul alege automat jurnalul cel mai recent + proiectorul cel mai capabil, indiferent de `-N`). **Nu redenumi nimic** — singurul gest de igienă e ștergerea jurnalului vechi.
 
@@ -12,7 +12,6 @@
 ## 🗺 INDEX PĂRȚI — regenerat, viu (12 părți-append)
 *Era append XLV→vârf, proiectată din jurnal la fiecare build (O1, fix M-2/M-3). ERA I (0–XLIV) = pliată/înghețată.*
 
-- **v3.95 · Partea XCIX** (2026-08-15) — XCIX.1 Coada de priorități parcată (autoritate de stare)
 - **v3.96 · Partea C** (2026-08-15) — C.1 Ancore primare VERIFICATE (disponibile pt P1/P2/P4)
 - **v3.97 · Partea CI** (2026-08-15) — CI.1 Cele 3 secundare verificate (adăugate la pool)
 - **v3.98 · Partea CII** (2026-08-16) — CII.1 Dispoziție (decizie Alexandru)
@@ -24,19 +23,24 @@
 - **v3.104 · Partea CVIII** (2026-08-18) — CVIII.1 R-43 COCHRAN — DEBLOCAT (verificat de 2× independent)
 - **v3.105 · Partea CIX** (2026-08-18) — CIX.1 Validare — provenanță + metodă
 - **v3.106 · Partea CX** (2026-08-18) — CX.1 Noua ordine (canonică) — GitHub-first
+- **v3.107 · Partea CXI** (2026-08-18) — CXI.1 Reproducere numerică (nod CRITICAL)
 
 ---
 
-## ⚠ ERORI / FLAG-URI ACTIVE (7)
+## ⚠ ERORI / FLAG-URI ACTIVE (11)
 *Doar cele deschise. Cele închise trăiesc în jurnal.*
 
-- C-2 (marcaj specie — gata)
-- FEP_integ_TVK (punte [S]; F1 hartă + S1 cale empirică)
+- C-2 (specie — gata)
+- FEP_integ_TVK [S]
 - eCB_tonus_Modul_v1 (R-41; „mergi")
 - clase-capcană T11/T12/T13
-- FSSP ODE — a_NM/g_NM [S] (margini rafinate CIX) + Q_opt
+- FSSP ODE a_NM/g_NM [S] + Q_opt
 - G-ETK-R2/R3 (9 predicții [S])
-- G-ETK-R5 (F2 protocol rupturi — locatori de date de verificat).
+- fișă bistabilitate NP §4.7.2 (Direcția #1) — eligibilă, pending „mergi" + D-3 kinetică TET2 (nod)
+- fișă eCB consolidată (Direcția #2) — aterizabilă după F-1+F-4
+- PF-04457845 PTSD = Phase II negativ (canonic)
+- L-eCB-2 = partiționare fenotipică ȘI pe SEX
+- T1/T4/verificator-formal = pending la nod.
 
 _Erori închise (în jurnal, nu aici): ~0._
 
@@ -72,7 +76,7 @@ _Erori închise (în jurnal, nu aici): ~0._
 
 ---
 
-## 📚 REFERINȚE — verdict curent (77)
+## 📚 REFERINȚE — verdict curent (80)
 *Cea mai recentă mențiune per ID câștigă. ⛔=neverificat/blocat · ✔/✅=verificat · (C)/(D)/(S)=marcaj epistemic · ⚠=rezervă.*
 
 | ID | Referință | Subiect | Verdict |
@@ -154,6 +158,9 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-108 | Braun PR et al. (2019), *Transl Psychiatry* 9(1):47, DOI 10.1038/s41398-019-0376-y, PMID 30705257 | concordanță sânge–creier per-CpG (IMAGE-CpG): mediu r≈0.86,  | (C) |
 | R-109 | Edgar RD, Jones MJ, Meaney MJ, Turecki G, Kobor MS (2017), *Transl Psychiatry* 7(8):e1187, DOI 10.1038/tp.2017.171, PMID | BECon: concordanță blood–brain „tenuous", media | (C) |
 | R-110 | Nishitani S et al. (2023), *Transl Psychiatry* 13(1):72, DOI 10.1038/s41398-023-02370-0, PMID 36843037 | AMAZE-CpG: replicare independentă (japoneză) a IMAGE-CpG (19 | (C) |
+| R-111 | deRoon-Cassini TA et al. (2022), *Transl Psychiatry* 12(1):48 (Hillard coautor) | 35105857 | (D) |
+| R-112 | Rajasekera TA, Spagnolo PA et al. (2025), *Prog Neuropsychopharmacol Biol Psychiatry* 142:111501 | 40967565 | (D) |
+| R-113 | Demaili A, …, Braun K, Bock J (2023), *Front Cell Neurosci* 17:1129946 | 36909279 |  |
 
 ---
-*Generat de etk_project_head.py din ETK_LEDGER.md. 77 referințe · 7 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
+*Generat de etk_project_head.py din ETK_LEDGER.md. 80 referințe · 11 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
