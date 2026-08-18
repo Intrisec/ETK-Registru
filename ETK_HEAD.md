@@ -1,9 +1,9 @@
 # ETK — HEAD (stare curentă)
-**Proiecție a jurnalului · reconstruit 2026-08-17 · NU se editează de mână**
+**Proiecție a jurnalului · reconstruit 2026-08-18 · NU se editează de mână**
 
-> **Vârf:** v3.104 · Partea CVIII (2026-08-18)  
+> **Vârf:** v3.106 · Partea CX (2026-08-18)  
 > **Sursă:** `ETK_LEDGER.md`  
-> **STARE:** Acoperire **0/I → Partea CVIII** (v3.104) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-17  
+> **STARE:** Acoperire **0/I → Partea CX** (v3.106) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-18  
 > **Regulă:** HEAD = artefact de build ȘI autoritatea de stare (LXXXIV). INDEX-ul de mai jos e REGENERAT din markerii `# APPEND` — nu-l citi din jurnal (acolo e înghețat). Orice schimbare aterizează întâi în jurnal (append + grep), apoi se re-rulează `etk_project_head.py`.
 > **📤 PROCEDURĂ UPLOAD (regulă vie, imună la `-N`):** la finalul sesiunii operatorul urcă **DOAR 2 fișiere** — jurnalul nou `ETK_LEDGER_v3_XX_<stamp>.md` + `ETK_HEAD.md` — și **șterge jurnalul precedent** (ca să nu se adune). Tooling-ul (`etk_ledger_commit.py` + `etk_project_head*.py`) se urcă **o singură dată**. Append-urile **NU se urcă** (commit-ul le pliază). **Interfața poate adăuga sufixe `-N` la upload — E INOFENSIV:** pipeline-ul e imun (commit-ul alege automat jurnalul cel mai recent + proiectorul cel mai capabil, indiferent de `-N`). **Nu redenumi nimic** — singurul gest de igienă e ștergerea jurnalului vechi.
 
@@ -12,7 +12,6 @@
 ## 🗺 INDEX PĂRȚI — regenerat, viu (12 părți-append)
 *Era append XLV→vârf, proiectată din jurnal la fiecare build (O1, fix M-2/M-3). ERA I (0–XLIV) = pliată/înghețată.*
 
-- **v3.93 · Partea XCVII** (2026-08-15) — XCVII.1 Ce s-a reconciliat și cum
 - **v3.94 · Partea XCVIII** (2026-08-15) — XCVIII.1 Coeficienții calibrați (8) — valoare + țintă + status
 - **v3.95 · Partea XCIX** (2026-08-15) — XCIX.1 Coada de priorități parcată (autoritate de stare)
 - **v3.96 · Partea C** (2026-08-15) — C.1 Ancore primare VERIFICATE (disponibile pt P1/P2/P4)
@@ -24,18 +23,20 @@
 - **v3.102 · Partea CVI** (2026-08-17) — CVI.1 Validare — provenanță
 - **v3.103 · Partea CVII** (2026-08-17) — CVII.1 Corecția imprecizilor CVI (D2/D3/D5/D6)
 - **v3.104 · Partea CVIII** (2026-08-18) — CVIII.1 R-43 COCHRAN — DEBLOCAT (verificat de 2× independent)
+- **v3.106 · Partea CX** (2026-08-18) — CX.1 Noua ordine (canonică) — GitHub-first
 
 ---
 
-## ⚠ ERORI / FLAG-URI ACTIVE (6)
+## ⚠ ERORI / FLAG-URI ACTIVE (7)
 *Doar cele deschise. Cele închise trăiesc în jurnal.*
 
 - C-2 (marcaj specie — gata)
-- FEP_integ_TVK (punte propusă [S], de formalizat)
+- FEP_integ_TVK (punte [S]; F1 hartă + S1 cale empirică)
 - eCB_tonus_Modul_v1 (R-41; „mergi")
 - clase-capcană T11/T12/T13
-- FSSP ODE — a_NM/g_NM [S] (margini [D] stabilite, valori pending) + Q_opt
-- G-ETK-R2/R3 (9 predicții [S]). *(FLAG OR Cochran R-43 — ÎNCHIS.)*
+- FSSP ODE — a_NM/g_NM [S] (margini rafinate CIX) + Q_opt
+- G-ETK-R2/R3 (9 predicții [S])
+- G-ETK-R5 (F2 protocol rupturi — locatori de date de verificat).
 
 _Erori închise (în jurnal, nu aici): ~0._
 
@@ -147,4 +148,4 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-102 | Thaler L et al. (2019), *Eur Eat Disord Rev* 28(1):79–86, DOI 10.1002/erv.2703, PMID 31823473 | metilare OXTR ↔ atașament nesecurizant (n=21 — slab) | (D) |
 
 ---
-*Generat de etk_project_head.py din ETK_LEDGER.md. 69 referințe · 6 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
+*Generat de etk_project_head.py din ETK_LEDGER.md. 69 referințe · 7 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
