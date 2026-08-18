@@ -4989,6 +4989,59 @@ Kimi propune un câmp obligatoriu `verificat_la: <data>` pe fiecare referință 
 **ACTIVE:** C-2 (marcaj specie — gata) · FEP_integ_TVK (punte [S]; F1 hartă + S1 cale empirică) · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE — a_NM/g_NM [S] (margini rafinate CIX) + Q_opt · G-ETK-R2/R3 (9 predicții [S]) · G-ETK-R5 (F2 protocol rupturi — locatori de date de verificat).
 
 **Autoritate unică:** acest consolidat, vârf **v3.106 · Partea CX**. Acoperire **0/I→CX**. Migrare autoritate finalizată (GitHub canonic); oglinda Project arhivată + ștearsă; corpus (conținut) neatins. Erratum humanum est. Zero memorie.
+# APPEND — v3.107 (2026-08-18) · Partea CXI
+
+*Se stivuiește PESTE v3.106 (Partea CX). Vârf nou. Fără „delta". Adaugă `v3.106` la „AUTORITATEA UNICĂ". **Analiză SUPERPOZIȚIE `Analiza.pdf` (9 atașamente) + reproducere numerică + reverificare la primar + verificări directe suplimentare (F-2/F-4) + ratificarea principiului de repartizare a verificării.** Corpus (conținut docx) NEATINS. Zero memorie — construit din ledger live GitHub + rulare cod pe disc + PubMed.*
+
+## LINIE DE CHANGELOG (sub v3.106)
+*(v3.107: 18 aug — **ANALIZĂ Analiza.pdf + VERIFICĂRI DIRECTE.** (A) NOD CRITICAL NUMERIC VERIFICAT PRIN REPRODUCERE: `p1_4_th_ack_bootstrap.py` rulat local → Th_ACK_MC (p25 agregat) = 0.1359 (seed 42), stabil 0.1343/0.1357/0.1356 (seed 7/123/999) = variație <1.2%, ferm în [0.12,0.15]; bimodalitate True (4/3); percentile per-scenariu identice cu Anexa B. N-1/N-2/N-3 TREC. (B) 4 flag-uri la primar (PubMed): **F-1 [CORECȚIE] PF-04457845 PTSD** — atașamentul spune „trial activ"; Couttas 2026 (42209468) abstract propriu: „no efficacy in PTSD" → **PTSD Phase II NEGATIV**. **F-2 [NUANȚĂ+PRIMAR] „elevated eCB MDD/PTSD"** — Costa 2026 (41760917) = meta AUD, claim secundar în Discussion; primarul real EXISTĂ dar literatura e HETEROGENĂ ȘI PE SEX: deRoon-Cassini 2022 (35105857) AEA↑ prospectiv în PTSD vs Rajasekera 2025 (40967565) AEA↓ la bărbați → L-eCB-2 se partiționează și pe SEX. **F-3 [METODĂ] NAPE-PLD** — Rapino 2025 (41033556) = crosstalk S1P; NAPE-PLD doar full-text → primar = Okamoto 2007. **F-4 [CORECȚIE] Demaili 2023 misatribuit** (36909279) — citat pt „FAAH>MAGL uman", dar e ȘOBOLANI femele, mPFC, reprogramare epigenetică CB1R+FAAH după ELS → scos ca ancoră L-eCB-5; REANCORAT corect pe axa ETK ELS→metilare→eCB (ε(m)/Window II), coautor Katharina Braun. (C) VERDE C-1: Maejima 2025 (40788779) confirmat (OXT→TET2→demetilare, reversibil) → fișa bistabilității NP §4.7.2 (Direcția #1) eligibilă; rezervă — 10 zile nazal la șoareci bătrâni NU ancorează „6 săptămâni RASP" (D-3 rămâne [D-cond]). (D) Schlosburg 20729846 (Corecție #1) confirmat, PMC2928870. (E) PRINCIPIU DE REPARTIZARE RATIFICAT: verificarea la a doua arhitectură (Scite/BioSkepsis/PMC full-text/rulare cod) o face DOAR nodul cu uneltele — NU se transferă instanțelor fără ele (Kimi = generare divergentă [S], nu verificare). 3 referințe R-111..R-113. 0 corecție silențioasă.)*
+
+## CXI.1 Reproducere numerică (nod CRITICAL)
+| Seed | Th_ACK_MC (p25) | [0.12,0.15] |
+|---|---|---|
+| 42 | **0.1359** | ✅ |
+| 7 | 0.1343 | ✅ |
+| 123 | 0.1357 | ✅ |
+| 999 | 0.1356 | ✅ |
+Bimodalitate True (4 peaks/3 valleys); percentile per-scenariu = Anexa B. Variație <1.2% (sub ±10%). **Th_ACK_MC = [D-cond] confirmat prin reproducere.** Nodul care leagă cele 4 straturi STĂ.
+
+## CXI.2 Flag-uri la primar (conform PubMed)
+| # | Tip | Element | Atașament | Primar | Acțiune |
+|---|-----|---------|-----------|--------|---------|
+| F-1 | CORECȚIE | PF-04457845 PTSD | „trial activ" | Couttas 2026 (42209468): „no efficacy in PTSD" | → „Phase II NEGATIV"; V-3, Corecție #2, checklist, Direcția #2 |
+| F-2 | NUANȚĂ+PRIMAR | „elevated eCB MDD/PTSD" | ancoră Costa | Costa (41760917) = meta AUD (secundar); primar heterogen+sex: deRoon-Cassini (35105857) AEA↑ vs Rajasekera (40967565) AEA↓ bărbați | ancorați pe deRoon-Cassini; partiționați L-eCB-2 și pe SEX |
+| F-3 | METODĂ | NAPE-PLD redundanță | primar Rapino | Rapino (41033556) = crosstalk S1P; NAPE-PLD doar full-text | primar = Okamoto 2007; Rapino = secundar |
+| F-4 | CORECȚIE | Demaili 2023 (L-eCB-5) | „FAAH>MAGL uman" | 36909279 = șobolani femele, CB1R/FAAH epigenetic ELS | scos din L-eCB-5; reancorat pe ε(m)/Window II |
+| ✓ | CONFIRMAT | Schlosburg PMID | 20729846 | 20729846, PMC2928870 | Corecție #1 validă |
+| 🟢 | VERDE | Maejima C-1 | condiție fișă bistabilitate | 40788779: OXT→TET2→demetilare | C-1 trece → Direcția #1 eligibilă |
+
+## CXI.3 Referințe adăugate (verificate la primar, R-111..R-113)
+| ID | Referință | PMID | DOI | Rol |
+|----|-----------|------|-----|-----|
+| **R-111** | deRoon-Cassini TA et al. (2022), *Transl Psychiatry* 12(1):48 (Hillard coautor) | 35105857 | 10.1038/s41398-022-01808-1 | AEA seric ↑ prospectiv la PTSD (N=170); pol „elevated" (D) |
+| **R-112** | Rajasekera TA, Spagnolo PA et al. (2025), *Prog Neuropsychopharmacol Biol Psychiatry* 142:111501 | 40967565 | 10.1016/j.pnpbp.2025.111501 | AEA/OEA/AA ↓ la bărbații cu PTSD (N=88); pol opus, sex-specific (D) |
+| **R-113** | Demaili A, …, Braun K, Bock J (2023), *Front Cell Neurosci* 17:1129946 | 36909279 | 10.3389/fncel.2023.1129946 | ELS reprogramează metilarea CB1R/FAAH în mPFC femel (șobolan); buffering ELS, CpG-specific — ancoră axă ε(m)/Window II (D, specie=șobolan) |
+*Couttas 2026 (42209468), Costa 2026 (41760917), Rapino 2025 (41033556) = deja în corpusul eCB (închiderea V1-V10); nu se re-cataloghează.*
+
+## CXI.4 Principiu de repartizare a verificării (ratificat)
+Verificarea la a doua arhitectură (Scite / BioSkepsis / PMC full-text / rularea codului) o face DOAR nodul care are uneltele. **NU se transferă instanțelor fără ele.** Kimi și instanțele-autor = **generare divergentă** (propuneri [S]); NU li se cere confirmare [C]. Consecință de proces: brief-urile către Kimi conțin doar generare; verificarea rămâne la nod. (Corectează repartizarea din pasa inițială, unde ținte verificabile fuseseră delegate greșit.)
+
+## CXI.5 Verdict pe direcțiile de aterizare
+- 🟢 **Direcția #1 (fișă bistabilitate NP §4.7.2):** C-1 (Maejima) îndeplinită + P1-4 reprodus → eligibilă ([F] izomorfism + [D-cond] numeric); pending „mergi" + D-3 (kinetică TET2, de verificat de nod).
+- ⏸ **Direcția #2 (fișă eCB consolidată):** aterizabilă DOAR după aplicarea F-1 + F-4 (altfel propagă status stale/atribuire greșită).
+- ⏸ Direcțiile #3/#4/#5: neatinse.
+
+## CXI.6 Ce NU s-a verificat (onest) / rămâne la nod
+- T1 kinetica TET2 pentru „6 săptămâni" (D-3); T4 colinearitate OXTR/NR3C1/FKBP5 pe cohorte (ε_total); verificator formal (fișa NP §4.7.2 nu introduce simboluri noi). **Toate = ale nodului** (cer Scite/PMC/PubMed), nu ale instanțelor-autor.
+- Izomorfismul bistabilității: doar C-1 verificat; C-2..C-5, D-1..D-3 neverificate individual aici.
+- Claim „FAAH>MAGL uman în stres cronic" (L-eCB-5): primar uman NEGĂSIT — rămâne [S] până la ancorare.
+
+**ÎNCHISE (această pasă):** reproducere P1-4 (Th_ACK_MC=0.1359, <1.2%); 4 flag-uri (F-1 PF-04457845, F-2 Costa/heterogen+sex, F-3 Rapino, F-4 Demaili); F-2 rezolvat cu primar (deRoon-Cassini + Rajasekera); F-4 Demaili reancorat; C-1 Maejima verde; Schlosburg reconfirmat; 3 referințe R-111..R-113; principiul de repartizare a verificării ratificat.
+
+**ACTIVE:** C-2 (specie — gata) · FEP_integ_TVK [S] · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt · G-ETK-R2/R3 (9 predicții [S]) · **fișă bistabilitate NP §4.7.2 (Direcția #1) — eligibilă, pending „mergi" + D-3 kinetică TET2 (nod)** · **fișă eCB consolidată (Direcția #2) — aterizabilă după F-1+F-4** · PF-04457845 PTSD = Phase II negativ (canonic) · **L-eCB-2 = partiționare fenotipică ȘI pe SEX** · T1/T4/verificator-formal = pending la nod.
+
+**Autoritate unică:** acest consolidat, vârf **v3.107 · Partea CXI**. Acoperire **0/I→CXI**. Analiză + verificări directe la primar; corpus neatins. Erratum humanum est. Zero memorie.
+
 
 
 
