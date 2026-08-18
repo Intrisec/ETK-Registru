@@ -12,7 +12,6 @@
 ## 🗺 INDEX PĂRȚI — regenerat, viu (12 părți-append)
 *Era append XLV→vârf, proiectată din jurnal la fiecare build (O1, fix M-2/M-3). ERA I (0–XLIV) = pliată/înghețată.*
 
-- **v3.94 · Partea XCVIII** (2026-08-15) — XCVIII.1 Coeficienții calibrați (8) — valoare + țintă + status
 - **v3.95 · Partea XCIX** (2026-08-15) — XCIX.1 Coada de priorități parcată (autoritate de stare)
 - **v3.96 · Partea C** (2026-08-15) — C.1 Ancore primare VERIFICATE (disponibile pt P1/P2/P4)
 - **v3.97 · Partea CI** (2026-08-15) — CI.1 Cele 3 secundare verificate (adăugate la pool)
@@ -23,6 +22,7 @@
 - **v3.102 · Partea CVI** (2026-08-17) — CVI.1 Validare — provenanță
 - **v3.103 · Partea CVII** (2026-08-17) — CVII.1 Corecția imprecizilor CVI (D2/D3/D5/D6)
 - **v3.104 · Partea CVIII** (2026-08-18) — CVIII.1 R-43 COCHRAN — DEBLOCAT (verificat de 2× independent)
+- **v3.105 · Partea CIX** (2026-08-18) — CIX.1 Validare — provenanță + metodă
 - **v3.106 · Partea CX** (2026-08-18) — CX.1 Noua ordine (canonică) — GitHub-first
 
 ---
@@ -72,7 +72,7 @@ _Erori închise (în jurnal, nu aici): ~0._
 
 ---
 
-## 📚 REFERINȚE — verdict curent (69)
+## 📚 REFERINȚE — verdict curent (77)
 *Cea mai recentă mențiune per ID câștigă. ⛔=neverificat/blocat · ✔/✅=verificat · (C)/(D)/(S)=marcaj epistemic · ⚠=rezervă.*
 
 | ID | Referință | Subiect | Verdict |
@@ -146,6 +146,14 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-100 | Cecil CAM et al. (2014), *Mol Psychiatry* 19(10):1071–1077, DOI 10.1038/mp.2014.95, PMID 25199917 | OXTR DNAm serial (ALSPAC, naștere/7/9) → CU 13 ani — traseu  | (D) |
 | R-101 | Ziegler C et al. (2015), *Neuropsychopharmacology* 40(6):1528–1538, DOI 10.1038/npp.2015.2, PMID 25563749 | metilare OXTR ↔ anxietate socială/cortizol; „peripheral surr | (D) |
 | R-102 | Thaler L et al. (2019), *Eur Eat Disord Rev* 28(1):79–86, DOI 10.1002/erv.2703, PMID 31823473 | metilare OXTR ↔ atașament nesecurizant (n=21 — slab) | (D) |
+| R-103 | Scheffer M et al. (2009), *Nature* 461(7260):53–59, DOI 10.1038/nature08227, PMID 19727193 | early-warning / critical slowing down (ancoră metodă Th_ACK) | (C) |
+| R-104 | Peters A, McEwen BS, Friston K (2017), *Prog Neurobiol* 156:164–188, DOI 10.1016/j.pneurobio.2017.05.004, PMID 28576664 | incertitudine/stres = entropie → sarcină alostatică; cea mai | (D) |
+| R-105 | Adams RA et al. (2018), *J Neurosci* 38(44):9471–9485, DOI 10.1523/JNEUROSCI.3163-17.2018, PMID 30185463 | dinamică de atractor în credințe (Scz); INSTABILITATE (semn  | (C) |
+| R-106 | Powers AR, Mathys C, Corlett PR (2017), *Science* 357(6351):596–600, DOI 10.1126/science.aan3458, PMID 28798131 | priori supra-ponderați (precizie RIDICATĂ) — opusul DU | (C) |
+| R-107 | Durstewitz D, Huys QJM, Koppe G (2021), *Biol Psychiatry CNNI* 6(9):865–876, DOI 10.1016/j.bpsc.2020.01.001, PMID 322492 | aparatul formal al atractorilor patologici (oferă limbajul,  | (D) |
+| R-108 | Braun PR et al. (2019), *Transl Psychiatry* 9(1):47, DOI 10.1038/s41398-019-0376-y, PMID 30705257 | concordanță sânge–creier per-CpG (IMAGE-CpG): mediu r≈0.86,  | (C) |
+| R-109 | Edgar RD, Jones MJ, Meaney MJ, Turecki G, Kobor MS (2017), *Transl Psychiatry* 7(8):e1187, DOI 10.1038/tp.2017.171, PMID | BECon: concordanță blood–brain „tenuous", media | (C) |
+| R-110 | Nishitani S et al. (2023), *Transl Psychiatry* 13(1):72, DOI 10.1038/s41398-023-02370-0, PMID 36843037 | AMAZE-CpG: replicare independentă (japoneză) a IMAGE-CpG (19 | (C) |
 
 ---
-*Generat de etk_project_head.py din ETK_LEDGER.md. 69 referințe · 7 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
+*Generat de etk_project_head.py din ETK_LEDGER.md. 77 referințe · 7 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
