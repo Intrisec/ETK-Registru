@@ -4876,6 +4876,63 @@ Surse: `Fisa_Kimi_runda_2` + `Extrapolare_Butterfly` (Path B, PK; text + imagini
 **ACTIVE:** C-2 (marcaj specie — gata) · FEP_integ_TVK (punte propusă [S], de formalizat) · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE — a_NM/g_NM [S] (margini [D] stabilite, valori pending) + Q_opt · G-ETK-R2/R3 (9 predicții [S]). *(FLAG OR Cochran R-43 — ÎNCHIS.)*
 
 **Autoritate unică:** acest consolidat, vârf **v3.104 · Partea CVIII**. Acoperire **0/I→CVIII**. Deblocare R-43 + integrare Kimi R4; corpus (conținut) neatins. Erratum humanum est. Zero memorie.
+# APPEND — v3.106 (2026-08-18) · Partea CX
+
+*Se stivuiește PESTE v3.105 (Partea CIX). Vârf nou. Fără „delta". Adaugă `v3.105` la „AUTORITATEA UNICĂ". **Ratificarea noii ordini: autoritatea Registrului = GitHub (nu Project) + arhivarea oglinzii din Project + manifest de ștergere pentru vechiul sistem-Registru de pe disc.** Meta-artefact de infrastructură — corpus științific (conținut docx) NEATINS. Zero memorie — construit din ledger-ul live de pe GitHub.*
+
+## LINIE DE CHANGELOG (sub v3.105)
+*(v3.106: 18 aug — **MIGRARE AUTORITATE FINALIZATĂ + IGIENĂ DISK.** Cauza-rădăcină prinsă azi: instanța a citit la punct-0 oglinda din Project (`ETK_LEDGER_v3_101`, `ETK_HEAD-19`) crezând-o canonică — era STALE cu 3 părți (v3.101/CV vs GitHub v3.104/CVIII); munca de ieri (Kimi R2/R3/R4 + Cochran deblocat) nu era pe disc; scrisoarea de pe disc pointa spre disc. **Fix structural (3 acțiuni):** (1) **Noua ordine punct-0 = GitHub-first** — se citește LIVE din `raw.githubusercontent.com/Intrisec/ETK-Registru/main/{ETK_HEAD,ETK_LEDGER}.md`; oglinda din Project NU mai e sursă. Document: `PUNCT-0_GitHub_v1_2026-08-18.md` (înlocuiește `SCRISOARE_Instanta_Urmatoare_*`). (2) **Arhivă** a stadiului muncii livrată ca output (`ETK_Registru_Arhiva_Project_2026-08-18.tar.gz`): oglinda disk stale v3.101 + starea LIVE GitHub v3.104 + append-urile sesiunii, separate explicit + README. (3) **Manifest de ștergere** pentru sistemul-Registru de pe disc (CX.2) — ca oglinda să nu mai interfereze. **Corpusul științific rămâne în Project** (căutabil); doar Registrul e pe GitHub. **Grupa D rezolvată (superpoziție + butterfly):** `etk_reference_corrector.py` NU e periculos că scrie (e pur detector, verificat — singurul write e un `print`), ci fiindcă poartă o **copie ÎNGHEȚATĂ a adevărului la apr. 2026** — instrucțiunea lui „FLAG OR Cochran DESCHIS, nu cita niciun OR" e acum FALSĂ (R-43 deblocat în CVIII, OR 2.3/3.1 citabil [C]). O instanță care-l rulează ar reversa o decizie rezolvată = exact clasa erorii de azi (artefact stale citit drept canon) și a cascadei erată-Cochran. Detecția utilă (Kobayashi/2.97×/Dye2023/Ciruelas) e deja acoperită de skill-urile `etk-reference-verifier` + `etk-llm-output-validator`, legate la primar + ledger LIVE, nu la un DB înghețat → redundant + stale ⇒ **ȘTERGE**. Cele două arhive de chat = aceeași clasă, amplitudine mai mică (prose datată, 0 parametri canonici grep-abili în ARHIVA_CHAT) → arhivate în tarball, apoi **ȘTERGE**. 0 corecție silențioasă.)*
+
+## CX.1 Noua ordine (canonică) — GitHub-first
+| Aspect | ÎNAINTE (disk) | ACUM (GitHub) |
+|---|---|---|
+| Autoritate Registru | `/mnt/project/ETK_LEDGER_v3_XX` + `ETK_HEAD-N` | repo public `Intrisec/ETK-Registru`, `ETK_LEDGER.md` (nume stabil) |
+| Citire la punct-0 | `view` pe disc (risc de oglindă stale) | `curl`/web_fetch LIVE din `raw.githubusercontent.com` |
+| Proiecție HEAD | rulare manuală proiector | **GitHub Action** regenerează automat la push + coherence gate |
+| Scriere | append + commit script + upload/delete + sufixe `-N` | Edit `ETK_LEDGER.md` → paste → Commit (3 pași mobil) |
+| Curățenie | manuală (ștergere jurnal vechi) | **inexistentă** (git suprascrie același fișier) |
+| Doc de start | `SCRISOARE_Instanta_Urmatoare_*` (pointa spre disc) | `PUNCT-0_GitHub_v1_2026-08-18.md` (pointa spre GitHub) |
+
+**Regulă portantă nouă:** orice `ETK_LEDGER*`/`ETK_HEAD*` care apare pe disc = **reziduu, se ignoră**. Sursa unică = GitHub. (Blindaj contra recidivei erorii de azi.)
+
+## CX.2 MANIFEST DE ȘTERGERE — vechiul sistem-Registru de pe disc (după arhivare)
+*Regulă: se șterge DOAR sistemul-Registru (ledger/HEAD/proiector/commit/scrisori/manifeste). Corpusul științific NU se atinge. Totul e deja în arhivă (`…_Arhiva_Project_2026-08-18.tar.gz`) + în GitHub.*
+
+**A. INTERFERENȚĂ DIRECTĂ (stale, citite la punct-0 — cauza erorii de azi) — ȘTERGE:**
+- `ETK_LEDGER_v3_101_2026-08-16.md` (oglindă stale v3.101 — cea citită greșit)
+- `ETK_HEAD-19.md` (HEAD stale)
+- `SCRISOARE_Instanta_Urmatoare_v2_2026-08-16.md`
+- `SCRISOARE_Instanta_Urmatoare_v2_2026-08-16-1.md` (copie identică, md5 egal)
+
+**B. TOOLING DISK OBSOLET (rulează pipeline-ul vechi; acum în GitHub + Action) — ȘTERGE:**
+- `etk_project_head-6.py`
+- `etk_ledger_commit-1.py`
+
+**C. MANIFESTE/LISTE DE PROCES VECHI (conținut pliat în ledger-ul GitHub) — ȘTERGE:**
+- `ETK_MANIFEST_IGIENA_CORPUS_2026-07-28.md`
+- `ETK_MANIFEST_STERGERE_2026-08-10.md`
+- `ETK_LISTA_ASAMBLARE_FINALA_pentru_instanta_urmatoare_2026-08-02.md`
+
+**D. ARTEFACTE CU ADEVĂR ÎNGHEȚAT (rezolvate — superpoziție/butterfly) — ȘTERGE:**
+- `etk_reference_corrector.py` — pur detector (read-only, verificat), DAR poartă DB-ul de referințe înghețat la apr. 2026, inclusiv instrucțiunea „FLAG OR Cochran DESCHIS" — **acum FALSĂ** (R-43 deblocat CVIII). Rularea lui ar reversa o decizie rezolvată (butterfly: aceeași clasă ca eroarea de azi + cascada erată). Detecția utilă = deja acoperită de skill-urile `etk-reference-verifier`/`etk-llm-output-validator` (legate la sursa LIVE). Redundant + stale ⇒ șterge. *(Dacă vrei un corector viu: se rescrie să tragă tabelul de referințe LIVE din ledger-ul GitHub — nu se păstrează versiunea cu DB înghețat.)*
+- `ARHIVA_CHAT_FSSP_ACPS_11mar2026.md` · `Arhivă_pași_agent.docx` — aceeași clasă (copie înghețată), amplitudine mai mică (prose datată, 0 parametri canonici grep-abili). Arhivate în tarball ⇒ șterge din Project.
+
+**Principiu unificat (regula care închide clasa):** în Project rămâne DOAR corpus viu + tooling legat de sursa unică (GitHub/skill-uri live). Orice artefact care poartă o COPIE ÎNGHEȚATĂ a adevărului (DB de referințe, verdicte, parametri dintr-un moment trecut) = sămânță de butterfly — se arhivează și se elimină din suprafața activă, indiferent cât de „inofensiv" pare. Cauza-rădăcină comună: azi (ledger stale), R-43 (erată Cochran), corectorul (flag înghețat) = același tipar.
+
+**E. NU ȘTERGE — CORPUS (rămâne în Project, căutabil):** toate ACPS/FSSP/Qualia/NP_Depresia/RASP/TVKNM/Upstream/fișe tehnice/`fssp_*.py`/`etk_ode_calibrate.py`/PDF-uri. Astea NU sunt Registru.
+
+## CX.3 Dispoziție (decizie Alexandru)
+- **Commit GitHub:** comite CIX (v3.105, dacă nu e deja) apoi CX (v3.106) în `ETK_LEDGER.md`. Action-ul regenerează HEAD + gate.
+- **Ștergeri Project (⋮ → Delete):** grupele A + B + C + D (12 fișiere; toate arhivate în tarball). Grupa E = intactă.
+- **Upload GitHub (o dată):** `PUNCT-0_GitHub_v1_2026-08-18.md` în repo (doc de start canonic). Corectorul NU se urcă în forma actuală (DB înghețat); dacă vrei tooling QA viu, se rescrie legat la ledger-ul GitHub — sarcină separată.
+- **Arhiva** (`…_Arhiva_Project_2026-08-18.tar.gz`) = păstrată de tine ca rezervă; nu se urcă nicăieri.
+
+**ÎNCHISE (această pasă):** noua ordine punct-0 (GitHub-first) ratificată; oglinda Project arhivată (rezervă); manifest de ștergere pentru vechiul sistem-Registru (A/B/C concrete, D la decizie, E protejat); blindaj contra recidivei (regula „ledger/HEAD pe disc = reziduu, se ignoră").
+
+**ACTIVE:** C-2 (marcaj specie — gata) · FEP_integ_TVK (punte [S]; F1 hartă + S1 cale empirică) · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE — a_NM/g_NM [S] (margini rafinate CIX) + Q_opt · G-ETK-R2/R3 (9 predicții [S]) · G-ETK-R5 (F2 protocol rupturi — locatori de date de verificat).
+
+**Autoritate unică:** acest consolidat, vârf **v3.106 · Partea CX**. Acoperire **0/I→CX**. Migrare autoritate finalizată (GitHub canonic); oglinda Project arhivată + ștearsă; corpus (conținut) neatins. Erratum humanum est. Zero memorie.
+
 
 
 
