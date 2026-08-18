@@ -4876,6 +4876,63 @@ Surse: `Fisa_Kimi_runda_2` + `Extrapolare_Butterfly` (Path B, PK; text + imagini
 **ACTIVE:** C-2 (marcaj specie — gata) · FEP_integ_TVK (punte propusă [S], de formalizat) · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE — a_NM/g_NM [S] (margini [D] stabilite, valori pending) + Q_opt · G-ETK-R2/R3 (9 predicții [S]). *(FLAG OR Cochran R-43 — ÎNCHIS.)*
 
 **Autoritate unică:** acest consolidat, vârf **v3.104 · Partea CVIII**. Acoperire **0/I→CVIII**. Deblocare R-43 + integrare Kimi R4; corpus (conținut) neatins. Erratum humanum est. Zero memorie.
+# APPEND — v3.105 (2026-08-18) · Partea CIX
+
+*Se stivuiește PESTE v3.104 (Partea CVIII). Vârf nou. Fără „delta". Adaugă `v3.104` la „AUTORITATEA UNICĂ". **Integrare Kimi Runda 5 (F1 punte FEP / F2 protocol rupturi pe date existente / F3 factor atenuare a_NM) + superpoziție.** Validare la primar (PubMed `get_article_metadata` ×10 + `convert_article_ids` ×1). Corpus științific (conținut docx) NEATINS — referințe catalogate, predicții/insight-uri înregistrate, note anterioare corectate. Zero memorie — construit din ledger-ul live de pe GitHub (raw), nu din HEAD.*
+
+## LINIE DE CHANGELOG (sub v3.104)
+*(v3.105: 18 aug — **INTEGRARE KIMI R5 — rundă exemplară, zero fabricație.** 10/10 PMID verificate la primar + corect atribuite; 14 imagini embedded = placeholder-uri blank identice (1 hash, 1 culoare) → nimic ascuns (lecția „39 imagini" nu se aplică). **Două auto-corecții Kimi CONFIRMATE:** (1) Scheffer „Early-warning signals for critical transitions" = PMID **19727193** (Nature 461:53–9); PMID-ul din memorie (19727268) aparține de fapt **Morgan et al. 2008** (disociere la forțe speciale, Psychiatry Edgmont 5(7):53–8) — Kimi și-a prins singur eroarea înainte de a o scrie. (2) Dakos 2008 = PNAS (18787119) nu PLoS ONE; Dakos 2012 Ecology (22624308) arată că **AR(1) lag-1 e semnalul robust, varianța poate uneori SCĂDEA** → caveat obligatoriu pe predicția Th_ACK/CSD. **Trei corecții de sursă F3 CONFIRMATE:** Gregory 2009 = BMC Medicine (nu Biol Psychiatry, deja ancorat în ledger); Braun 2019 = Transl Psychiatry (nu Nat Neurosci; cifra „20.8% CpG sânge–creier" coincide exact cu abstractul); Edgar/BECon 2017 = concordanță „tenuous". **Mesman 2009 = FĂRĂ PMID** (Developmental Review neindexat PubMed; DOI→PMID = null) → CORECTEAZĂ nota CVIII „pending PMID Mesman": nu există PMID de găsit, orice PMID atribuit = fabricat. **Insight de superpoziție S1 (structural):** CSD (F2) e semnătura dinamică MĂSURABILĂ a regimului DU (F1) → F2 devine critic-path pentru F1: ancora FEP formală nu se caută în literatură, ci se CONSTRUIEȘTE din rezultatul empiric (dacă Θ nu arată CSD iar Th_ACK da). Inversează ordinea din scrisoare. 8 referințe adăugate (R-103..R-110). 0 corecție silențioasă.)*
+
+## CIX.1 Validare — provenanță + metodă
+Sursă: `Kimi_runda_5_260818_000201.docx` (Path B real, PK `50 4b 03 04`). Metodă: extracție text (python-docx) + hash imagini (14× identice, MD5 unic, 1080×1527, 1 culoare = blank) + PubMed `get_article_metadata` (10 PMID) + `convert_article_ids` (Mesman DOI). Baseline: v3.104/CVIII, ledger live GitHub `Intrisec/ETK-Registru`.
+**Verdict:** rundă de calitate excepțională (a treia consecutivă). Valoroasă ca (a) hartă a literaturii FEP, (b) protocol rulabil pe date existente, (c) ancorare a factorului a_NM. Zero fabricație; cele două erori de memorie au fost prinse și corectate de Kimi însuși înainte de scriere.
+
+## CIX.2 Cele trei fire — verdict epistemic
+| Fir | Conținut | Verdict | Aliniere corpus |
+|---|---|---|---|
+| **F1** | Punte FEP: literatura (Adams, Powers, Peters/McEwen/Friston, Durstewitz ș.a.) tratează precizia fie ca parametru static, fie ca atractor în registrul INSTABILITĂȚII; DU = octantul gol (precizie JOASĂ × stabil, resursă de revenire absentă) | **[D] pt identificarea golului · [S] pt formalizare** | reconfirmă U1/CVIII (FEP tace exact acolo unde ETK vorbește) |
+| **F2** | Protocol rupturi pe date EXISTENTE: CSD (Th_ACK) pe NDA 3240 + Databrary 15; plafon Θ pe SFP-R (Haley&Stansbury) / ABC RCT; caveat Dakos 2012 (AR(1) primar, varianță secundar) | **[D] metodă** (ancore CSD verificate); **locatori de date NEVERIFICAȚI la sursă** (vezi CIX.7) | operaționalizează U4/G-THETA-0 (predicția discriminantă Th_ACK vs Θ) |
+| **F3** | a_NM: NU există măsură sânge–creier OXTR-specifică [C]; interval extrapolat 0.02–0.23; central **0.10–0.16**; R²_max ≈ **0.05**; a_NM să intre în ACPS ca DISTRIBUȚIE per-CpG, nu scalar | **[C] absența măsurii + plafon R² · [D] intervalul extrapolat** | rafinează U2/CVIII (margini a_NM) — dă ancorele concrete (Braun IMAGE-CpG, Edgar BECon, Nishitani AMAZE-CpG) |
+
+## CIX.3 Superpoziție — insight structural (S1, de reținut)
+**F1 și F2 sunt același obiect la scări diferite.** CSD = semnătura dinamică măsurabilă a absenței regimului DU. Consecință de flux de lucru: **F2 e critic-path pentru F1** — ancora formală FEP se construiește din rezultatul empiric (Θ fără CSD + plafon invariant la intervenție), nu se caută în literatură. Dacă F2 reușește, ridică F1 din [D/S] spre [D].
+*S2:* a_NM e o POARTĂ GLOBALĂ (propagă în orice canal periferic) → sub-calibrare la F3 produce fals-negative la F2 citite greșit ca „Θ confirmat"; pragurile F2 se raportează CONDIȚIONAT de a_NM. *S3:* semnul opus al literaturii = falsifiabilitate asimetrică (DU infirmat curat dacă apare CSD la Θ). *S4:* cele două erori de azi (Scheffer PMID, Mesman no-PMID) au aceeași morfologie cu „2.2" din R-43 — identificatori plauzibili din memorie care nu rezistă la primar.
+
+## CIX.4 Referințe — adăugări (verificate la primar, R-103..R-110)
+| ID | Referință | Subiect | Verdict |
+|----|-----------|---------|---------|
+| **R-103** | Scheffer M et al. (2009), *Nature* 461(7260):53–59, DOI 10.1038/nature08227, PMID 19727193 | early-warning / critical slowing down (ancoră metodă Th_ACK) | (C) |
+| **R-104** | Peters A, McEwen BS, Friston K (2017), *Prog Neurobiol* 156:164–188, DOI 10.1016/j.pneurobio.2017.05.004, PMID 28576664 | incertitudine/stres = entropie → sarcină alostatică; cea mai apropiată ancoră FEP de „blocaj cronic departe de NESS" | (D) |
+| **R-105** | Adams RA et al. (2018), *J Neurosci* 38(44):9471–9485, DOI 10.1523/JNEUROSCI.3163-17.2018, PMID 30185463 | dinamică de atractor în credințe (Scz); INSTABILITATE (semn opus DU), parametri revin la remisiune = stare | (C) |
+| **R-106** | Powers AR, Mathys C, Corlett PR (2017), *Science* 357(6351):596–600, DOI 10.1126/science.aan3458, PMID 28798131 | priori supra-ponderați (precizie RIDICATĂ) — opusul DU | (C) |
+| **R-107** | Durstewitz D, Huys QJM, Koppe G (2021), *Biol Psychiatry CNNI* 6(9):865–876, DOI 10.1016/j.bpsc.2020.01.001, PMID 32249208 | aparatul formal al atractorilor patologici (oferă limbajul, nu modelul de precizie colapsată) | (D) |
+| **R-108** | Braun PR et al. (2019), *Transl Psychiatry* 9(1):47, DOI 10.1038/s41398-019-0376-y, PMID 30705257 | concordanță sânge–creier per-CpG (IMAGE-CpG): mediu r≈0.86, dar doar 20.8% CpG sangvine corelate — ancoră a_NM | (C) |
+| **R-109** | Edgar RD, Jones MJ, Meaney MJ, Turecki G, Kobor MS (2017), *Transl Psychiatry* 7(8):e1187, DOI 10.1038/tp.2017.171, PMID 28763057 | BECon: concordanță blood–brain „tenuous", media |r|≈0.16 (SD 0.13) — ancoră a_NM | (C) |
+| **R-110** | Nishitani S et al. (2023), *Transl Psychiatry* 13(1):72, DOI 10.1038/s41398-023-02370-0, PMID 36843037 | AMAZE-CpG: replicare independentă (japoneză) a IMAGE-CpG (19.0% CpG sânge) | (C) |
+*Notă: Gregory 2009 (19845972, BMC Med 7:62) e DEJA ancorat în ledger (Partea XLVII/D2) — NU se re-cataloghează. Marcaj [C]/[D] atribuit după tăria designului, nu după afirmația lui Kimi.*
+
+## CIX.5 Corecții la note anterioare (nu în corpus)
+- **CVIII „pending PMID Mesman"** → **REZOLVAT: nu există PMID.** Mesman 2009, *Developmental Review* 29(2):120–162, DOI 10.1016/j.dr.2009.02.001 (Crossref) — jurnal neindexat PubMed. A NU se atribui niciodată un PMID; a se cita prin DOI. Există erratum (2010, Dev Rev 30(4):403–404).
+- **Scheffer (CVIII/U4, CSD fără PMID)** → **PMID canonic = 19727193** (nu 19727268 = Morgan 2008). Caveat Dakos 2012 (22624308): AR(1) lag-1 primar, varianță secundar.
+
+## CIX.6 Propunere de proces (S4 — decizie Alexandru)
+Kimi propune un câmp obligatoriu `verificat_la: <data>` pe fiecare referință în ETK_HEAD (amortizor structural: fiecare identificator neverificat = butterfly cu amplitudine necunoscută). **Decizie autorală** — nu se implementează fără „mergi" (schimbă schema proiectorului). Alternativă mai ieftină: coloana Verdict existentă (✔/⛔) acoperă deja funcția binară; un timestamp adaugă audit dar și volum.
+
+## CIX.7 Ce NU s-a verificat (onest)
+- **Locatorii de date F2** (NDA Collection 3240 / DOI 10.15154/a8wd-qb89; Databrary vol. 15; SFP-R Haley&Stansbury PMID 14552412; Melinder 2010 PMID 20566216; ABC/Zajac 2020 PMID 31677152) — sunt depozite de date / studii, NU verificate la sursă în această pasă (PubMed acoperă doar metadatele articolelor). Kimi a marcat ABC RCT ca „[neverificat] fără locator public" — onest. **Înainte de a folosi F2 ca protocol operațional: verifică accesul + variabilele la fiecare depozit.**
+- PMID-urile secundare menționate în treacăt de Kimi (Smith 2015 25355443, van de Leemput 2014 24324144, Adams 2013 23750138, Sterzer 2018 30007575, Barrett 2016 28080969, Stephan 2016 27895566, Clark 2018 29478431, Kapur 2003 12505794, Heinz 2019 30388260, Loh/Rolls/Deco 2007 17997599) — NEVERIFICATE individual în această pasă (nu sunt portante pentru verdict; se verifică la citare efectivă).
+
+## CIX.8 Dispoziție (decizie Alexandru)
+- **F2 = gata de proiectat ca Braț A al pilotului RASP** (predicția discriminantă Th_ACK-CSD vs Θ-plafon) — dar cere verificarea locatorilor de date (CIX.7) înainte de operaționalizare. Temă potențială Kimi R6.
+- **F3 = derivabil pentru ACPS**: a_NM ca distribuție (interval 0.10–0.16, R²_max 0.05, factor de atenuare pe orice w periferic). Inserția corpus = „mergi" + confirmare ancoră pe disc.
+- **F1/S1**: dacă se rulează F2, ancora DU se construiește empiric — de reținut ca ordine de lucru inversată (F2 înainte de F1).
+
+**ÎNCHISE (această pasă):** validare Kimi R5 (10/10 PMID primar + 2 auto-corecții confirmate + 3 corecții F3 confirmate + Mesman no-PMID confirmat); 8 referințe adăugate (R-103..R-110); nota CVIII „pending Mesman" rezolvată; PMID canonic Scheffer fixat; insight S1 (F2 critic-path F1) înregistrat.
+
+**ACTIVE:** C-2 (marcaj specie — gata) · FEP_integ_TVK (punte [S]; F1 dă harta + S1 dă calea empirică de construire a ancorei) · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE — a_NM/g_NM [S] (margini rafinate: distribuție 0.10–0.16, R²_max 0.05; valori pending RASP) + Q_opt · G-ETK-R2/R3 (9 predicții [S]) · G-ETK-R5 (F2 protocol rupturi — gata de proiectat, locatori de date de verificat).
+
+**Autoritate unică:** acest consolidat, vârf **v3.105 · Partea CIX**. Acoperire **0/I→CIX**. Integrare Kimi R5 (validare + catalogare + corecție note); corpus (conținut) neatins. Erratum humanum est. Zero memorie.
+
 # APPEND — v3.106 (2026-08-18) · Partea CX
 
 *Se stivuiește PESTE v3.105 (Partea CIX). Vârf nou. Fără „delta". Adaugă `v3.105` la „AUTORITATEA UNICĂ". **Ratificarea noii ordini: autoritatea Registrului = GitHub (nu Project) + arhivarea oglinzii din Project + manifest de ștergere pentru vechiul sistem-Registru de pe disc.** Meta-artefact de infrastructură — corpus științific (conținut docx) NEATINS. Zero memorie — construit din ledger-ul live de pe GitHub.*
