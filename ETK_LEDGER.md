@@ -5082,6 +5082,46 @@ Regimul eCB în PTSD NU e „2 pe sex". Axa corectă (multi-dimensională):
 **ACTIVE:** C-2 (specie — gata) · FEP_integ_TVK [S] · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt · G-ETK-R2/R3 (9 predicții [S]) · fișă bistabilitate NP §4.7.2 (Direcția #1) — eligibilă, pending „mergi" + D-3 (nod) · fișă eCB consolidată (Direcția #2) — aterizabilă după F-1+F-4 · **L-eCB-2 = partiționare fenotipică + TEMPORALĂ (acut/cronic) + modulatori (sex/etnie/genotip)** · ε_total candidat +ε_CB1R [S] · Mesman = vulnerabilitate (înlocuire pending) · T1/T4/ancore-cronice = pending la nod.
 
 **Autoritate unică:** acest consolidat, vârf **v3.108 · Partea CXII**. Acoperire **0/I→CXII**. Analiză Kimi R6 + rafinare full-text; corpus neatins. Erratum humanum est. Zero memorie.
+# APPEND — v3.109 (2026-08-19) · Partea CXIII
+
+*Se stivuiește PESTE v3.108 (Partea CXII). Vârf nou. Fără „delta". Adaugă `v3.108` la „AUTORITATEA UNICĂ". **Plan de execuție butterfly-ordonat pentru update ACPS + primele două aterizări de corpus (FAZA 0.1 a_NM, FAZA 0.2 C-2).** Corpus ACPS ATINS (2 inserții + 1 corecție de miscitare, verificate la primar + fizic în `document.xml`); rest corpus neatins. Zero memorie — construit din ledger live GitHub + PubMed (verificare la primar în sesiune). Pliază draftul de plan CXIII anterior (necomis).*
+
+## LINIE DE CHANGELOG (sub v3.108)
+*(v3.109: 19 aug — **SUPERPOZIȚIE + EXECUȚIE FAZA 0.** (A) PLAN butterfly-ordonat pentru update ACPS: FAZA 0 (porți globale+igienă citare: a_NM, C-2, Mesman, PF-04457845, Demaili) → FAZA 1 (axa eCB: split 2-AG/AEA, L-eCB-2) → FAZA 2 (derivabile CVII corectate: D1–D6) → FAZA 3 (fișe/lanțuri: bistabilitate NP, eCB consolidată, R-43 AD/FTD, punte FEP) → FAZA 4 (convergență ACPS + GUARD Route B λ≡0 + coerență cross-doc). Criteriu de ordine = reach de propagare. (B) **0.1 a_NM ATERIZAT în ACPS §3.3.1 (nou).** Reconciliere la primar a trei cantități confundate în ledger: r≈0.86 (mediat pe subiecți — NU a_NM), ~19–21% (proporție CpG concordante), r=0.27 (reproductibilitate coeficient între cohorte). a_NM = distribuție per-CpG, plafon R²_max~0.05, regulă fail-safe (doar sub-ponderează), structură multiplicativă w·a_NM. Verificat: IMAGE-CpG (Braun 30705257), AMAZE-CpG (Nishitani 36843037), BECon (Edgar 28763057), Feldman (21676095). (C) **0.2 C-2 ATERIZAT în ACPS (nou).** Notă de guvernare a marcajului de specie pe Triada de neuroprotecție (R-39: baza AVP = rozătoare → uman = (D)). **PRINDERE la primar:** DOI 10.1038/s41467-025-66908-0 = **Inada et al. 2025**, *Nat Commun* 16:10844, PMID 41372215 (*male mice*) — miscitat „Liao et al." în ACPS; corectat pe cele 2 apariții DOI-bearing. „Liao Z 2025" (titlu distinct) + 2 mențiuni fără DOI = T-C2-1 la nod (fără blanket-replace). Zero corecție silențioasă.)*
+
+## CXIII.1 Plan de execuție (roadmap FAZA 0–4)
+FAZA 0: 0.1 a_NM ✅ · 0.2 C-2 ✅ · 0.3 Mesman→Bowlby/Ainsworth (NP_Depresia §4.7) · 0.4 PF-04457845→Phase II NEG · 0.5 Demaili scos L-eCB-5.
+FAZA 1: split 2-AG/AEA (R-41) · L-eCB-2 → acut/cronic×(sex,etnie,genotip).
+FAZA 2: D1 T_eCB · D3 s(Syt4)⊥ε+JZL184 · D4 I_PSW≠C_R · D2 OXT↑C_R→prag fix · D5 Q_target=0.663 · D6 6+1/8.
+FAZA 3: bistabilitate NP §4.7.2 · eCB consolidată · R-43 AD/FTD · FEP+U4.
+FAZA 4: integrare ACPS · GUARD Route B λ≡0 · coerență cross-doc.
+
+## CXIII.2 FAZA 0.1 — a_NM aterizat (ACPS §3.3.1, Eq. 5c/5d)
+- **Marcaj:** [C] (2 arhitecturi: IMAGE-CpG US + AMAZE-CpG Japonia + BECon) pe absența măsurii OXTR-specifice + concordanța joasă/instabilă (20.8% / 19.0% CpG nominal; cross-DB r=0.27; „tenuous"). [D] pe banda extrapolată |r|≈0.10–0.23, R²_max~0.05.
+- **Regulă fail-safe:** a_NM aplicat la marginea superioară → poate DOAR sub-ponderează un canal periferic. Anti-0.86 (mediat ≠ a_NM). Structură multiplicativă w·a_NM (w=biomarker↔comportament Feldman |r|≈0.1–0.35 [D]; a_NM=periferie↔creier).
+- **Poartă T-aNM-1** (nod): distribuția OXTR-CpG din IMAGE-CpG/BECon = doar îngustare în plafon, NU blocant.
+- Verificat primar (PubMed) + fizic `document.xml`. Livrat: `ACPS_v14_0-1_aNM_2026-08-19.docx`.
+
+## CXIII.3 FAZA 0.2 — C-2 aterizat (ACPS §2.2, notă de guvernare)
+- Baza cauzal-mecanistică a Triadei = rozătoare/vole (Castillo-Ruiz mouse; Inada 2025 male mice; Tyzio/Maejima rozătoare; Berendzen prairie vole). Sub R-39, claim uman = extrapolare → **(D)**. Ancorare umană = surge VP ombilical (Wellmann, [C] pe surge) + metilare OXTR corelațională (§3.3.1).
+- **Miscitare corectată (verificat primar):** „Liao et al. 2025" pe DOI 10.1038/s41467-025-66908-0 → **Inada et al. 2025**, *Nat Commun* 16:10844, PMID 41372215. Corectat la cele 2 apariții DOI-bearing.
+- **T-C2-1 (nod):** ref distinctă „Liao Z 2025 — *Vasopressin activates paternal behavior through OTR*" (titlu diferit) + 2 mențiuni fără DOI = de rezolvat Inada vs Liao Z înainte de submisie; grep cross-document al DOI-ului (miscitarea se propagă tipic).
+- Verificat fizic `document.xml` (male mice, PMID 41372215, R-39, + 0.1 intact). Livrat: `ACPS_v14_0-2_C2-specie_2026-08-19.docx` (cumulativ 0.1+0.2).
+
+## CXIII.4 Referință nouă (verificată la primar)
+| ID | Referință | PMID | DOI | Rol |
+|----|-----------|------|-----|-----|
+| **R-114** | Inada K, Hagihara M, …, Miyamichi K (2025), *Nat Commun* 16(1):10844 | 41372215 | 10.1038/s41467-025-66908-0 | VP→OTR crosstalk preoptic, comportament patern (male mice); corectează miscitarea „Liao" pe acest DOI (C-2) | (D) specie=mouse |
+*R-99 (Feldman 21676095), R-108 (Braun 30705257), R-109 (Edgar 28763057), R-110 (Nishitani 36843037) = deja catalogate; folosite în §3.3.1.*
+
+## CXIII.5 Coerență semnalată (FAZA 4.3)
+- **Coliziune simbolică a_NM:** în ACPS §3.3.1 a_NM = atenuare periferie→creier (nou); în FSSP §3.4.1 a_NM = coeficient de rată ODE al NM. Cantități diferite — NE-contopite; disambiguizare (ex. a_NM^att vs a_NM^rate) la rularea de coerență cross-document.
+
+**ÎNCHISE (această pasă):** plan butterfly FAZA 0–4 emis; **0.1 a_NM aterizat ACPS §3.3.1** (primar+fizic; reconcilierea r=0.86/20.8%/0.27); **0.2 C-2 aterizat ACPS §2.2** (notă specie R-39) + **miscitare Liao→Inada corectată** pe DOI verificat; R-114 Inada înregistrat; coliziune simbolică a_NM semnalată.
+
+**ACTIVE:** C-2 (executat în ACPS — notă specie; **T-C2-1 la nod**: Liao vs Inada + grep cross-doc) · a_NM (aterizat ACPS §3.3.1; **T-aNM-1** = îmbogățire OXTR-CpG la nod, ne-blocant) · FEP_integ_TVK [S] · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM de rezolvat FAZA 4.3) · G-ETK-R2/R3 (9 predicții [S]) · fișă bistabilitate NP §4.7.2 (Direcția #1) — pending „mergi" + D-3 (nod) · fișă eCB consolidată (Direcția #2) — după F-1+F-4 · L-eCB-2 = partiționare fenotipică + temporală (acut/cronic) + modulatori · ε_total candidat +ε_CB1R [S] · Mesman = vulnerabilitate (înlocuire = FAZA 0.3) · T1/T4/ancore-cronice = pending la nod · **plan CXIII FAZA 0.3–4 de executat la „mergi"**.
+
+**Autoritate unică:** acest consolidat, vârf **v3.109 · Partea CXIII**. Acoperire **0/I→CXIII**. Plan + execuție FAZA 0.1/0.2 în ACPS (verificate primar+fizic). Erratum humanum est. Zero memorie.
 
 
 
