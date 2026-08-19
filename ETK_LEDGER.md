@@ -5122,6 +5122,35 @@ FAZA 4: integrare ACPS · GUARD Route B λ≡0 · coerență cross-doc.
 **ACTIVE:** C-2 (executat în ACPS — notă specie; **T-C2-1 la nod**: Liao vs Inada + grep cross-doc) · a_NM (aterizat ACPS §3.3.1; **T-aNM-1** = îmbogățire OXTR-CpG la nod, ne-blocant) · FEP_integ_TVK [S] · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM de rezolvat FAZA 4.3) · G-ETK-R2/R3 (9 predicții [S]) · fișă bistabilitate NP §4.7.2 (Direcția #1) — pending „mergi" + D-3 (nod) · fișă eCB consolidată (Direcția #2) — după F-1+F-4 · L-eCB-2 = partiționare fenotipică + temporală (acut/cronic) + modulatori · ε_total candidat +ε_CB1R [S] · Mesman = vulnerabilitate (înlocuire = FAZA 0.3) · T1/T4/ancore-cronice = pending la nod · **plan CXIII FAZA 0.3–4 de executat la „mergi"**.
 
 **Autoritate unică:** acest consolidat, vârf **v3.109 · Partea CXIII**. Acoperire **0/I→CXIII**. Plan + execuție FAZA 0.1/0.2 în ACPS (verificate primar+fizic). Erratum humanum est. Zero memorie.
+# APPEND — v3.110 (2026-08-19) · Partea CXIV
+
+*Se stivuiește PESTE v3.109 (Partea CXIII). Vârf nou. Fără „delta". Adaugă `v3.109` la „AUTORITATEA UNICĂ". **FAZA 0.3 — flag „Mesman" REÎNCADRAT și ÎNCHIS: nu prin înlocuire (inaplicabilă), ci prin igienă de citare DOI.** Corpus ATINS: 1 fișă (`FISA_TEHNICA_Zambetul`, referință Mesman + DOI/notă anti-PMID); `F-TKR-001` confirmat compliant, neatins; `NP_Depresia` = fără Mesman (ținta din plan corectată). Verificare la primar în sesiune (DOI→PMID = null). Zero memorie.*
+
+## LINIE DE CHANGELOG (sub v3.109)
+*(v3.110: 19 aug — **FAZA 0.3 Mesman — REÎNCADRARE, NU ÎNLOCUIRE.** Superpoziție pe folosirea reală în corpus: flag-ul moștenit „Mesman = vulnerabilitate → înlocuire Bowlby/Ainsworth" (din Kimi R6 #4) **NU corespunde corpusului**. (a) Mesman NU e ancoră de vulnerabilitate nicăieri și **NU apare în NP_Depresia** (grep: §4.7 = „Formalizarea t_KR", zero Mesman; NP_Depresia deja pe Bowlby/Ainsworth/Main). Ținta 0.3 din planul CXIII („NP_Depresia §4.7") = **auto-corectată**. (b) Mesman e folosit CORECT ca **meta-analiză still-face** (carry-over/reunion) în `FISA_TEHNICA_Zambetul` (§3.5) + `F-TKR-001`. (c) **Bowlby/Ainsworth NU pot substitui o meta still-face** (atașament ≠ paradigmă experimentală) → înlocuirea ar fi introdus eroare de CONȚINUT; respinsă. Defectul real = pur bibliografic: **PMID inexistent** (verificat la primar în sesiune: convert `10.1016/j.dr.2009.02.001` → 0 PMID/PMCID; *Dev Review* neindexat). `F-TKR-001` deja cita prin DOI, fără PMID = compliant (neatins). `FISA_TEHNICA_Zambetul` (l.245) = singurul necompliant → adăugat DOI + notă „neindexat → a NU se atribui PMID; co-ancoră indexată Tronick 1978 PMID 632477". Validator PASS, verificat fizic în `document.xml`. Regula generală reafirmată: o meta reală dar neindexată se citează prin DOI — nu se șterge, nu se substituie cu ceva de altă natură, nu i se fabrică PMID. 0 corecție silențioasă.)*
+
+## CXIV.1 Reîncadrarea flag-ului Mesman
+| Aspect | Flag moștenit (Kimi R6 #4) | Constatare la verificare (canonic) |
+|---|---|---|
+| Rol în corpus | „vulnerabilitate" | **meta-analiză still-face** (carry-over) |
+| Locație | NP_Depresia §4.7 (presupus) | `FISA_TEHNICA_Zambetul` §3.5 + `F-TKR-001`; **NP_Depresia = 0 Mesman** |
+| Acțiune | înlocuire cu Bowlby/Ainsworth | **inaplicabilă** (atașament ≠ meta still-face) → respinsă |
+| Defect real | (necaracterizat) | PMID inexistent (*Dev Review* neindexat) → **citare prin DOI** |
+
+## CXIV.2 Verificare la primar (sesiune)
+- `convert_article_ids(doi=10.1016/j.dr.2009.02.001)` → **doar DOI, fără PMID/PMCID** = neindexat PubMed confirmat. Orice PMID atribuit lui Mesman = fabricat.
+- Co-ancoră still-face INDEXATĂ, deja în corpus: Tronick et al. 1978, PMID 632477 (R-98) → claim-ul carry-over NU stă doar pe sursa neindexată.
+
+## CXIV.3 Aterizare
+- `FISA_TEHNICA_Zambetul` (l.245): referință Mesman + `DOI 10.1016/j.dr.2009.02.001` + notă anti-fabricare PMID + co-ancoră Tronick. Livrat Path B real (PK), verificat fizic. Fișier: `FISA_TEHNICA_Zambetul_MesmanDOI_2026-08-19.docx`.
+- `F-TKR-001` (l.53/171): deja compliant (DOI, fără PMID) → NEATINS.
+- `NP_Depresia`: fără dependență Mesman → NEATINS.
+
+**ÎNCHISE (această pasă):** **flag „Mesman = vulnerabilitate (înlocuire pending)" — ÎNCHIS REÎNCADRAT** (still-face-meta folosit corect; igienă DOI în Zambetul; F-TKR-001 compliant; NP_Depresia fără Mesman); ținta 0.3 din planul CXIII auto-corectată; regula „meta neindexată → citare DOI, nu înlocuire" reafirmată la primar.
+
+**ACTIVE:** C-2 (executat ACPS; T-C2-1 la nod: Liao vs Inada + grep cross-doc) · a_NM (aterizat ACPS §3.3.1; T-aNM-1 la nod, ne-blocant) · FEP_integ_TVK [S] · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM de rezolvat FAZA 4.3) · G-ETK-R2/R3 (9 predicții [S]) · fișă bistabilitate NP §4.7.2 (Direcția #1) — pending „mergi" + D-3 (nod) · fișă eCB consolidată (Direcția #2) — după F-1+F-4 · L-eCB-2 = partiționare fenotipică + temporală (acut/cronic) + modulatori · ε_total candidat +ε_CB1R [S] · T1/T4/ancore-cronice = pending la nod · **plan CXIII FAZA 0.4–4 de executat la „mergi"** (0.1/0.2/0.3 ✅).
+
+**Autoritate unică:** acest consolidat, vârf **v3.110 · Partea CXIV**. Acoperire **0/I→CXIV**. FAZA 0.3 (Mesman reîncadrat + igienă DOI); verificat primar+fizic; corpus atins minimal (1 fișă). Erratum humanum est. Zero memorie.
 
 
 
