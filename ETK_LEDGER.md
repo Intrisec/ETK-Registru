@@ -5041,6 +5041,48 @@ Verificarea la a doua arhitectură (Scite / BioSkepsis / PMC full-text / rularea
 **ACTIVE:** C-2 (specie — gata) · FEP_integ_TVK [S] · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt · G-ETK-R2/R3 (9 predicții [S]) · **fișă bistabilitate NP §4.7.2 (Direcția #1) — eligibilă, pending „mergi" + D-3 kinetică TET2 (nod)** · **fișă eCB consolidată (Direcția #2) — aterizabilă după F-1+F-4** · PF-04457845 PTSD = Phase II negativ (canonic) · **L-eCB-2 = partiționare fenotipică ȘI pe SEX** · T1/T4/verificator-formal = pending la nod.
 
 **Autoritate unică:** acest consolidat, vârf **v3.107 · Partea CXI**. Acoperire **0/I→CXI**. Analiză + verificări directe la primar; corpus neatins. Erratum humanum est. Zero memorie.
+# APPEND — v3.108 (2026-08-18) · Partea CXII
+
+*Se stivuiește PESTE v3.107 (Partea CXI). Vârf nou. Fără „delta". Adaugă `v3.107` la „AUTORITATEA UNICĂ". **Analiză Kimi Runda 6 (extrapolare post-verificare, 7 extrapolări structurale) + rafinarea R-111 (deRoon-Cassini) la full-text.** Corpus (conținut docx) NEATINS. Zero memorie — construit din ledger live GitHub + PubMed full-text (PMC8807700).*
+
+## LINIE DE CHANGELOG (sub v3.107)
+*(v3.108: 18 aug — **ANALIZĂ KIMI R6 — disciplinat pe citare, FORȚAT pe structură.** Zero fabricație (PMID 35105857/40967565 reale, verificate); erorile = INTERPRETATIVE, nu bibliometrice. 29 imagini embedded = placeholder-uri blank (nimic ascuns). **ACCEPTATE [S]/[D-cond]:** #2 axa ELS→metilare→eCB (Demaili↔TDSAF, ε_total +ε_CB1R) — reancorare corectă mecanic; #3 Maejima NU ancorează „6 săptămâni" → D-3 [D-cond]; #4 Mesman = vulnerabilitate (fără PMID) → înlocuire Bowlby/Ainsworth/meta; #6 PF-04457845 falsificat → FAAH-i fenotip-specific [S]. **FLAG MAJOR — #1/#5/#7 dihotomie curată „femei AEA↑ / bărbați AEA↓" NU rezistă la full-text (PMC8807700):** (a) deRoon-Cassini raportează AEA↑ pe TOT eșantionul (70% BĂRBAȚI), nu „la femei"; asocierea e mai robustă la femei DAR interacțiunea sex×AEA doar a TINS (p<0.10), nu regim separat; (b) CONFLICT ascuns pe bărbați — deRoon-Cassini: bărbații arată AEA POZITIV asociat (FAAH A/A→AEA↑→PTSD „driven by men") vs Rajasekera: AEA↓ la bărbați → literatură contradictorie, nu split curat; (c) DIMENSIUNEA RATATĂ (mai portantă decât sexul): deRoon-Cassini contrastează explicit PERITRAUMATIC (eCB ACUT crescut → risc) vs PTSD CRONIC (eCB scăzut) + modulare prin STATUT DE MINORITATE. **Marcaj corect:** modulare pe sex = [D] (reală); „2 regime pe sex" = [S] supra-ordonat + parțial contrazis; axa reală = **acut/cronic × (sex, minoritate, genotip)**. „5 regimuri VASO-eCB" (#7) refăcut pe această axă, nu pe sex. Principiu „nu forțăm nimic" — Kimi a curățat o hartă heterogenă într-o dihotomie prea frumoasă. 0 referință nouă (R-111/R-112 deja catalogate; R-111 rafinat cu full-text). 0 corecție silențioasă.)*
+
+## CXII.1 Verdict Kimi R6
+Rundă disciplinată bibliometric (zero PMID fabricat), dar cu **supra-ordonare structurală** pe firul sex-specificitate. Valoroasă ca: reancorare Demaili (axa ELS→eCB), prindere vulnerabilitate Mesman, extrapolare FAAH-i fenotip-specific. Erorile = interpretative (over-tidying), nu fabricație.
+
+| Extrapolare | Verdict | Marcaj |
+|---|---|---|
+| #2 ELS→metilare→eCB (Demaili↔TDSAF, ε_total+ε_CB1R) | ✅ ACCEPTAT | [S] mecanic valid |
+| #3 Maejima ≠ „6 săptămâni" → D-3 | ✅ ACCEPTAT | [D-cond] |
+| #4 Mesman vulnerabilitate → înlocuire | ✅ ACCEPTAT | proces |
+| #6 PF-04457845 falsificat → FAAH-i fenotip-specific | ✅ ACCEPTAT | [S] |
+| #1/#5/#7 „2 regime pe sex" (femei↑/bărbați↓) | ⚠ DEGRADAT | [S] supra-ordonat, parțial contrazis |
+
+## CXII.2 Rafinare R-111 (deRoon-Cassini 2022, full-text PMC8807700, [DOI](https://doi.org/10.1038/s41398-022-01808-1))
+Precizări din full-text (corectează folosirea din Kimi #1):
+- Rezultatul portant = **AEA seric ↑ la hospitalizare prezice diagnostic PTSD la follow-up pe TOT eșantionul** (p=0.030; N=170, 70% bărbați, 47% CNH). NU „la femei".
+- Sexul: interacțiunea sex×AEA(follow-up) doar a **tins** (p<0.10); asocierea AEA-PTSD mai robustă la femei (n=52, p=0.002), dar la bărbați (n=118) AEA(follow-up) tot pozitiv pe arousal (p=0.030) + FAAH A/A→AEA↑→PTSD „driven by men".
+- **Modulator emfazat = STATUT DE MINORITATE** (2-AG↑ pozitiv cu PTSD la minorități; AEA↓ negativ la minorități la hospitalizare), nu sexul.
+- **Axă temporală:** deRoon-Cassini își contrastează explicit rezultatul **peritraumatic (eCB acut ↑ → risc)** cu literatura de **PTSD cronic (eCB ↓)** — deci direcția eCB depinde de FEREASTRA TEMPORALĂ, nu doar de sex.
+
+## CXII.3 Corecție structurală pentru ACPS / Sim VASO-eCB
+Regimul eCB în PTSD NU e „2 pe sex". Axa corectă (multi-dimensională):
+**direcție eCB = f(fereastră: peritraumatic-acut↑ / cronic↓ ; sex ; statut minoritate ; genotip FAAH/CNR1)**
+- Sim VASO-eCB: regimurile se stratifică pe **acut vs cronic** ca axă primară, cu sex/minoritate/genotip ca modulatori — nu pe sex ca axă primară.
+- L-eCB-2: partiționare fenotipică + **temporală (acut/cronic)** + modulatori (sex, etnie, genotip). Marcaj: temporal [D], modulatori [D]/[S].
+
+## CXII.4 Ce rămâne (pending, la nod)
+- Ancorele chronic-PTSD-low-eCB (WTC: Neumeister, Hill) pe care deRoon-Cassini le contrastează — DE VERIFICAT la primar + catalogat dacă se folosesc pentru axa acut/cronic.
+- Rajasekera 2025 (R-112): verificat la abstract; full-text de citit pentru direcția exactă pe subgrupuri (sex×severitate).
+- T1 kinetică TET2 (D-3); T4 colinearitate OXTR/NR3C1/FKBP5 — la nod.
+
+**ÎNCHISE (această pasă):** analiză Kimi R6 (4 extrapolări acceptate, 3 degradate la [S]); flag dihotomie sex + corecția axei (acut/cronic × modulatori); rafinare R-111 la full-text; Sim VASO-eCB reorientat pe axa temporală.
+
+**ACTIVE:** C-2 (specie — gata) · FEP_integ_TVK [S] · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt · G-ETK-R2/R3 (9 predicții [S]) · fișă bistabilitate NP §4.7.2 (Direcția #1) — eligibilă, pending „mergi" + D-3 (nod) · fișă eCB consolidată (Direcția #2) — aterizabilă după F-1+F-4 · **L-eCB-2 = partiționare fenotipică + TEMPORALĂ (acut/cronic) + modulatori (sex/etnie/genotip)** · ε_total candidat +ε_CB1R [S] · Mesman = vulnerabilitate (înlocuire pending) · T1/T4/ancore-cronice = pending la nod.
+
+**Autoritate unică:** acest consolidat, vârf **v3.108 · Partea CXII**. Acoperire **0/I→CXII**. Analiză Kimi R6 + rafinare full-text; corpus neatins. Erratum humanum est. Zero memorie.
+
 
 
 
