@@ -1,9 +1,9 @@
 # ETK — HEAD (stare curentă)
 **Proiecție a jurnalului · reconstruit 2026-08-19 · NU se editează de mână**
 
-> **Vârf:** v3.108 · Partea CXII (2026-08-18)  
+> **Vârf:** v3.109 · Partea CXIII (2026-08-19)  
 > **Sursă:** `ETK_LEDGER.md`  
-> **STARE:** Acoperire **0/I → Partea CXII** (v3.108) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-19  
+> **STARE:** Acoperire **0/I → Partea CXIII** (v3.109) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-19  
 > **Regulă:** HEAD = artefact de build ȘI autoritatea de stare (LXXXIV). INDEX-ul de mai jos e REGENERAT din markerii `# APPEND` — nu-l citi din jurnal (acolo e înghețat). Orice schimbare aterizează întâi în jurnal (append + grep), apoi se re-rulează `etk_project_head.py`.
 > **📤 PROCEDURĂ UPLOAD (regulă vie, imună la `-N`):** la finalul sesiunii operatorul urcă **DOAR 2 fișiere** — jurnalul nou `ETK_LEDGER_v3_XX_<stamp>.md` + `ETK_HEAD.md` — și **șterge jurnalul precedent** (ca să nu se adune). Tooling-ul (`etk_ledger_commit.py` + `etk_project_head*.py`) se urcă **o singură dată**. Append-urile **NU se urcă** (commit-ul le pliază). **Interfața poate adăuga sufixe `-N` la upload — E INOFENSIV:** pipeline-ul e imun (commit-ul alege automat jurnalul cel mai recent + proiectorul cel mai capabil, indiferent de `-N`). **Nu redenumi nimic** — singurul gest de igienă e ștergerea jurnalului vechi.
 
@@ -12,7 +12,6 @@
 ## 🗺 INDEX PĂRȚI — regenerat, viu (12 părți-append)
 *Era append XLV→vârf, proiectată din jurnal la fiecare build (O1, fix M-2/M-3). ERA I (0–XLIV) = pliată/înghețată.*
 
-- **v3.97 · Partea CI** (2026-08-15) — CI.1 Cele 3 secundare verificate (adăugate la pool)
 - **v3.98 · Partea CII** (2026-08-16) — CII.1 Dispoziție (decizie Alexandru)
 - **v3.99 · Partea CIII** (2026-08-16) — CIII.1 Ce s-a verificat (gate + disc + primar)
 - **v3.100 · Partea CIV** (2026-08-16) — CIV.1 FSSP v2_6 — container reparat (A4 ÎNCHIS)
@@ -24,24 +23,27 @@
 - **v3.106 · Partea CX** (2026-08-18) — CX.1 Noua ordine (canonică) — GitHub-first
 - **v3.107 · Partea CXI** (2026-08-18) — CXI.1 Reproducere numerică (nod CRITICAL)
 - **v3.108 · Partea CXII** (2026-08-18) — CXII.1 Verdict Kimi R6
+- **v3.109 · Partea CXIII** (2026-08-19) — CXIII.1 Plan de execuție (roadmap FAZA 0–4)
 
 ---
 
-## ⚠ ERORI / FLAG-URI ACTIVE (12)
+## ⚠ ERORI / FLAG-URI ACTIVE (14)
 *Doar cele deschise. Cele închise trăiesc în jurnal.*
 
-- C-2 (specie — gata)
+- C-2 (executat în ACPS — notă specie; T-C2-1 la nod: Liao vs Inada + grep cross-doc)
+- a_NM (aterizat ACPS §3.3.1; T-aNM-1 = îmbogățire OXTR-CpG la nod, ne-blocant)
 - FEP_integ_TVK [S]
 - eCB_tonus_Modul_v1 (R-41; „mergi")
 - clase-capcană T11/T12/T13
-- FSSP ODE a_NM/g_NM [S] + Q_opt
+- FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM de rezolvat FAZA 4.3)
 - G-ETK-R2/R3 (9 predicții [S])
-- fișă bistabilitate NP §4.7.2 (Direcția #1) — eligibilă, pending „mergi" + D-3 (nod)
-- fișă eCB consolidată (Direcția #2) — aterizabilă după F-1+F-4
-- L-eCB-2 = partiționare fenotipică + TEMPORALĂ (acut/cronic) + modulatori (sex/etnie/genotip)
+- fișă bistabilitate NP §4.7.2 (Direcția #1) — pending „mergi" + D-3 (nod)
+- fișă eCB consolidată (Direcția #2) — după F-1+F-4
+- L-eCB-2 = partiționare fenotipică + temporală (acut/cronic) + modulatori
 - ε_total candidat +ε_CB1R [S]
-- Mesman = vulnerabilitate (înlocuire pending)
-- T1/T4/ancore-cronice = pending la nod.
+- Mesman = vulnerabilitate (înlocuire = FAZA 0.3)
+- T1/T4/ancore-cronice = pending la nod
+- plan CXIII FAZA 0.3–4 de executat la „mergi".
 
 _Erori închise (în jurnal, nu aici): ~0._
 
@@ -77,7 +79,7 @@ _Erori închise (în jurnal, nu aici): ~0._
 
 ---
 
-## 📚 REFERINȚE — verdict curent (80)
+## 📚 REFERINȚE — verdict curent (81)
 *Cea mai recentă mențiune per ID câștigă. ⛔=neverificat/blocat · ✔/✅=verificat · (C)/(D)/(S)=marcaj epistemic · ⚠=rezervă.*
 
 | ID | Referință | Subiect | Verdict |
@@ -162,6 +164,7 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-111 | deRoon-Cassini TA et al. (2022), *Transl Psychiatry* 12(1):48 (Hillard coautor) | 35105857 | (D) |
 | R-112 | Rajasekera TA, Spagnolo PA et al. (2025), *Prog Neuropsychopharmacol Biol Psychiatry* 142:111501 | 40967565 | (D) |
 | R-113 | Demaili A, …, Braun K, Bock J (2023), *Front Cell Neurosci* 17:1129946 | 36909279 |  |
+| R-114 | Inada K, Hagihara M, …, Miyamichi K (2025), *Nat Commun* 16(1):10844 | 41372215 | (D) |
 
 ---
-*Generat de etk_project_head.py din ETK_LEDGER.md. 80 referințe · 12 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
+*Generat de etk_project_head.py din ETK_LEDGER.md. 81 referințe · 14 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
