@@ -5317,6 +5317,100 @@ FAZA 4: integrare ACPS · GUARD Route B λ≡0 · coerență cross-doc.
 
 **Autoritate unică:** acest consolidat, vârf **v3.115 · Partea CXIX**. Acoperire **0/I→CXIX**. FAZA 3 (4 direcții: 2 aterizări corpus + 2 fișe noi + 1 confirmare); verificat primar (5 PMID + PMC); corpus atins (2 fișiere + 2 fișe). Erratum humanum est. Zero memorie.
 
+# APPEND — v3.116 (2026-08-20) · Partea CXX
+
+*Se stivuiește PESTE v3.115 (Partea CXIX). Vârf nou. Fără „delta". Adaugă `v3.115` la „AUTORITATEA UNICĂ". **FAZA 4 COMPLETĂ — convergență ACPS.** GUARD Route B λ≡0 = VERIFICAT prezent+corect în baza ACPS (nu reinserat); note explicite D3/D4 + disambiguizare a_NM^att = ATERIZATE pe baza CANONICĂ `ACPS_v14_0-2` (operatorul a re-furnizat baza — opțiunea A), NU pe `FINAL` stale (butterfly evitat). Coerență cross-doc rezolvată. Cu FAZA 4 închisă, roadmap-ul CXIII (FAZA 0–4) e integral executat. Verificare fizică (grep pe baza corectă) + symbol validator PASS + `reference_corrector` NErulat (SEED-2). Zero memorie — construit din ledger live GitHub + disc.*
+
+## LINIE DE CHANGELOG (sub v3.115)
+*(v3.116: 20 aug — **FAZA 4 convergență ACPS, aterizată pe baza canonică.** (A) **GUARD Route B λ≡0 — VERIFICAT (ține), NU reinserat.** Baza `ACPS_v14_0-2` §4.3.2 conține DEJA enunțul formal: Gate 2 V1aR marcat (S), `λ ≡ 0 in the coupled ODE until the sign of V1aR→2-AG is empirically derived (receptor-specific, not depolarization; E-13)` (l.1255) + „Route B invariant. Under λ ≡ 0… Gate 2 contributes exactly 0; no attractor or Lyapunov result changes" (l.1259). Grep confirmator pe 6 module (`eps_AVP`, `Pc_AVP`, `t_KR_AVP`, `eCB_tonus`, `Q_granita`, `Lyapunov`): 0 termen viu V1aR→eCB; asimetria E-13 păstrată (OXTR→eCB=[C] Oliet/R-10 · V1aR→eCB=NESTABILIT). 0 parametri noi. Lyapunov 5D rămâne amânată (L-Lyap-6). GUARD = CONFIRMAT prezent + corect. (B) **Note explicite D3/D4 ATERIZATE** (baza corectă, minimal, fără dublare de structură). **D3 (§4.3.2, după Gate 1):** ortogonalitate — cei doi factori ai Γ_OXTR = e^(−κ·ε) [poarta de PRODUCȚIE, Eq.12b] × s(Syt4) [poarta de SECREȚIE, Qualia v5 §8.1.1] se ÎNMULȚESC, nu se compun; ε nu mișcă s(Syt4) → s(Syt4)⊥ε; a treia pârghie ortogonală = JZL184 (↓MAGL → ↑T_eCB → ↑C_R spre Th_ACK, independent de ambele porți, G-ETK-DG-3). **D4 (§5.6, după poarta I_PSW):** I_PSW (Eq.PSW-2) = calitatea CONSTRUCȚIEI prenatale (scalar dezvoltal, lent) ≠ C_R(t) (Eq.14c) = pulsul de CONFIRMARE moment-cu-moment care poartă L_Q; timescale distincte, a NU se confunda. (C) **COLIZIUNE a_NM REZOLVATĂ prin disambiguizare aterizată** (§3.3.1): ACPS a_NM = atenuare periferie→creier (Eq.5c/5d) ≠ FSSP a_NM = coeficient de rată ODE (dNM, §3.4.1, [S]); notă cross-doc adăugată — **a_NM^att** (ACPS) vs **a_NM^rate** (FSSP); același glif, referenți distincți, fără relație numerică. Simbolul ratificat implicit prin opțiunea A. (D) **Notă marcaj R-13:** ⛔ în HEAD, folosit ca argument-de-clasă în `Q_granita`/`eCB_tonus` → NU propagă [C] fals (licențiază doar predicție (D)/NESTABILIT); rămâne ⛔, nesprijinit mai departe. (E) **Butterfly:** SEED-1 (oglindă ACPS stale) REZOLVAT — baza `ACPS_v14_0-2` furnizată → aterizat pe ea, `FINAL_08-08` NEatins. SEED-2 (`etk_reference_corrector.py` REF-4a/4b = Cochran fabricat OR 2.2/pp.584–596) reconfirmat quarantine: **skill-ul instruiește la A.5 rularea lui — NErulat în această sesiune** (ar inversa OR 2.3→2.2). Livrat: `ACPS_v14_0-3_FAZA4_2026-08-20.docx` (Path B real, PK verificat) — SUPERSEDĂ `ACPS_v14_0-2` ca ACPS canonic. 0 referință nouă. 0 corecție silențioasă.)*
+
+## CXX.1 GUARD Route B λ≡0 — verificat prezent+corect (neatins)
+| Verificare | Constatare | Verdict |
+|---|---|---|
+| Enunț formal în bază | ACPS §4.3.2 l.1255 (λ≡0, E-13) + l.1259 (Route B invariant) | prezent, corect |
+| Termen viu V1aR→eCB (grep 6 module) | 0 ca mecanism stabilit; toate NESTABILIT [E-13] | **λ≡0** |
+| Asimetrie | OXTR→eCB=[C] (Oliet/R-10) · V1aR→eCB=NESTABILIT | păstrată |
+| Parametri noi | niciunul | conform |
+| Lyapunov 5D | amânată (L-Lyap-6) | neschimbat |
+
+## CXX.2 Aterizări FAZA 4 în ACPS (baza canonică `ACPS_v14_0-2`)
+| Ținta | Locație | Aterizat | Marcaj |
+|---|---|---|---|
+| D3 ortogonalitate s(Syt4)⊥ε + JZL184 | §4.3.2 (după Gate 1) | notă explicită | [C] structură |
+| D4 I_PSW≠C_R | §5.6 (după poarta I_PSW) | notă de distincție | [F] |
+| a_NM disambiguizare | §3.3.1 (după def. Eq.5c) | a_NM^att vs a_NM^rate | — |
+- Verificat fizic: `a_NM^att` ✓ · `Orthogonality note (D3)` ✓ · `Distinctness note (D4)` ✓ · GUARD intact ✓ · symbol validator PASS.
+
+## CXX.3 Disciplină de bază (butterfly evitat)
+- Editat pe `ACPS_v14_0-2_C2-specie_2026-08-19` (conține 0.1 a_NM + 0.2 C-2), NU pe `ACPS_v14_FINAL_2026-08-08` (stale). → `ACPS_v14_0-3_FAZA4_2026-08-20` = **noul ACPS canonic**; `FINAL_08-08` = obsolet, a nu se edita.
+
+## CXX.4 Inventar butterfly-seed (§3.7) — stare finală
+| Seed | Artefact | Stare |
+|---|---|---|
+| SEED-1 | oglindă ACPS stale | **REZOLVAT** (baza 0-2 furnizată; aterizat pe ea) |
+| SEED-2 | `etk_reference_corrector.py` REF-4a/4b (Cochran fabricat) | quarantine (skill A.5 îl cere → **NErulat**) |
+
+**ÎNCHISE (această pasă):** **GUARD Route B λ≡0 VERIFICAT** (prezent+corect în ACPS §4.3.2 l.1255/1259; 0 termen viu V1aR→eCB pe 6 module; E-13 quarantine intact; 0 parametri noi; Lyapunov 5D amânată neschimbat); **note explicite D3/D4 ATERIZATE** pe baza canonică (D3 ortogonalitate s(Syt4)⊥ε+JZL184 §4.3.2; D4 I_PSW≠C_R §5.6; verificat fizic + symbol PASS); **coliziune a_NM REZOLVATĂ** (disambiguizare a_NM^att/a_NM^rate aterizată §3.3.1); notă marcaj R-13 (⛔, argument-de-clasă only); **SEED-1 REZOLVAT** (baza furnizată, `FINAL` stale neatins); **FAZA 4 COMPLETĂ → roadmap CXIII (FAZA 0–4) integral executat**; livrat `ACPS_v14_0-3_FAZA4` = ACPS canonic nou.
+
+**ACTIVE:** C-2 (T-C2-1 la nod: Liao Z vs Inada + grep cross-doc) · a_NM (T-aNM-1 la nod: îmbogățire OXTR-CpG, ne-blocant; **coliziune simbolică REZOLVATĂ prin a_NM^att**) · FEP_integ_TVK [S] · G-FEP-1 = puntea geometrică t_KR/FEP ([S/D]; coliziune cu G-UP-1 corpus §280 — ratificare denumire = autorală) · clase-capcană T11/T12/T13 · FSSP ODE a_NM^rate/g_NM [S] + Q_opt · G-ETK-R2/R3 (9 predicții [S]) · L-eCB-PTSD [D] (aterizat fișă) · calibrare T_2AG^ev/T_AEA^ton = pending (nod) · L-eCB-5 „FAAH>MAGL uman" = NEADMIS [S] · ε_total candidat +ε_CB1R [S] · T-eCB-ABX (nod) · adiacență OXTR-metilare Braun/Bock [D] (nod) · **R-13 ⛔ = argument-de-clasă only, nesprijinit mai departe** (nod marcaj) · `etk_reference_corrector.py` REF-4a/4b = valori Cochran fabricate, NU se rulează — **skill A.5 îl cere, quarantine** (nod de igienă) · `ACPS_v14_FINAL_08-08` = obsolet, a nu se edita (canonic = `0-3_FAZA4`) · T1/T4/ancore-cronice = pending la nod.
+
+**Autoritate unică:** acest consolidat, vârf **v3.116 · Partea CXX**. Acoperire **0/I→CXX**. FAZA 4 (GUARD λ≡0 verificat + D3/D4 + a_NM^att aterizate pe baza canonică; roadmap CXIII complet); verificat fizic + symbol PASS; corpus atins (1 fișier: ACPS `0-2`→`0-3`). Erratum humanum est. Zero memorie.
+
+# APPEND — v3.117 (2026-08-20) · Partea CXXI
+
+*Se stivuiește PESTE v3.116 (Partea CXX). Vârf nou. Fără „delta". Adaugă `v3.116` la „AUTORITATEA UNICĂ". **SEED-2 ELIMINAT LA SURSĂ — hard-guard Cochran în skill-ul `etk-docx-surgical-edit`.** Butterfly-seed-ul (corectorul de referințe cu valorile Cochran fabricate OR 2.2/pp.584–596, cu REF-4b care inversa activ OR 2.3→2.2) nu se mai ocolește de fiecare dată: e neutralizat în artefactul-sursă. Verificat la primar în sesiune (PubMed PMID 32330418) + a doua arhitectură = R-43 (CXIX, PMC7212268). Zero memorie.*
+
+## LINIE DE CHANGELOG (sub v3.116)
+*(v3.117: 20 aug — **hard-guard Cochran (SEED-2).** Directivă operator: „suprimă amenințarea la sursă". (A) **Verificare la primar (sesiune):** `get_article_metadata(32330418)` → Cochran JN et al. 2020, *Am J Hum Genet* **106(5):632–645**, PMID 32330418, PMC7212268, DOI 10.1016/j.ajhg.2020.03.010; abstract verbatim „combined analysis odds ratio was **2.3 (95% CI 1.6–3.4) for AD and FTD**"; non-coding 3.7 (1.7–9.4); LoF **3.1 (1.9–5.2) pentru AD+FTD+ALS** (cohortă mai largă, NU AD+FTD). Fabricatele OR 2.2 / pp.584–596 / DOI …03.002 = confirmate FALSE la 2 arhitecturi (PubMed acum + R-43/PMC CXIX). (B) **Corectat `scripts/etk_reference_corrector.py`:** docstring item 4 → valorile verificate + notă „fabricat, a nu se reintroduce"; **REF-4a** țintă → verificat (632–645, OR 2.3, PMID 32330418); **REF-4b INVERSAT** — nu mai împinge OR 2.3→2.2; acum detectează fabricatul „OR=2.2" lângă TET2/Cochran și cere înlocuirea cu OR 2.3 verificat; **REF-4c NOU** — detectează locusul fabricat „584–596" / DOI „…03.002" → 632–645. (C) **Corectat `SKILL.md`:** rândurile REF-4a/4b/4c din tabel la valorile verificate + inversate; banner „⚠ COCHRAN HARD-GUARD" deasupra secțiunii corectorului (fabricatele numite explicit, sursa primară citată). (D) **Test funcțional:** fixture fabricat (OR=2.2, 584-596) → prinde REF-4b + REF-4c (împinge spre OR 2.3/632–645); fixture corect (OR=2.3, 632–645) → **PASS, NU atinge OR 2.3**. Sintaxă `ast.parse` OK. (E) **Livrat ZIP redeployabil:** `etk-docx-surgical-edit_Cochran-hardened_2026-08-20.zip` (12 fișiere, 2 corectate; PK verificat) → Settings → Capabilities. **Executat ≠ Aterizat:** skill-ul viu pe Claude.ai rămâne cel vechi până la redeploy de către operator. 0 referință nouă (R-43 catalogat). 0 corecție silențioasă.)*
+
+## CXXI.1 Amenințarea și neutralizarea
+| Element | Înainte (SEED-2) | După (hard-guard) |
+|---|---|---|
+| REF-4a țintă | Cochran 584–596, OR 2.2 (fabricat) | 632–645, OR 2.3 (1.6–3.4), PMID 32330418 |
+| REF-4b logică | „OR=2.3 lângă TET2" → schimbă în OR 2.2 (**inversat**) | detectează „OR=2.2" fabricat → apără OR 2.3 |
+| REF-4c | — | detectează 584–596 / DOI …03.002 fabricate |
+| SKILL.md tabel | valori fabricate | valori verificate + banner hard-guard |
+| Comportament pe OR 2.3 corect | l-ar fi raportat ca „de corectat" | **PASS — neatins** |
+
+## CXXI.2 Verificare la primar (sesiune, 2 arhitecturi)
+- PubMed `get_article_metadata(32330418)`: 632–645; OR 2.3 (1.6–3.4) AD+FTD verbatim; LoF 3.1 (1.9–5.2) AD+FTD+ALS; PMC7212268; DOI 10.1016/j.ajhg.2020.03.010.
+- A doua arhitectură = R-43 (CXIX: metadata + PMC7212268). Concordă. Fabricatul respins definitiv la sursă.
+
+**ÎNCHISE (această pasă):** **SEED-2 ELIMINAT LA SURSĂ** — `etk_reference_corrector.py` (REF-4a țintă corectată; REF-4b inversat; REF-4c nou) + `SKILL.md` (tabel corectat + banner hard-guard); test funcțional (fabricat→prins, corect→neatins) + sintaxă OK; Cochran reverificat la primar (PMID 32330418, 2 arhitecturi); ZIP redeployabil livrat.
+
+**ACTIVE:** C-2 (T-C2-1 la nod: Liao Z vs Inada + grep) · a_NM (T-aNM-1 la nod; coliziune simbolică rezolvată a_NM^att) · FEP_integ_TVK [S] · G-FEP-1 = puntea t_KR/FEP ([S/D]; coliziune G-UP-1 §280 — ratificare autorală) · clase-capcană T11/T12/T13 · FSSP ODE a_NM^rate/g_NM [S] + Q_opt · G-ETK-R2/R3 (9 predicții [S]) · L-eCB-PTSD [D] · calibrare T_2AG^ev/T_AEA^ton = pending (nod) · L-eCB-5 „FAAH>MAGL uman" = NEADMIS [S] · ε_total candidat +ε_CB1R [S] · T-eCB-ABX (nod) · adiacență OXTR-metilare Braun/Bock [D] (nod) · R-13 ⛔ = argument-de-clasă only (nod marcaj) · **`etk_reference_corrector.py` hard-guard = corectat la sursă + livrat ZIP; se ATERIZEAZĂ după redeploy în Settings → Capabilities** (până atunci skill-ul viu = cel vechi) · `ACPS_v14_FINAL_08-08` = obsolet, a nu se edita (canonic = `0-3_FAZA4`) · T1/T4/ancore-cronice = pending la nod.
+
+**Autoritate unică:** acest consolidat, vârf **v3.117 · Partea CXXI**. Acoperire **0/I→CXXI**. SEED-2 eliminat la sursă (hard-guard Cochran; verificat primar PMID 32330418 + 2 arhitecturi; test funcțional; ZIP livrat). Skill corectat = artefact; aterizare = redeploy operator. Erratum humanum est. Zero memorie.
+
+# APPEND — v3.118 (2026-08-20) · Partea CXXII
+
+*Se stivuiește PESTE v3.117 (Partea CXXI). Vârf nou. Fără „delta". Adaugă `v3.117` la „AUTORITATEA UNICĂ". **Trei directive operator: (1) RASP = strict independent de ansamblul teoretic → butterfly RASP↔Nun ELIMINAT; (2) G-FEP-1 RATIFICAT (coliziune G-UP-1 §280 închisă); (3) flag BioSkepsis VAL3 „NECITIT" = STALE, închis (executat per operator).** Verificat fizic (grep pe tot corpusul + editări confirmate). Zero memorie — construit din ledger live GitHub + disc.*
+
+## LINIE DE CHANGELOG (sub v3.117)
+*(v3.118: 20 aug — **RASP-independență + G-FEP-1 + VAL3.** (A) **RASP STRICT INDEPENDENT DE ANSAMBLU.** Grep pe tot corpusul: RASP menționat în ~34 fișiere; audit al direcției de dependență — corectă peste tot MAI PUȚIN una. Corecte (neatinse): ACPS l.9523 (P18: RASP RCT *testează* predicția „I↓ după ≥6 săpt"), FSSP §3.4 (teoria *așteaptă* endpoint-ul numeric γ_NM din pilotul RASP N=30), RASP_Protocol l.18 („Independent preprint"). **Butterfly REAL prins și ELIMINAT:** `ETK_SUPERPOZITIE_Eval_3Atasamente` l.86 echivala cohorta Nun cu „fenotipul destinului după 7 decenii de RASP continuu — endpointul longitudinal al RASP observat în natură. Argumentul RASP devine empiric" — retrofit al unui dataset observațional ca validare empirică proprie a RASP = circularitate care violează independența strictă. Înlocuit cu breadcrumb anti-reintroducere (nu ștergere silențioasă); restul mențiunilor RASP din fișier (Nun×ADNI, BURON) neatinse (nu privesc RASP). Principiu memorat. (B) **G-FEP-1 RATIFICAT** (decizie autorală „B"). Puntea geometrică t_KR/FEP (DU = octant gol FEP) primește identificator canonic **G-FEP-1**; coliziunea cu **G-UP-1** din corpus (`TheUpstreamMechanism` §280/§284 = predicția de transmitere intergenerațională [D]) = închisă. Fișa `F-FEP-tKR` §0 actualizată: provizoriu→RATIFICAT; „G-UP-1" din CVIII (puntea) se recitește definitiv ca G-FEP-1; corpus G-UP-1 neatins. (C) **FLAG VAL3 STALE ÎNCHIS.** HEAD-ul lista `BioSkepsis_VAL3_Intrebari_2026-07-17.md` ca „singurul .md necitit de nicio instanță" (muncă deschisă). Operatorul confirmă: **executat** (nelogat în ledger → de-aici flag-ul fantomă). Flag închis; fișierul = set de întrebări BioSkepsis pe axa AVP (3 goluri de literatură), rezolvat în sesiune anterioară nelogată. 0 referință nouă. 0 corecție silențioasă.)*
+
+## CXXII.1 RASP — audit de independență (direcția dependenței)
+| Locație | Cuplaj | Direcție | Acțiune |
+|---|---|---|---|
+| ACPS l.9523 | P18: RASP RCT testează „I↓ ≥6 săpt" | teorie←RASP (corect) | neatins |
+| FSSP §3.4 | γ_NM endpoint așteaptă pilotul N=30 | teorie←RASP (corect) | neatins |
+| RASP_Protocol l.18 | „Independent preprint" | — | neatins |
+| **Eval_3Atasamente l.86** | **Nun = „endpoint RASP observat în natură"** | **RASP←observație (circular)** | **ELIMINAT + breadcrumb** |
+
+## CXXII.2 G-FEP-1 — ratificare (coliziune închisă)
+| Identificator | Referent | Sursă |
+|---|---|---|
+| **G-FEP-1** (nou, ratificat) | puntea geometrică t_KR/FEP; DU = octant gol FEP | `F-FEP-tKR` §1 |
+| **G-UP-1** (corpus, neatins) | predicție transmitere intergenerațională [D] | `TheUpstreamMechanism` §280/§284 |
+- „G-UP-1" din CVIII.2 (puntea) se recitește definitiv **G-FEP-1**. Fișa `F-FEP-tKR` §0: provizoriu→RATIFICAT.
+
+**ÎNCHISE (această pasă):** **butterfly RASP↔Nun ELIMINAT** (Eval_3Atasamente l.86; breadcrumb anti-reintroducere; audit direcție confirmă restul cuplajelor RASP corecte/neatinse); **G-FEP-1 RATIFICAT** (coliziune cu G-UP-1 §280 închisă; fișa F-FEP-tKR actualizată; corpus G-UP-1 neatins); **flag VAL3 „NECITIT" ÎNCHIS** (stale — executat per operator, nelogat); principiu RASP-independență memorat.
+
+**ACTIVE:** C-2 (T-C2-1 la nod: Liao Z vs Inada + grep) · a_NM (T-aNM-1 la nod; coliziune simbolică rezolvată a_NM^att) · FEP_integ_TVK [S] · clase-capcană T11/T12/T13 · FSSP ODE a_NM^rate/g_NM [S] + Q_opt · G-ETK-R2/R3 (9 predicții [S]) · L-eCB-PTSD [D] · calibrare T_2AG^ev/T_AEA^ton = pending (nod) · L-eCB-5 „FAAH>MAGL uman" = NEADMIS [S] · ε_total candidat +ε_CB1R [S] · T-eCB-ABX (nod) · adiacență OXTR-metilare Braun/Bock [D] (nod) · R-13 ⛔ = argument-de-clasă only (nod marcaj) · `etk_reference_corrector.py` hard-guard = corectat la sursă + ZIP livrat; se aterizează după redeploy în Settings → Capabilities · `ACPS_v14_FINAL_08-08` = obsolet, a nu se edita (canonic = `0-3_FAZA4`) · T1/T4/ancore-cronice = pending la nod.
+
+**Autoritate unică:** acest consolidat, vârf **v3.118 · Partea CXXII**. Acoperire **0/I→CXXII**. RASP-independență (butterfly Nun eliminat + audit direcție); G-FEP-1 ratificat; VAL3 închis. Verificat fizic; corpus atins (2 fișiere: Eval, F-FEP-tKR). Erratum humanum est. Zero memorie.
+
+
 
 
 
