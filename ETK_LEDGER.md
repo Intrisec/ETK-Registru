@@ -5151,6 +5151,131 @@ FAZA 4: integrare ACPS · GUARD Route B λ≡0 · coerență cross-doc.
 **ACTIVE:** C-2 (executat ACPS; T-C2-1 la nod: Liao vs Inada + grep cross-doc) · a_NM (aterizat ACPS §3.3.1; T-aNM-1 la nod, ne-blocant) · FEP_integ_TVK [S] · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM de rezolvat FAZA 4.3) · G-ETK-R2/R3 (9 predicții [S]) · fișă bistabilitate NP §4.7.2 (Direcția #1) — pending „mergi" + D-3 (nod) · fișă eCB consolidată (Direcția #2) — după F-1+F-4 · L-eCB-2 = partiționare fenotipică + temporală (acut/cronic) + modulatori · ε_total candidat +ε_CB1R [S] · T1/T4/ancore-cronice = pending la nod · **plan CXIII FAZA 0.4–4 de executat la „mergi"** (0.1/0.2/0.3 ✅).
 
 **Autoritate unică:** acest consolidat, vârf **v3.110 · Partea CXIV**. Acoperire **0/I→CXIV**. FAZA 0.3 (Mesman reîncadrat + igienă DOI); verificat primar+fizic; corpus atins minimal (1 fișă). Erratum humanum est. Zero memorie.
+# APPEND — v3.111 (2026-08-19) · Partea CXV
+
+*Se stivuiește PESTE v3.110 (Partea CXIV). Vârf nou. Fără „delta". Adaugă `v3.110` la „AUTORITATEA UNICĂ". **FAZA 0.4 — PF-04457845 (F-1) ÎNCHIS prin a doua arhitectură + aterizare de corpus.** Verdictul CXI („no efficacy in PTSD") era abstract-only (interzis la aterizare, §3.3); completat acum cu PMC full-text → ridicat abstract→[C] + extras primarul. Corpus ATINS: 1 fișă (`RAPORT_SUPERPOZITIE_HARTI_OXT_AVP_eCB`, celula eCB/Med + bloc corecție). Verificare la primar în sesiune (PubMed + PMC). Zero memorie.*
+
+## LINIE DE CHANGELOG (sub v3.110)
+*(v3.111: 19 aug — **FAZA 0.4 PF-04457845 → Phase II NEG, ATERIZAT + verdict ridicat la [C].** (A) **A DOUA ARHITECTURĂ completată** (PMC13219800 full-text peste abstractul CXI, R-VERIF-2): PF-04457845 = redenumit **JZP150** (Jazz Pharmaceuticals ← SpringWorks ← Pfizer); **Phase II RCT PTSD N=282** (0.3/4 mg vs placebo, 12 săpt.) → **endpoint primar CAPS-5 + secundare CGI-S/PGI-S NEATINSE, program DISCONTINUAT.** Verdict abstract→**[C]**. (B) **Nivel de dovadă precizat:** ratarea PTSD e raportată la nivel **comunicat de presă**, consolidată în review peer-reviewed (Couttas 2026) — **NU există RCT PTSD publicat independent** → nota moștenită „secondary citation — primary to be found" se **ÎNCHIDE** (primarul peer-reviewed nu e de găsit, nu există). (C) **Raționament mecanistic conservat, marcat NECLINIC:** plasarea inițială pe axa eCB venea din voluntari sănătoși (EudraCT 2016-005013-47: ↑AEA ~10×, recall potențat al extincției fricii, reactivitate autonomă atenuată) — semnalul care a motivat trialul de pacienți ce a eșuat apoi. (D) **Reîncadrare precizie-medicină [D]** (din Discussion Couttas): candidat POSIBIL doar sub stratificare **FAAH C385A** (rs324420; C/C = FAAH activ↑, AEA bazal↓ → beneficiu potențial), NU în PTSD nestratificat. (E) **ATERIZAT fizic** în `RAPORT_SUPERPOZITIE...` (unica apariție în tot corpusul — poartă globală curată, grep pe toate fișierele): celula l.441 marcată `⛔[F-1]` + bloc corecție post-tabel; grep-verificat. (F) **R-115 Couttas înregistrat** (gol de catalogare: CXI zisese „deja în corpus eCB" dar lipsea din tabelul proiectat). (G) **NOD NOU semnalat (neaterizat):** ABX-1431 (Lu-AG06466, celula eCB/Far) a ratat și el endpoint primar Phase II Tourette (full-text Couttas) → T-eCB-ABX, de reverificat separat. 0 corecție silențioasă.)*
+
+## CXV.1 FAZA 0.4 — PF-04457845 aterizat (RAPORT_SUPERPOZITIE, axa eCB/Med)
+| Aspect | Stare CXI (abstract-only) | Constatare CXV (a doua arhitectură, full-text) |
+|---|---|---|
+| Arhitecturi | 1 (PubMed abstract) | **2** (PubMed metadata + PMC full-text) → marcaj **[C]** |
+| Primar PTSD | „no efficacy" (abstract) | JZP150, RCT N=282, CAPS-5 + CGI-S/PGI-S ratate, **discontinuat** |
+| Nivel dovadă | neprecizat | **comunicat de presă** consolidat în review; RCT publicat independent = inexistent |
+| Nota „primar de găsit" | deschisă | **ÎNCHISĂ** (nu există RCT peer-reviewed de găsit) |
+| Corpus | necaracterizat | 1 apariție (RAPORT_SUPERPOZITIE l.441) → **aterizat** (`⛔[F-1]` + bloc) |
+
+## CXV.2 Verificare la primar (sesiune)
+- `get_article_metadata(42209468)` → Couttas TA et al. 2026, *Transl Psychiatry* 16(1), PMC13219800, DOI 10.1038/s41398-026-04120-4. Candidatul (venit din memorie) **rezolvă corect** la primar → acceptat.
+- `get_full_text_article(PMC13219800)` → secțiunea „PF-04457845" confirmă în corp: JZP150, N=282, CAPS-5 + secundare ratate, discontinuat (press release); + semnalul pozitiv anterior pe voluntari sănătoși (EudraCT 2016-005013-47); + reîncadrarea C385A din Discussion.
+
+## CXV.3 Referință nouă (verificată la primar, 2 arhitecturi)
+| ID | Referință | PMID | Verdict |
+|----|-----------|------|---------|
+| **R-115** | Couttas TA, Hoffmann AE, …, Rohleder C (2026), *Transl Psychiatry* 16(1), PMC13219800, DOI 10.1038/s41398-026-04120-4 (review) | 42209468 | (C) FAAH-i clinic; PF-04457845(=JZP150) Phase II PTSD NEG (N=282, CAPS-5 ratat, discontinuat); ratare la nivel comunicat de presă |
+
+**ÎNCHISE (această pasă):** **F-1 PF-04457845 — ÎNCHIS** (a doua arhitectură PMC completată → abstract→[C]; primar JZP150/N=282/CAPS-5+secundare ratate/discontinuat extras; nota „primar de găsit" închisă — RCT publicat inexistent; aterizat fizic RAPORT_SUPERPOZITIE l.441 + grep; **R-115 Couttas înregistrat**); FAZA 0.4 executată.
+
+**ACTIVE:** C-2 (executat ACPS; T-C2-1 la nod: Liao vs Inada + grep cross-doc) · a_NM (aterizat ACPS §3.3.1; T-aNM-1 la nod, ne-blocant) · FEP_integ_TVK [S] · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM de rezolvat FAZA 4.3) · G-ETK-R2/R3 (9 predicții [S]) · fișă bistabilitate NP §4.7.2 (Direcția #1) — pending „mergi" + D-3 (nod) · fișă eCB consolidată (Direcția #2) — acum gated DOAR pe F-4 (Demaili, FAZA 0.5) · L-eCB-2 = partiționare fenotipică + temporală (acut/cronic) + modulatori · ε_total candidat +ε_CB1R [S] · T-eCB-ABX (ABX-1431 Phase II Tourette miss — nod nou, de reverificat) · T1/T4/ancore-cronice = pending la nod · **plan CXIII FAZA 0.5–4 de executat la „mergi"** (0.1/0.2/0.3/0.4 ✅).
+
+**Autoritate unică:** acest consolidat, vârf **v3.111 · Partea CXV**. Acoperire **0/I→CXV**. FAZA 0.4 (PF-04457845 a doua arhitectură + aterizare corpus + R-115); verificat primar+fizic; corpus atins minimal (1 fișă). Erratum humanum est. Zero memorie.
+# APPEND — v3.112 (2026-08-19) · Partea CXVI
+
+*Se stivuiește PESTE v3.111 (Partea CXV). Vârf nou. Fără „delta". Adaugă `v3.111` la „AUTORITATEA UNICĂ". **FAZA 0.5 — Demaili/L-eCB-5: REÎNCADRARE + blocare la primar pe 2 arhitecturi (F-4 ÎNCHIS DEFINITIV).** Ca la 0.3 (Mesman), ținta din plan („Demaili scos din L-eCB-5") presupunea o locație de corpus inexistentă: grep pe tot corpusul = 0 „L-eCB-5", 0 „Demaili", 0 „36909279", 0 „FAAH>MAGL". L-eCB-5 a fost o ancoră PROPUSĂ de Kimi R6 (CXII #2), prinsă ca misatribuire în CXI (F-4) ÎNAINTE de a ateriza. Deci: **zero editare de corpus**; acțiune pur de Registru. Verificare la primar în sesiune (PubMed metadata + PMC full-text). Zero memorie.*
+
+## LINIE DE CHANGELOG (sub v3.111)
+*(v3.112: 19 aug — **FAZA 0.5 Demaili — F-4 ÎNCHIS pe 2 arhitecturi; FAZA 0 COMPLETĂ.** (A) **A DOUA ARHITECTURĂ completată** (PMC9992175 full-text peste abstractul CXI, R-VERIF-2): Demaili 2023 = șobolani Sprague-Dawley **femele adulte**, **mPFC**; se studiază expresia + metilarea ADN (pirosecvențiere, CpG-specific) a **CB1R și FAAH**. (B) **DUBLA EROARE a atribuirii Kimi confirmată definitiv:** (i) specie = șobolan, nu uman; (ii) **MAGL apare o SINGURĂ dată, în Introducere, ca fundal — NU e măsurat, NU e comparat** → „FAAH>MAGL" categoric absent din lucrare. Claim-ul „FAAH>MAGL uman în stres cronic" (L-eCB-5) rămâne **fără ancoră primară umană → NEADMIS în corpus, [S]/withheld.** (C) **R-113 BLOCAT** ca ancoră a axei ELS→metilare→eCB (ε(m)/Window II): direcție = ELS↑CB1R (single) + FAAH↑ doar la FS adolescent; metilare↓ paralelă cu expresie↑ (corelație negativă); ELS = **buffering/(re)programare** two-hit care SUPRIMĂ răspunsul la al doilea stresor (NU amplificare monotonă — nuanță de conservat, ca ETK să nu simplifice „ELS→disreglare eCB" liniar). (D) **Adiacență [D] semnalată (nu aterizată):** același grup (Braun/Bock) raportează în lucrări anterioare pe șoareci efect de AMPLIFICARE ELS pe OXTR hipocampal → referință încrucișată pentru axa OXTR-metilare ETK; + Demaili citează o corelație CB1R-FAAH pozitivă și în PFC uman post-mortem (secundar — NU primar uman, a NU se cita ca atare). (E) **F-4 ÎNCHIS** → precondiția F-1+F-4 pentru fișa eCB consolidată (Direcția #2) e satisfăcută integral → DEBLOCATĂ. (F) **FAZA 0 COMPLETĂ** (0.1 a_NM · 0.2 C-2 · 0.3 Mesman · 0.4 PF-04457845 · 0.5 Demaili). Ținta 0.5 din planul CXIII auto-corectată (ca 0.3). 0 referință nouă (R-113 deja catalogat; re-emis cu lock full-text). 0 corecție silențioasă.)*
+
+## CXVI.1 Reîncadrarea țintei 0.5 (L-eCB-5)
+| Aspect | Țintă plan CXIII | Constatare la verificare (canonic) |
+|---|---|---|
+| Locație corpus | „Demaili scos din L-eCB-5" | L-eCB-5 **inexistent în corpus** (grep = 0) → nimic de șters |
+| Origine L-eCB-5 | (presupus în corpus) | ancoră PROPUSĂ de Kimi R6 (CXII #2), prinsă F-4 înainte de aterizare |
+| Claim „FAAH>MAGL uman" | (de reancorat) | **fără primar uman → NEADMIS, [S]/withheld** |
+| Demaili (R-113) | mutat | **blocat** pe axa ε(m)/Window II (ELS→metilare→CB1R/FAAH; șobolan femel) |
+| Acțiune | editare corpus | **pur Registru** (0 fișiere atinse) |
+
+## CXVI.2 Verificare la primar (sesiune, 2 arhitecturi)
+- `get_article_metadata(36909279)` + `get_full_text_article(PMC9992175)` → Demaili A, Portugalov A, Dudai M, Maroun M, Akirav I, Braun K, Bock J (2023), *Front Cell Neurosci* 17:1129946, DOI 10.3389/fncel.2023.1129946.
+- Full-text: CB1R + FAAH (nu MAGL), mPFC, femele adulte; metilare CpG-specific negativ corelată cu expresia; ELS = buffering two-hit. Confirmă R-113 și exclude „FAAH>MAGL".
+
+## CXVI.3 Referință blocată (re-emisă cu lock full-text)
+| ID | Referință | PMID | Verdict |
+|----|-----------|------|---------|
+| **R-113** | Demaili A, …, Braun K, Bock J (2023), *Front Cell Neurosci* 17:1129946, PMC9992175, DOI 10.3389/fncel.2023.1129946 | 36909279 | (D) specie=șobolan-femel; ELS→metilare→CB1R/FAAH mPFC, CpG-specific, buffering two-hit — ancoră ε(m)/Window II; **MAGL NEstudiat → NU susține „FAAH>MAGL"**; 2 arhitecturi |
+
+**ÎNCHISE (această pasă):** **F-4 Demaili — ÎNCHIS DEFINITIV** (a doua arhitectură PMC completată; dubla eroare specie+MAGL confirmată; R-113 blocat pe ε(m)/Window II; L-eCB-5/„FAAH>MAGL uman" NEADMIS [S]/withheld; ținta 0.5 auto-corectată; 0 editare corpus); **FAZA 0 COMPLETĂ (0.1–0.5 ✅)**; precondiția fișei eCB consolidate (Direcția #2) satisfăcută → DEBLOCATĂ.
+
+**ACTIVE:** C-2 (executat ACPS; T-C2-1 la nod: Liao vs Inada + grep cross-doc) · a_NM (aterizat ACPS §3.3.1; T-aNM-1 la nod, ne-blocant) · FEP_integ_TVK [S] · eCB_tonus_Modul_v1 (R-41; „mergi") · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM de rezolvat FAZA 4.3) · G-ETK-R2/R3 (9 predicții [S]) · fișă bistabilitate NP §4.7.2 (Direcția #1) — pending „mergi" + D-3 (nod) · fișă eCB consolidată (Direcția #2) — DEBLOCATĂ (F-1+F-4 aplicate), queued FAZA 3 · L-eCB-2 = partiționare fenotipică + temporală (acut/cronic) + modulatori · L-eCB-5 „FAAH>MAGL uman" = NEADMIS [S] (fără primar uman) · ε_total candidat +ε_CB1R [S] · T-eCB-ABX (ABX-1431 Phase II Tourette miss — nod nou) · adiacență OXTR-metilare Braun/Bock [D] (nod, neaterizat) · T1/T4/ancore-cronice = pending la nod · **plan CXIII FAZA 1–4 de executat la „mergi"** (FAZA 0 COMPLETĂ: 0.1–0.5 ✅).
+
+**Autoritate unică:** acest consolidat, vârf **v3.112 · Partea CXVI**. Acoperire **0/I→CXVI**. FAZA 0.5 (Demaili reîncadrat + 2-arch lock R-113; F-4 închis; FAZA 0 completă); verificat primar; corpus neatins (0 fișiere). Erratum humanum est. Zero memorie.
+# APPEND — v3.113 (2026-08-19) · Partea CXVII
+
+*Se stivuiește PESTE v3.112 (Partea CXVI). Vârf nou. Fără „delta". Adaugă `v3.112` la „AUTORITATEA UNICĂ". **FAZA 1 — axa eCB: split 2-AG/AEA ATERIZAT + coliziunea de etichetă L-eCB-2 REZOLVATĂ prin disambiguizare.** Corpus ATINS: 1 fișă (`eCB_tonus_Modul_v1`, L-eCB-1 + L-eCB-2). Verificare la primar în sesiune (PubMed, 3 PMID). Zero memorie.*
+
+## LINIE DE CHANGELOG (sub v3.112)
+*(v3.113: 19 aug — **FAZA 1 axa eCB.** (A) **SPLIT 2-AG/AEA aterizat în `eCB_tonus_Modul_v1` L-eCB-1.** Ancoră Di, Popescu, Tasker 2013 (24227742) [R-41], verificat la primar: „Evoked, but not tonic… mediated by 2-AG… tonic… likely mediated by anandamide, insensitive to astrocytic buffering." Arhitectură corectă pe magnocelulare OXT ȘI AVP: **EVOCAT/fazic = 2-AG** (depolarizare+glucocorticoizi; ținit la glutamat de astrocite/sink MAGL; revărsare pe GABA doar sub buffering glial redus) vs **TONIC/de fond = AEA** (sinapse GABA; FAAH; NEGARDAT). **Corecție de conflaționare:** T_eCB modelat acum (Eq.14c/PVN-parv/VTA — NEinversate, per verificarea anterioară) surprinde de fapt 2-AG EVOCAT; stratul TONIC-AEA e variabilă DISTINCTĂ, de adăugat la cuplajul mature (T_2AG^ev vs T_AEA^ton). „Tonus" din nume = misnomer. **Marcaj (D) single-lab** (jumătatea tonic-AEA susținută independent, Piomelli). **Protecție E-13:** finding-ul disociației (evocat=depolarizare+glucocorticoizi) e DISTINCT de claim-ul E-13 falsificat (AVP→V1aR→2-AG) — aceeași lucrare, finding diferit; nu se reintroduce E-13. (B) **COLIZIUNE L-eCB-2 rezolvată.** Jurnalul (l.3187) confirmă: corpus L-eCB-2 = „variație sex/ontogenetică CB1" (receptor, structural); Registrul reutilizase „L-eCB-2" pentru partiționarea eCB-PTSD (ligand, clinic) — cantitate DIFERITĂ (coliziune ca a_NM). Rezolvat prin **disambiguizare**: corpus L-eCB-2 rămâne CB1-densitate; referentul clinic redenumit **L-eCB-PTSD**, aterizează în fișa eCB consolidată (Direcția #2), NU în modul. Rezumat verificat la primar (2 arhitecturi, deja full-text în CXI/CXII): axă **acut/cronic × (sex, minoritate/etnie, genotip rs324420)** [D] — acut/peritraumatic AEA↑→risc (deRoon-Cassini 2022, 35105857, eșantion integral 70% bărbați, NU femei-specific) vs cronic AEA↓ la bărbați (Rajasekera 2025, 40967565; femei=inflamator IL-6/IL-8). (C) Flag „eCB_tonus_Modul_v1 (R-41; mergi)" → REZOLVAT (split aterizat, modul recitit). 0 referință nouă (R-41/R-111/R-112 catalogate; R-41 re-emis cu status (D) + notă split). 0 corecție silențioasă.)*
+
+## CXVII.1 FAZA 1 — aterizări corpus (`eCB_tonus_Modul_v1`)
+| Ținta | Aterizat | Marcaj |
+|---|---|---|
+| Split 2-AG/AEA (L-eCB-1) | EVOCAT=2-AG(gardat MAGL) / TONIC=AEA(negardat), OXT+VP | (D) single-lab [R-41] |
+| Conflaționare T_eCB | T_eCB≈2-AG evocat; TONIC-AEA = variabilă distinctă (T_2AG^ev/T_AEA^ton) | (D) |
+| Coliziune L-eCB-2 | disambiguizat: corpus=CB1-densitate; clinic→L-eCB-PTSD (Direcția #2) | — |
+| Partiționare eCB-PTSD | acut/cronic × (sex, minoritate, genotip) | [D] |
+
+## CXVII.2 Verificare la primar (sesiune)
+- `get_article_metadata([24227742, 35105857, 40967565])` → toate rezolvă corect (Di/Tasker 2013 *J Neurosci* 33(46):18331 DOI 10.1523/JNEUROSCI.2971-12.2013; deRoon-Cassini 2022 *Transl Psychiatry* 12:48 DOI 10.1038/s41398-022-01808-1; Rajasekera 2025 *PNPBP* 142:111501 DOI 10.1016/j.pnpbp.2025.111501).
+- Di 2013 abstract confirmă disociația verbatim + evocarea prin depolarizare/glucocorticoizi (nu V1aR → E-13 neatins). deRoon-Cassini/Rajasekera confirmă axa temporal×modulatori (full-text deja în CXI/CXII).
+
+## CXVII.3 Referință re-emisă (status actualizat)
+| ID | Referință | PMID | Verdict |
+|----|-----------|------|---------|
+| **R-41** | Di S, Popescu IR, Tasker JG (2013), *J Neurosci* 33(46):18331, PMC3828473, DOI 10.1523/JNEUROSCI.2971-12.2013 | 24227742 | (D) disociere evocat-2-AG(gardat MAGL)/tonic-AEA(negardat), OXT+VP magnocelular; single-lab (tonic-AEA + Piomelli); split aterizat eCB_tonus L-eCB-1 |
+
+**ÎNCHISE (această pasă):** **FAZA 1 aterizată** — split 2-AG/AEA în `eCB_tonus_Modul_v1` L-eCB-1 (evocat=2-AG gardat / tonic=AEA negardat; T_eCB≈2-AG evocat; (D) single-lab; E-13 protejat); **coliziune L-eCB-2 rezolvată** prin disambiguizare (corpus=CB1-densitate; clinic→L-eCB-PTSD/Direcția #2); partiționare eCB-PTSD verificată la primar (acut/cronic × sex/minoritate/genotip); flag „eCB_tonus_Modul_v1 R-41 mergi" ÎNCHIS; R-41 re-emis (D).
+
+**ACTIVE:** C-2 (executat ACPS; T-C2-1 la nod: Liao vs Inada + grep cross-doc) · a_NM (aterizat ACPS §3.3.1; T-aNM-1 la nod, ne-blocant) · FEP_integ_TVK [S] · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM de rezolvat FAZA 4.3) · G-ETK-R2/R3 (9 predicții [S]) · fișă bistabilitate NP §4.7.2 (Direcția #1) — pending „mergi" + D-3 (nod) · fișă eCB consolidată (Direcția #2) — DEBLOCATĂ, queued FAZA 3 (găzduiește L-eCB-PTSD) · L-eCB-PTSD = acut/cronic × (sex, minoritate, genotip) [D] · calibrare numerică T_2AG^ev / T_AEA^ton = pending (nod) · ε_total candidat +ε_CB1R [S] · T-eCB-ABX (ABX-1431 Phase II Tourette miss — nod) · adiacență OXTR-metilare Braun/Bock [D] (nod) · T1/T4/ancore-cronice = pending la nod · **plan CXIII FAZA 2–4 de executat la „mergi"** (FAZA 0 completă 0.1–0.5 ✅ / FAZA 1 aterizată ✅).
+
+**Autoritate unică:** acest consolidat, vârf **v3.113 · Partea CXVII**. Acoperire **0/I→CXVII**. FAZA 1 (split 2-AG/AEA + coliziune L-eCB-2); verificat primar+fizic; corpus atins (1 fișă). Erratum humanum est. Zero memorie.
+# APPEND — v3.114 (2026-08-19) · Partea CXVIII
+
+*Se stivuiește PESTE v3.113 (Partea CXVII). Vârf nou. Fără „delta". Adaugă `v3.113` la „AUTORITATEA UNICĂ". **FAZA 2 — derivabilele CVII (D1–D6).** Constatare de superpoziție: D1–D4 sunt DEJA în corpus (ACPS_v14, datat 8 aug, precede rundele Kimi CVI/CVII din 17 aug); D2 OXT≠trust deja în F-MSC-001. Deci FAZA 2 = confirmare + un singur numeric genuin nou (D5, REPRODUS) + o notă de sinteză (D6). Corpus ATINS: 1 fișă (FSSP §3.4.1, D5). ACPS NEatins (disciplină de versiune — vezi CXVIII.3). Verificare la primar (Nave 2015) + reproducere cod (Q_target). Zero memorie.*
+
+## LINIE DE CHANGELOG (sub v3.113)
+*(v3.114: 19 aug — **FAZA 2 D1–D6.** (A) **D5 REPRODUS + ATERIZAT.** Q_target(W34) recalculat prin rulare (§3.4, nu crezut din raport): formula Eq.4 cu parametrii Hill calibrați (S2:1.00/18/3.0, S3:1.00/26/3.5, S4:0.85/30/2.5, S5:0.70/32/2.0), Θ=1, ε=σ=0 → S2(34)=0.8708, S3(34)=0.7189, S4(34)=0.4910, S5(34)=0.3712 → **Q_target(W34)=0.6629≈0.663** (MATCH cu CVII; CVI 0.64 greșit cu +0.023). Sanity: S2(40)=0.917, S3(40)=0.819 reproduse exact. Aterizat în FSSP §3.4.1 reziduul (i), marcaj [D]. (B) **D1/D3/D4 CONFIRMATE deja prezente în ACPS_v14** (Eq.14c, l.1285–1291): T_eCB(node) câmp scalar transversal + glial guard ∂/∂MAGL<0 [D1]; Γ_OXTR=[e^(−κε)·s(Syt4)]·ρ = produs de porți INDEPENDENTE → ortogonalitate s(Syt4)⊥ε [D3]; JZL184↑T_eCB↑C_R (=G-ETK-DG-3) [D3]; I_PSW (Eq.PSW-2) vs C_R (Eq.14c) = cantități distincte [D4]. Nu se re-inseră (ar dubla). (C) **D2 CONFIRMAT deja prezent:** OXT≠trust în F-MSC-001 (l.12/63/99, „infirmat"); mecanismul (Th_ACK=prag FIX, OXT↑C_R via Γ_OXTR *către* prag) în ACPS_v14 Eq.14b/14c. Ancoră verificată la primar: **Nave/Camerer/McCullough 2015, PMID 26581735** (Perspect Psychol Sci 10(6):772, review: dovezile NU susțin robust trust↔OXT) [R-116]. (D) **D6 = notă de sinteză** (front-matter): „6+1 straturi FSSP (Hill)" (S0a/S0b/S1 poartă + S2–S5 construcție) sunt DISTINCTE de „8 coeficienți ODE" (α_NP,γ_NP,α_Q,γ_Q,α_NM,γ_NM,α_Pc,Σ_load) — CVI „8 straturi cu τ" era conflaționare; corectat CVII, ratificat aici. (E) **DISCIPLINĂ DE VERSIUNE:** notele explicite D3/D4 în ACPS se AMÂNĂ la FAZA 4 (integrare ACPS) — proiectul are `ACPS_v14_FINAL_2026-08-08`, dar CXIII a livrat `ACPS_v14_0-2` (cu 0.1 a_NM+0.2 C-2); editarea celei vechi ar regresa acele aterizări (butterfly). 1 referință nouă (R-116 Nave). 0 corecție silențioasă.)*
+
+## CXVIII.1 Stare D1–D6 (verificat la sursă + disk)
+| D | Canonic CVII | Stare corpus | Acțiune CXVIII |
+|---|---|---|---|
+| D1 | T_eCB câmp scalar transversal | DEJA în ACPS_v14 Eq.14c + glial guard; eCB_tonus L-eCB-1 | confirmat |
+| D2 | Th_ACK fix; OXT↑C_R (≠trust) | DEJA F-MSC-001 (OXT≠trust) + ACPS_v14 (mecanism) | confirmat + Nave primar |
+| D3 | s(Syt4)⊥ε [C]; JZL184↑C_R via T_eCB | DEJA implicit în Eq.14c (produs de porți) | confirmat; notă explicită → FAZA 4 |
+| D4 | I_PSW(construcție)≠C_R(confirmare) | DEJA distincte (Eq.PSW-2 vs Eq.14c) | confirmat; notă explicită → FAZA 4 |
+| D5 | Q_target(W34)=0.663 | absent ca valoare etichetată | **REPRODUS + ATERIZAT** FSSP §3.4.1 [D] |
+| D6 | 6+1 straturi FSSP + 8 coef. ODE (distincte) | — | notă de sinteză (aici) |
+
+## CXVIII.2 Reproducere numerică D5 (§3.4)
+- Rulat `repro_qtarget_w34.py`: Q_target(34)=0.6629 (Θ=1,ε=σ=0), Q_target(40)=0.7324. S_k(40) reproduse = 0.917/0.819 (coincid cu doc). CVII 0.663 CONFIRMAT; CVI 0.64 = eroare +0.023.
+
+## CXVIII.3 Disciplină de versiune ACPS (butterfly evitat)
+- ACPS țintă pentru note explicite D3/D4 = versiunea cu 0.1 a_NM + 0.2 C-2 (livrată CXIII: `ACPS_v14_0-2_C2-specie_2026-08-19`), NU `ACPS_v14_FINAL_2026-08-08` din proiect. Ca să nu regresez 0.1/0.2, notele explicite se aterizează la FAZA 4 (integrare ACPS), pe versiunea corectă confirmată pe disk.
+
+## CXVIII.4 Referință nouă (verificată la primar)
+| ID | Referință | PMID | Verdict |
+|----|-----------|------|---------|
+| **R-116** | Nave G, Camerer C, McCullough M (2015), *Perspect Psychol Sci* 10(6):772–789, DOI 10.1177/1745691615600138 | 26581735 | (C) review critic: dovezile NU susțin robust trust↔OXT — ancoră D2 (OXT≠trust) |
+
+**ÎNCHISE (această pasă):** **FAZA 2 executată** — D5 reprodus (Q_target(W34)=0.663, rulare cod) + aterizat FSSP §3.4.1; D1/D2/D3/D4 confirmate deja prezente în corpus (ACPS_v14/F-MSC-001); D6 notă de sinteză (6+1 straturi ≠ 8 coeficienți); R-116 Nave înregistrat; note explicite D3/D4 în ACPS amânate la FAZA 4 (disciplină de versiune).
+
+**ACTIVE:** C-2 (executat ACPS; T-C2-1 la nod: Liao vs Inada + grep cross-doc) · a_NM (aterizat ACPS §3.3.1; T-aNM-1 la nod) · FEP_integ_TVK [S] · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM de rezolvat FAZA 4.3) · G-ETK-R2/R3 (9 predicții [S]) · fișă bistabilitate NP §4.7.2 (Direcția #1) — pending „mergi" + D-3 (nod) · fișă eCB consolidată (Direcția #2) — DEBLOCATĂ, queued FAZA 3 (găzduiește L-eCB-PTSD) · L-eCB-PTSD = acut/cronic × (sex, minoritate, genotip) [D] · calibrare T_2AG^ev/T_AEA^ton = pending (nod) · note explicite D3/D4 în ACPS = queued FAZA 4 · ε_total candidat +ε_CB1R [S] · T-eCB-ABX (nod) · adiacență OXTR-metilare Braun/Bock [D] (nod) · T1/T4/ancore-cronice = pending la nod · **plan CXIII FAZA 3–4 de executat la „mergi"** (FAZA 0 completă 0.1–0.5 ✅ / FAZA 1 ✅ / FAZA 2 ✅).
+
+**Autoritate unică:** acest consolidat, vârf **v3.114 · Partea CXVIII**. Acoperire **0/I→CXVIII**. FAZA 2 (D1–D6: D5 reprodus+aterizat, D1–D4 confirmate, D6 sinteză, R-116); verificat primar+cod+fizic; corpus atins (1 fișă FSSP). Erratum humanum est. Zero memorie.
+
+
+
 
 
 
