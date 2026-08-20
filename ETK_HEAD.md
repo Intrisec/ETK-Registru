@@ -1,9 +1,9 @@
 # ETK — HEAD (stare curentă)
 **Proiecție a jurnalului · reconstruit 2026-08-20 · NU se editează de mână**
 
-> **Vârf:** v3.115 · Partea CXIX (2026-08-20)  
+> **Vârf:** v3.118 · Partea CXXII (2026-08-20)  
 > **Sursă:** `ETK_LEDGER.md`  
-> **STARE:** Acoperire **0/I → Partea CXIX** (v3.115) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-20  
+> **STARE:** Acoperire **0/I → Partea CXXII** (v3.118) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-20  
 > **Regulă:** HEAD = artefact de build ȘI autoritatea de stare (LXXXIV). INDEX-ul de mai jos e REGENERAT din markerii `# APPEND` — nu-l citi din jurnal (acolo e înghețat). Orice schimbare aterizează întâi în jurnal (append + grep), apoi se re-rulează `etk_project_head.py`.
 > **📤 PROCEDURĂ UPLOAD (regulă vie, imună la `-N`):** la finalul sesiunii operatorul urcă **DOAR 2 fișiere** — jurnalul nou `ETK_LEDGER_v3_XX_<stamp>.md` + `ETK_HEAD.md` — și **șterge jurnalul precedent** (ca să nu se adune). Tooling-ul (`etk_ledger_commit.py` + `etk_project_head*.py`) se urcă **o singură dată**. Append-urile **NU se urcă** (commit-ul le pliază). **Interfața poate adăuga sufixe `-N` la upload — E INOFENSIV:** pipeline-ul e imun (commit-ul alege automat jurnalul cel mai recent + proiectorul cel mai capabil, indiferent de `-N`). **Nu redenumi nimic** — singurul gest de igienă e ștergerea jurnalului vechi.
 
@@ -12,9 +12,6 @@
 ## 🗺 INDEX PĂRȚI — regenerat, viu (12 părți-append)
 *Era append XLV→vârf, proiectată din jurnal la fiecare build (O1, fix M-2/M-3). ERA I (0–XLIV) = pliată/înghețată.*
 
-- **v3.104 · Partea CVIII** (2026-08-18) — CVIII.1 R-43 COCHRAN — DEBLOCAT (verificat de 2× independent)
-- **v3.105 · Partea CIX** (2026-08-18) — CIX.1 Validare — provenanță + metodă
-- **v3.106 · Partea CX** (2026-08-18) — CX.1 Noua ordine (canonică) — GitHub-first
 - **v3.107 · Partea CXI** (2026-08-18) — CXI.1 Reproducere numerică (nod CRITICAL)
 - **v3.108 · Partea CXII** (2026-08-18) — CXII.1 Verdict Kimi R6
 - **v3.109 · Partea CXIII** (2026-08-19) — CXIII.1 Plan de execuție (roadmap FAZA 0–4)
@@ -24,29 +21,31 @@
 - **v3.113 · Partea CXVII** (2026-08-19) — CXVII.1 FAZA 1 — aterizări corpus (`eCB_tonus_Modul_v1`)
 - **v3.114 · Partea CXVIII** (2026-08-19) — CXVIII.1 Stare D1–D6 (verificat la sursă + disk)
 - **v3.115 · Partea CXIX** (2026-08-20) — CXIX.1 Cele 4 direcții FAZA 3 — stare
+- **v3.116 · Partea CXX** (2026-08-20) — CXX.1 GUARD Route B λ≡0 — verificat prezent+corect (neatins)
+- **v3.117 · Partea CXXI** (2026-08-20) — CXXI.1 Amenințarea și neutralizarea
+- **v3.118 · Partea CXXII** (2026-08-20) — CXXII.1 RASP — audit de independență (direcția dependenței)
 
 ---
 
-## ⚠ ERORI / FLAG-URI ACTIVE (17)
+## ⚠ ERORI / FLAG-URI ACTIVE (16)
 *Doar cele deschise. Cele închise trăiesc în jurnal.*
 
-- C-2 (T-C2-1 la nod: Liao vs Inada + grep)
-- a_NM (T-aNM-1 la nod)
+- C-2 (T-C2-1 la nod: Liao Z vs Inada + grep)
+- a_NM (T-aNM-1 la nod; coliziune simbolică rezolvată a_NM^att)
 - FEP_integ_TVK [S]
-- G-FEP-1 = puntea geometrică t_KR/FEP ([S/D]; coliziune cu G-UP-1 corpus §280 — ratificare denumire = autorală)
 - clase-capcană T11/T12/T13
-- FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM FAZA 4.3)
+- FSSP ODE a_NM^rate/g_NM [S] + Q_opt
 - G-ETK-R2/R3 (9 predicții [S])
-- L-eCB-PTSD [D] (aterizat fișă)
+- L-eCB-PTSD [D]
 - calibrare T_2AG^ev/T_AEA^ton = pending (nod)
 - L-eCB-5 „FAAH>MAGL uman" = NEADMIS [S]
-- note explicite D3/D4 în ACPS = queued FAZA 4
 - ε_total candidat +ε_CB1R [S]
 - T-eCB-ABX (nod)
 - adiacență OXTR-metilare Braun/Bock [D] (nod)
-- etk_reference_corrector.py REF-4a/4b = valori Cochran fabricate, NU se rulează (nod de igienă)
-- T1/T4/ancore-cronice = pending la nod
-- plan CXIII FAZA 4 de executat la „mergi" (FAZA 0–3 COMPLETE ✅).
+- R-13 ⛔ = argument-de-clasă only (nod marcaj)
+- etk_reference_corrector.py hard-guard = corectat la sursă + ZIP livrat; se aterizează după redeploy în Settings → Capabilities
+- ACPS_v14_FINAL_08-08 = obsolet, a nu se edita (canonic = 0-3_FAZA4)
+- T1/T4/ancore-cronice = pending la nod.
 
 _Erori închise (în jurnal, nu aici): ~0._
 
@@ -172,4 +171,4 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-116 | Nave G, Camerer C, McCullough M (2015), *Perspect Psychol Sci* 10(6):772–789, DOI 10.1177/1745691615600138 | 26581735 | (C) |
 
 ---
-*Generat de etk_project_head.py din ETK_LEDGER.md. 83 referințe · 17 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
+*Generat de etk_project_head.py din ETK_LEDGER.md. 83 referințe · 16 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
