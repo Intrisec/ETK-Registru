@@ -1,9 +1,9 @@
 # ETK — HEAD (stare curentă)
 **Proiecție a jurnalului · reconstruit 2026-08-20 · NU se editează de mână**
 
-> **Vârf:** v3.114 · Partea CXVIII (2026-08-19)  
+> **Vârf:** v3.115 · Partea CXIX (2026-08-20)  
 > **Sursă:** `ETK_LEDGER.md`  
-> **STARE:** Acoperire **0/I → Partea CXVIII** (v3.114) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-20  
+> **STARE:** Acoperire **0/I → Partea CXIX** (v3.115) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-20  
 > **Regulă:** HEAD = artefact de build ȘI autoritatea de stare (LXXXIV). INDEX-ul de mai jos e REGENERAT din markerii `# APPEND` — nu-l citi din jurnal (acolo e înghețat). Orice schimbare aterizează întâi în jurnal (append + grep), apoi se re-rulează `etk_project_head.py`.
 > **📤 PROCEDURĂ UPLOAD (regulă vie, imună la `-N`):** la finalul sesiunii operatorul urcă **DOAR 2 fișiere** — jurnalul nou `ETK_LEDGER_v3_XX_<stamp>.md` + `ETK_HEAD.md` — și **șterge jurnalul precedent** (ca să nu se adune). Tooling-ul (`etk_ledger_commit.py` + `etk_project_head*.py`) se urcă **o singură dată**. Append-urile **NU se urcă** (commit-ul le pliază). **Interfața poate adăuga sufixe `-N` la upload — E INOFENSIV:** pipeline-ul e imun (commit-ul alege automat jurnalul cel mai recent + proiectorul cel mai capabil, indiferent de `-N`). **Nu redenumi nimic** — singurul gest de igienă e ștergerea jurnalului vechi.
 
@@ -12,7 +12,6 @@
 ## 🗺 INDEX PĂRȚI — regenerat, viu (12 părți-append)
 *Era append XLV→vârf, proiectată din jurnal la fiecare build (O1, fix M-2/M-3). ERA I (0–XLIV) = pliată/înghețată.*
 
-- **v3.103 · Partea CVII** (2026-08-17) — CVII.1 Corecția imprecizilor CVI (D2/D3/D5/D6)
 - **v3.104 · Partea CVIII** (2026-08-18) — CVIII.1 R-43 COCHRAN — DEBLOCAT (verificat de 2× independent)
 - **v3.105 · Partea CIX** (2026-08-18) — CIX.1 Validare — provenanță + metodă
 - **v3.106 · Partea CX** (2026-08-18) — CX.1 Noua ordine (canonică) — GitHub-first
@@ -24,28 +23,30 @@
 - **v3.112 · Partea CXVI** (2026-08-19) — CXVI.1 Reîncadrarea țintei 0.5 (L-eCB-5)
 - **v3.113 · Partea CXVII** (2026-08-19) — CXVII.1 FAZA 1 — aterizări corpus (`eCB_tonus_Modul_v1`)
 - **v3.114 · Partea CXVIII** (2026-08-19) — CXVIII.1 Stare D1–D6 (verificat la sursă + disk)
+- **v3.115 · Partea CXIX** (2026-08-20) — CXIX.1 Cele 4 direcții FAZA 3 — stare
 
 ---
 
-## ⚠ ERORI / FLAG-URI ACTIVE (16)
+## ⚠ ERORI / FLAG-URI ACTIVE (17)
 *Doar cele deschise. Cele închise trăiesc în jurnal.*
 
-- C-2 (executat ACPS; T-C2-1 la nod: Liao vs Inada + grep cross-doc)
-- a_NM (aterizat ACPS §3.3.1; T-aNM-1 la nod)
+- C-2 (T-C2-1 la nod: Liao vs Inada + grep)
+- a_NM (T-aNM-1 la nod)
 - FEP_integ_TVK [S]
+- G-FEP-1 = puntea geometrică t_KR/FEP ([S/D]; coliziune cu G-UP-1 corpus §280 — ratificare denumire = autorală)
 - clase-capcană T11/T12/T13
-- FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM de rezolvat FAZA 4.3)
+- FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM FAZA 4.3)
 - G-ETK-R2/R3 (9 predicții [S])
-- fișă bistabilitate NP §4.7.2 (Direcția #1) — pending „mergi" + D-3 (nod)
-- fișă eCB consolidată (Direcția #2) — DEBLOCATĂ, queued FAZA 3 (găzduiește L-eCB-PTSD)
-- L-eCB-PTSD = acut/cronic × (sex, minoritate, genotip) [D]
+- L-eCB-PTSD [D] (aterizat fișă)
 - calibrare T_2AG^ev/T_AEA^ton = pending (nod)
+- L-eCB-5 „FAAH>MAGL uman" = NEADMIS [S]
 - note explicite D3/D4 în ACPS = queued FAZA 4
 - ε_total candidat +ε_CB1R [S]
 - T-eCB-ABX (nod)
 - adiacență OXTR-metilare Braun/Bock [D] (nod)
+- etk_reference_corrector.py REF-4a/4b = valori Cochran fabricate, NU se rulează (nod de igienă)
 - T1/T4/ancore-cronice = pending la nod
-- plan CXIII FAZA 3–4 de executat la „mergi" (FAZA 0 completă 0.1–0.5 ✅ / FAZA 1 ✅ / FAZA 2 ✅).
+- plan CXIII FAZA 4 de executat la „mergi" (FAZA 0–3 COMPLETE ✅).
 
 _Erori închise (în jurnal, nu aici): ~0._
 
@@ -115,9 +116,9 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-50 | Yokoyama 2009 (19732292) · Soldo 2003 (14645448) | ghrelină → eliberare somatodendritică de AVP | ✔ |
 | R-51 | Shimizu T, Yokotani K (2008), *Eur J Pharmacol* 582(1-3):62–69, PMID 18234185 · Ruginsk SG et al. (2015), *Am J Physiol  | eCB pe axa AVP | (D) |
 | R-52 | Kim 2020 (32066670) · Wingenfeld 2021 (33542190) · Wieder 2021 (34079501) · Unternaehrer 2015 (26061800) · Jack, Connell | metilarea OXTR la om | ✔ |
-| R-53 | Ororbia A, Friston K (2023), arXiv:2311.09589 | Puntea mortalitate↔FEP e construită de Friston însuși. Axiom |  |
-| R-54 | Kleiner J (2024), arXiv:2403.03925 | Funcționalismul computațional implică computația muritoare → |  |
-| R-55 | Hinton G (2022), arXiv:2212.13345 | Verificat. Nota ACPS că nu e proceedings NeurIPS e corectă |  |
+| R-53 | Ororbia A, Friston K (2023), arXiv:2311.09589 | — | [S] |
+| R-54 | Kleiner J (2024), arXiv:2403.03925 | — | [S] |
+| R-55 | Hinton G (2022), arXiv:2212.13345 | — | [S] |
 | R-56 | Grossman P et al. (2026), *Clin Neuropsychiatry* 23(1):100–112 | Invalidează localizarea vagală dorsală. PDF în proiect |  |
 | R-57 | Smith R, Kuplicki R et al. (33315893), N=500 | Repaus: precizie egală; perturbare (apnee): martorii cresc,  |  |
 | R-58 | 20692645 · 39187192 · 35479498 · 36543824 · 24587061 | Dihotomia clinică anxios/anhedonic există deja. ACPS derivă, |  |
@@ -128,7 +129,7 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-63 | Murat B, Devost D, Andrés M, Mion J, Boulay V, Corbani M, Zingg HH, Guillon G (2012), *Mol Endocrinol* 26(3):502–520, DO | heterodimer V1b–CRHR1 → sinergie AVP+CRH (mecanismul „claim  | (D) |
 | R-64 | von Bardeleben U, Holsboer F, Stalla GK, Müller OA (1985), *Life Sci* 37(17):1613–1618, DOI 10.1016/0024-3205(85)90480-1 | ancora umană a escape-ului AVP+CRH din dexametazonă (fenomen | (D) |
 | R-65 | Brezivaptan (DCI) = ANC-501 = THY-1773 = TS-121, CAS 1370444-22-6, C25H30ClN5O3; antagonist V1b/AVPR1B selectiv, Taisho→ | identitatea de asset V1b (corecție de consolidare D3) | (C) |
-| R-66 | Maejima Y et al. (2025). Oxytocin Enhances Demethylation Through TET Enzyme Expression in Neurons of Aged Mice. *Aging C | OXTR→TET2 (veriga de intrare a lanțului AD/îmbătrânire) | (D) |
+| R-66 | Maejima Y et al. (2025), *Aging Cell* 24(10):e70198, PMC12507420, DOI 10.1111/acel.70198 | 40788779 | (D) |
 | R-67 | Huang SY, Zhang YR, Guo Y, et al. (2024). Glymphatic system dysfunction predicts amyloid deposition, neurodegeneration,  | inversiunea cauzală: ALPS precede Aβ (keystone-ul lanțului A | (D) |
 | R-68 | Xie X, Li H, Chang Y, et al. (2026). Aquaporin-4 Dysfunction in Depression: From Pathogenic Mechanisms to Novel Therapeu | AQP4↔depresie (relevant NP_Depresia + teza AVP/clearance) | (S) |
 | R-69 | He F, Wu H, Zhou L, Lin Q, Cheng Y, Sun YE (2020). Tet2-mediated epigenetic drive for astrocyte differentiation from emb | veriga TET2 → AQP4 (mijlocul lanțului AD) | (D) |
@@ -171,4 +172,4 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-116 | Nave G, Camerer C, McCullough M (2015), *Perspect Psychol Sci* 10(6):772–789, DOI 10.1177/1745691615600138 | 26581735 | (C) |
 
 ---
-*Generat de etk_project_head.py din ETK_LEDGER.md. 83 referințe · 16 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
+*Generat de etk_project_head.py din ETK_LEDGER.md. 83 referințe · 17 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
