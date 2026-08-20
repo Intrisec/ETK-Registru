@@ -5273,6 +5273,49 @@ FAZA 4: integrare ACPS · GUARD Route B λ≡0 · coerență cross-doc.
 **ACTIVE:** C-2 (executat ACPS; T-C2-1 la nod: Liao vs Inada + grep cross-doc) · a_NM (aterizat ACPS §3.3.1; T-aNM-1 la nod) · FEP_integ_TVK [S] · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM de rezolvat FAZA 4.3) · G-ETK-R2/R3 (9 predicții [S]) · fișă bistabilitate NP §4.7.2 (Direcția #1) — pending „mergi" + D-3 (nod) · fișă eCB consolidată (Direcția #2) — DEBLOCATĂ, queued FAZA 3 (găzduiește L-eCB-PTSD) · L-eCB-PTSD = acut/cronic × (sex, minoritate, genotip) [D] · calibrare T_2AG^ev/T_AEA^ton = pending (nod) · note explicite D3/D4 în ACPS = queued FAZA 4 · ε_total candidat +ε_CB1R [S] · T-eCB-ABX (nod) · adiacență OXTR-metilare Braun/Bock [D] (nod) · T1/T4/ancore-cronice = pending la nod · **plan CXIII FAZA 3–4 de executat la „mergi"** (FAZA 0 completă 0.1–0.5 ✅ / FAZA 1 ✅ / FAZA 2 ✅).
 
 **Autoritate unică:** acest consolidat, vârf **v3.114 · Partea CXVIII**. Acoperire **0/I→CXVIII**. FAZA 2 (D1–D6: D5 reprodus+aterizat, D1–D4 confirmate, D6 sinteză, R-116); verificat primar+cod+fizic; corpus atins (1 fișă FSSP). Erratum humanum est. Zero memorie.
+# APPEND — v3.115 (2026-08-20) · Partea CXIX
+
+*Se stivuiește PESTE v3.114 (Partea CXVIII). Vârf nou. Fără „delta". Adaugă `v3.114` la „AUTORITATEA UNICĂ". **FAZA 3 EXECUTATĂ INTEGRAL — fișe/lanțuri (cele 4 direcții).** #1 bistabilitate NP §4.7.2 ATERIZAT (poarta D-3); #2 fișă eCB consolidată CREATĂ (L-eCB-1 + L-eCB-PTSD + F-1); #3 R-43 AD/FTD CONFIRMAT deja prezent în TheUpstream + micro-precizie LoF/ALS; #4 puntea FEP+U4 ATERIZATĂ ca fișă de sine stătătoare (COLIZIUNE G-UP-1 semnalată). Verificare la primar în sesiune (PubMed metadata ×5 PMID + PMC Cochran). Corpus ATINS: 2 fișiere editate (NP_Depresia, TheUpstream) + 2 fișe noi. Zero memorie — construit din ledger live GitHub.*
+
+## LINIE DE CHANGELOG (sub v3.114)
+*(v3.115: 20 aug — **FAZA 3 fișe/lanțuri.** Butterfly-ordonat, verificat la primar înaintea fiecărei aterizări (§3.7). (A) **#1 BISTABILITATE NP §4.7.2 ATERIZAT.** §4.7.1 avea deja *paragraful* bistabil (l.585) dar fără §4.7.2 formalizată și cu o **abatere D-3 latentă**: „≥6 săptămâni" se sprijinea implicit pe Maejima (l.587). Reparat: l.585 → pointer către statutul epistemic; nou §4.7.2 = formalizare sistem bistabil (A⁺/A⁻, separatoare, condiție integrală ∫I dt, histerezis subcritic) + **poarta D-3 explicită**: mecanismul OXT→TET2→demetilare = **[C]** (Maejima 40788779, reverificat primar în sesiune: OXTR-null cauzal), dar **fereastra umană de 6 săpt. = [D-cond]** — Maejima e *nazal 10 zile la șoarece*, NU 6 săpt./om → „Maejima nu se citează ca dovadă a duratei de 6 săpt." (B) **#3 R-43 AD/FTD — CONFIRMAT deja prezent** (tiparul FAZA 2): `TheUpstream` §11.5 l.294 conține deja Cochran OR 2.3 (1.6–3.4) AD+FTD + Bouzid contested + nota l.299 „OR-open flag closed". Reverificat la primar (2 arhitecturi: metadata + abstract PMC7212268) — **match verbatim**. Aterizat un **micro-fix de precizie**: LoF 3.1 (1.9–5.2) e pe cohorta **AD+FTD+ALS** (mai largă), nu AD+FTD — marcat în celulă (lecția CVIII: „3.1 e strict LoF/AD+FTD+ALS"). (C) **#2 FIȘĂ eCB CONSOLIDATĂ (Direcția #2) CREATĂ** — `F-eCB-Consolidat_v1`: L-eCB-1 (evocat=2-AG gardat MAGL / tonic=AEA negardat, Di/Tasker 24227742, E-13 protejat) + **L-eCB-PTSD [D]** (acut/peritraumatic AEA↑ eșantion integral + 2-AG↑/rs324420-A/A la minorități, deRoon-Cassini 35105857 / cronic AEA↓ bărbați + inflamator IL-8 femei/IL-6 trend, Rajasekera 40967565) + F-1 (PF-04457845=JZP150, Couttas 42209468). Toate 3 ancore **relockate la primar în sesiune**. Nuanță conservată: **NU dihotomie de sex curată** — axa e timing × (sex, minoritate, genotip); rs324420/FAAH C385A = modulatorul comun clinic↔farmacologic. (D) **#4 PUNTEA FEP+U4 ATERIZATĂ** ca fișă `F-FEP-tKR_v1`: t_KR ≜ dist(frontieră NESS), Th_ACK = F la frontieră, DU = octant gol FEP (precizie joasă × stabil × resursă absentă); U4 = Th_ACK (histerezis + CSD, Scheffer, caveat Dakos AR(1)) vs Θ (fără histerezis/CSD, defect de construcție prenatal). **[S cu nucleu D].** Route B + anti-reificare respectate; TET2→Θ = [S], nu se reifică. **⚠ COLIZIUNE G-UP-1 SEMNALATĂ:** „G-UP-1" din CVIII (puntea) ≠ G-UP-1 din corpus (`TheUpstream` §280 = transmitere intergenerațională [D]) — fișa NU suprascrie corpusul; identificator provizoriu **G-FEP-1**, ratificare = decizie autorală. (E) **CAPTURĂ butterfly-seed:** `etk_reference_corrector.py` (skill, REF-4a/4b) conține valorile Cochran **fabricate** (OR 2.2 / pp. 584–596) = artefact înghețat Apr 2026; regula lui e inversată → **NU se rulează pe corecția Cochran**. 0 corecție silențioasă.)*
+
+## CXIX.1 Cele 4 direcții FAZA 3 — stare
+| # | Direcție | Ținta plan CXIII | Acțiune CXIX | Marcaj |
+|---|---|---|---|---|
+| 1 | bistabilitate NP §4.7.2 | pending „mergi" + D-3 | **ATERIZAT** (§4.7.2 nou + poartă D-3 + fix l.585) | [C] mecanism / [D-cond] fereastră 6 săpt. |
+| 2 | eCB consolidată | DEBLOCATĂ, queued | **FIȘĂ CREATĂ** (L-eCB-1 + L-eCB-PTSD + F-1) | [D] |
+| 3 | R-43 AD/FTD | de inserat | **CONFIRMAT prezent** + micro-fix ALS | [C] + CONTESTED |
+| 4 | FEP+U4 | de formalizat | **FIȘĂ CREATĂ** (G-FEP-1) + coliziune semnalată | [S cu nucleu D] |
+
+## CXIX.2 Verificare la primar (sesiune, conform PubMed)
+- `get_article_metadata([32330418, 40788779, 35105857, 40967565, 24227742])` + `get_full_text_article(PMC7212268)`.
+- **Cochran 32330418** (PMC7212268): abstract verbatim „combined OR 2.3 (95% CI 1.6–3.4) for AD and FTD"; non-coding 3.7 (1.7–9.4); LoF 3.1 (1.9–5.2) pt **AD+FTD+ALS**. „2.2" absent → fabricat re-confirmat. 2 arhitecturi (metadata + PMC).
+- **Maejima 40788779** (PMC12507420): nazal 10 zile / șoarece / OXTR-null cauzal → poarta D-3 confirmată (NU 6 săpt., NU om).
+- **deRoon-Cassini 35105857** (PMC8807700): AEA↑ acut pe eșantion integral (70% M); 2-AG↑ + rs324420 A/A la minorități.
+- **Rajasekera 40967565**: bărbați AEA↓; femei IL-8↑ (IL-6 trend).
+- **Di/Tasker 24227742** (PMC3828473): evocat=2-AG(gardat) / tonic=AEA(negardat), OXT+VP; depolarizare+glucocorticoizi (nu V1aR).
+
+## CXIX.3 Referințe — re-emise (verificate la primar / marcate)
+| ID | Referință | PMID | Verdict |
+|----|-----------|------|---------|
+| **R-66** | Maejima Y et al. (2025), *Aging Cell* 24(10):e70198, PMC12507420, DOI 10.1111/acel.70198 | 40788779 | (D) OXT→TET2/5hmC reversibil (OXTR-null cauzal); nazal 10 zile/șoarece → **poarta D-3**: NU ancorează fereastra umană 6 săpt. |
+| **R-53** | Ororbia A, Friston K (2023), arXiv:2311.09589 | — | [S] arXiv (mortal computation; octant DU absent) |
+| **R-54** | Kleiner J (2024), arXiv:2403.03925 | — | [S] arXiv (funcționalism computațional muritor) |
+| **R-55** | Hinton G (2022), arXiv:2212.13345 | — | [S] arXiv (mortal computation) |
+*R-41, R-43, R-103, R-104, R-105, R-106, R-111, R-112, R-115 = deja catalogate; folosite în fișe.*
+
+## CXIX.4 Livrări (Path B real, PK verificat)
+- `NP_Depresia_v5-1_bistabil-4-7-2_2026-08-20.docx` (#1) — editat.
+- `TheUpstreamMechanism_v3-2_R43-ALSprec_2026-08-20.docx` (#3) — editat.
+- `F-eCB-Consolidat_v1_2026-08-20.docx` (#2) — fișă nouă.
+- `F-FEP-tKR_v1_2026-08-20.docx` (#4) — fișă nouă.
+
+**ÎNCHISE (această pasă):** **FAZA 3 COMPLETĂ** — #1 bistabilitate NP §4.7.2 aterizat (poartă D-3, primar Maejima); #3 R-43 confirmat prezent (2 arhitecturi, verbatim) + micro-fix LoF/ALS; #2 fișă eCB consolidată creată (L-eCB-1 + L-eCB-PTSD [D] + F-1, 3 ancore relockate); #4 puntea FEP+U4 aterizată (G-FEP-1, [S/D]); flag „fișă bistabilitate NP" + „fișă eCB consolidată" ÎNCHISE; captură butterfly-seed `etk_reference_corrector.py` (Cochran fabricat) semnalată.
+
+**ACTIVE:** C-2 (T-C2-1 la nod: Liao vs Inada + grep) · a_NM (T-aNM-1 la nod) · FEP_integ_TVK [S] · **G-FEP-1 = puntea geometrică t_KR/FEP** ([S/D]; **coliziune cu G-UP-1 corpus §280 — ratificare denumire = autorală**) · clase-capcană T11/T12/T13 · FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM FAZA 4.3) · G-ETK-R2/R3 (9 predicții [S]) · L-eCB-PTSD [D] (aterizat fișă) · calibrare T_2AG^ev/T_AEA^ton = pending (nod) · L-eCB-5 „FAAH>MAGL uman" = NEADMIS [S] · note explicite D3/D4 în ACPS = queued FAZA 4 · ε_total candidat +ε_CB1R [S] · T-eCB-ABX (nod) · adiacență OXTR-metilare Braun/Bock [D] (nod) · **`etk_reference_corrector.py` REF-4a/4b = valori Cochran fabricate, NU se rulează** (nod de igienă) · T1/T4/ancore-cronice = pending la nod · **plan CXIII FAZA 4 de executat la „mergi"** (FAZA 0–3 COMPLETE ✅).
+
+**Autoritate unică:** acest consolidat, vârf **v3.115 · Partea CXIX**. Acoperire **0/I→CXIX**. FAZA 3 (4 direcții: 2 aterizări corpus + 2 fișe noi + 1 confirmare); verificat primar (5 PMID + PMC); corpus atins (2 fișiere + 2 fișe). Erratum humanum est. Zero memorie.
 
 
 
