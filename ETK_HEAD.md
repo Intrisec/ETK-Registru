@@ -1,9 +1,9 @@
 # ETK — HEAD (stare curentă)
-**Proiecție a jurnalului · reconstruit 2026-08-19 · NU se editează de mână**
+**Proiecție a jurnalului · reconstruit 2026-08-20 · NU se editează de mână**
 
-> **Vârf:** v3.110 · Partea CXIV (2026-08-19)  
+> **Vârf:** v3.114 · Partea CXVIII (2026-08-19)  
 > **Sursă:** `ETK_LEDGER.md`  
-> **STARE:** Acoperire **0/I → Partea CXIV** (v3.110) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-19  
+> **STARE:** Acoperire **0/I → Partea CXVIII** (v3.114) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-20  
 > **Regulă:** HEAD = artefact de build ȘI autoritatea de stare (LXXXIV). INDEX-ul de mai jos e REGENERAT din markerii `# APPEND` — nu-l citi din jurnal (acolo e înghețat). Orice schimbare aterizează întâi în jurnal (append + grep), apoi se re-rulează `etk_project_head.py`.
 > **📤 PROCEDURĂ UPLOAD (regulă vie, imună la `-N`):** la finalul sesiunii operatorul urcă **DOAR 2 fișiere** — jurnalul nou `ETK_LEDGER_v3_XX_<stamp>.md` + `ETK_HEAD.md` — și **șterge jurnalul precedent** (ca să nu se adune). Tooling-ul (`etk_ledger_commit.py` + `etk_project_head*.py`) se urcă **o singură dată**. Append-urile **NU se urcă** (commit-ul le pliază). **Interfața poate adăuga sufixe `-N` la upload — E INOFENSIV:** pipeline-ul e imun (commit-ul alege automat jurnalul cel mai recent + proiectorul cel mai capabil, indiferent de `-N`). **Nu redenumi nimic** — singurul gest de igienă e ștergerea jurnalului vechi.
 
@@ -12,10 +12,6 @@
 ## 🗺 INDEX PĂRȚI — regenerat, viu (12 părți-append)
 *Era append XLV→vârf, proiectată din jurnal la fiecare build (O1, fix M-2/M-3). ERA I (0–XLIV) = pliată/înghețată.*
 
-- **v3.99 · Partea CIII** (2026-08-16) — CIII.1 Ce s-a verificat (gate + disc + primar)
-- **v3.100 · Partea CIV** (2026-08-16) — CIV.1 FSSP v2_6 — container reparat (A4 ÎNCHIS)
-- **v3.101 · Partea CV** (2026-08-16) — CV.1 Reverificare — verdict pe starea reală (disc acum)
-- **v3.102 · Partea CVI** (2026-08-17) — CVI.1 Validare — provenanță
 - **v3.103 · Partea CVII** (2026-08-17) — CVII.1 Corecția imprecizilor CVI (D2/D3/D5/D6)
 - **v3.104 · Partea CVIII** (2026-08-18) — CVIII.1 R-43 COCHRAN — DEBLOCAT (verificat de 2× independent)
 - **v3.105 · Partea CIX** (2026-08-18) — CIX.1 Validare — provenanță + metodă
@@ -24,25 +20,32 @@
 - **v3.108 · Partea CXII** (2026-08-18) — CXII.1 Verdict Kimi R6
 - **v3.109 · Partea CXIII** (2026-08-19) — CXIII.1 Plan de execuție (roadmap FAZA 0–4)
 - **v3.110 · Partea CXIV** (2026-08-19) — CXIV.1 Reîncadrarea flag-ului Mesman
+- **v3.111 · Partea CXV** (2026-08-19) — CXV.1 FAZA 0.4 — PF-04457845 aterizat (RAPORT_SUPERPOZITIE, axa eCB/Med)
+- **v3.112 · Partea CXVI** (2026-08-19) — CXVI.1 Reîncadrarea țintei 0.5 (L-eCB-5)
+- **v3.113 · Partea CXVII** (2026-08-19) — CXVII.1 FAZA 1 — aterizări corpus (`eCB_tonus_Modul_v1`)
+- **v3.114 · Partea CXVIII** (2026-08-19) — CXVIII.1 Stare D1–D6 (verificat la sursă + disk)
 
 ---
 
-## ⚠ ERORI / FLAG-URI ACTIVE (13)
+## ⚠ ERORI / FLAG-URI ACTIVE (16)
 *Doar cele deschise. Cele închise trăiesc în jurnal.*
 
 - C-2 (executat ACPS; T-C2-1 la nod: Liao vs Inada + grep cross-doc)
-- a_NM (aterizat ACPS §3.3.1; T-aNM-1 la nod, ne-blocant)
+- a_NM (aterizat ACPS §3.3.1; T-aNM-1 la nod)
 - FEP_integ_TVK [S]
-- eCB_tonus_Modul_v1 (R-41; „mergi")
 - clase-capcană T11/T12/T13
 - FSSP ODE a_NM/g_NM [S] + Q_opt (+ coliziune simbolică a_NM de rezolvat FAZA 4.3)
 - G-ETK-R2/R3 (9 predicții [S])
 - fișă bistabilitate NP §4.7.2 (Direcția #1) — pending „mergi" + D-3 (nod)
-- fișă eCB consolidată (Direcția #2) — după F-1+F-4
-- L-eCB-2 = partiționare fenotipică + temporală (acut/cronic) + modulatori
+- fișă eCB consolidată (Direcția #2) — DEBLOCATĂ, queued FAZA 3 (găzduiește L-eCB-PTSD)
+- L-eCB-PTSD = acut/cronic × (sex, minoritate, genotip) [D]
+- calibrare T_2AG^ev/T_AEA^ton = pending (nod)
+- note explicite D3/D4 în ACPS = queued FAZA 4
 - ε_total candidat +ε_CB1R [S]
+- T-eCB-ABX (nod)
+- adiacență OXTR-metilare Braun/Bock [D] (nod)
 - T1/T4/ancore-cronice = pending la nod
-- plan CXIII FAZA 0.4–4 de executat la „mergi" (0.1/0.2/0.3 ✅).
+- plan CXIII FAZA 3–4 de executat la „mergi" (FAZA 0 completă 0.1–0.5 ✅ / FAZA 1 ✅ / FAZA 2 ✅).
 
 _Erori închise (în jurnal, nu aici): ~0._
 
@@ -78,7 +81,7 @@ _Erori închise (în jurnal, nu aici): ~0._
 
 ---
 
-## 📚 REFERINȚE — verdict curent (81)
+## 📚 REFERINȚE — verdict curent (83)
 *Cea mai recentă mențiune per ID câștigă. ⛔=neverificat/blocat · ✔/✅=verificat · (C)/(D)/(S)=marcaj epistemic · ⚠=rezervă.*
 
 | ID | Referință | Subiect | Verdict |
@@ -98,7 +101,7 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-38 | PMID 24227742, brațul glial | triada nașterii | ⚠ |
 | R-39 | decalajul specie | — | ⛔ |
 | R-40 | (rezervat) | — |  |
-| R-41 | PMID 24227742, finding #13 (Results) | disocierea 2-AG / AEA | ⚠ |
+| R-41 | Di S, Popescu IR, Tasker JG (2013), *J Neurosci* 33(46):18331, PMC3828473, DOI 10.1523/JNEUROSCI.2971-12.2013 | 24227742 | (D) |
 | R-42 | secvența dezvoltării CB1/DAGLα | — | ⚠ |
 | R-43 | Cochran JN et al. (2020), *Am J Hum Genet* 106(5):632–645, DOI 10.1016/j.ajhg.2020.03.010, PMID 32330418, PMC7212268 | TET2→neurodegenerare: OR 2.3 (1.6–3.4) AD/FTD [Tab.2]; 3.1 ( | (C) |
 | R-44 | George K, Hoang HTM, Tibbs T, …, Ahmad M (2024), *iScience* 27(6):110047, PMID 38883814, PMC11179071 | cinetică OXTR neuronală | ✔ |
@@ -162,8 +165,10 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-110 | Nishitani S et al. (2023), *Transl Psychiatry* 13(1):72, DOI 10.1038/s41398-023-02370-0, PMID 36843037 | AMAZE-CpG: replicare independentă (japoneză) a IMAGE-CpG (19 | (C) |
 | R-111 | deRoon-Cassini TA et al. (2022), *Transl Psychiatry* 12(1):48 (Hillard coautor) | 35105857 | (D) |
 | R-112 | Rajasekera TA, Spagnolo PA et al. (2025), *Prog Neuropsychopharmacol Biol Psychiatry* 142:111501 | 40967565 | (D) |
-| R-113 | Demaili A, …, Braun K, Bock J (2023), *Front Cell Neurosci* 17:1129946 | 36909279 |  |
+| R-113 | Demaili A, …, Braun K, Bock J (2023), *Front Cell Neurosci* 17:1129946, PMC9992175, DOI 10.3389/fncel.2023.1129946 | 36909279 | (D) |
 | R-114 | Inada K, Hagihara M, …, Miyamichi K (2025), *Nat Commun* 16(1):10844 | 41372215 | (D) |
+| R-115 | Couttas TA, Hoffmann AE, …, Rohleder C (2026), *Transl Psychiatry* 16(1), PMC13219800, DOI 10.1038/s41398-026-04120-4 (r | 42209468 | (C) |
+| R-116 | Nave G, Camerer C, McCullough M (2015), *Perspect Psychol Sci* 10(6):772–789, DOI 10.1177/1745691615600138 | 26581735 | (C) |
 
 ---
-*Generat de etk_project_head.py din ETK_LEDGER.md. 81 referințe · 13 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
+*Generat de etk_project_head.py din ETK_LEDGER.md. 83 referințe · 16 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
