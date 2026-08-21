@@ -5456,6 +5456,75 @@ FAZA 4: integrare ACPS · GUARD Route B λ≡0 · coerență cross-doc.
 **ACTIVE:** C-2 (T-C2-1 la nod) · a_NM (coliziune rezolvată a_NM^att) · FEP_integ_TVK [S] (temă Kimi 4) · clase-capcană T11/T12/T13 · FSSP ODE a_NM^rate/g_NM/γ_NM [S] neancorate, NU gated pe RASP (temă Kimi 1) · G-ETK-R2/R3 (9 predicții [S], temă Kimi 3) · G-ETK-3 AQP4-delocalizare [predicție neverificată] (temă Kimi 2) · L-eCB-PTSD [D] (temă Kimi 5, cu avertisment) · calibrare T_2AG^ev/T_AEA^ton = pending (nod) · L-eCB-5 NEADMIS [S] · ε_total candidat +ε_CB1R [S] (temă Kimi 4) · T-eCB-ABX (nod) · adiacență OXTR-metilare Braun/Bock [D] (nod) · R-13 ⛔ argument-de-clasă only (nod marcaj) · `etk_reference_corrector.py` hard-guard = ZIP pending redeploy · G-RASP-1 = doar în ghid Alzheimer, de redenumit/separat (nod) · `ACPS_v14_FINAL_08-08` + `v13` obsolete (P18-RASP vechi), neatinse; canonic ACPS = `0-4_RASPsep` · TheUpstream `-1` = quasi-dup al `-2`, de reconciliat · **protocol de lucru canonic = `SCRISOARE_CATRE_INSTANTA_v2`** · **teme Kimi active = `SCRISOARE_CATRE_KIMI_v1`** · T1/T4/ancore-cronice = pending la nod.
 
 **Autoritate unică:** acest consolidat, vârf **v3.120 · Partea CXXIV**. Acoperire **0/I→CXXIV**. Protocol (§3.9 RASP-independent) + planificare Kimi (5 teme [S]); continuare post-CXXIII, fără erratum; 0 corpus atins. Erratum humanum est. Zero memorie.
+# APPEND — v3.121 (2026-08-21) · Partea CXXV
+
+## CXXV.1 Reverificare la primar — Runda Kimi R7 (ExtrapolareKimi + Raspuns_Nod_Kimi v2)
+
+**Context:** răspuns Kimi la SCRISOARE_CATRE_KIMI_v1 (5 teme). Nodul cu unelte a reverificat la primar (PubMed:get_article_metadata) lotul portant. Marcaj §0.2. Cele cu valoare-țintă explicită în abstract = primar-verificate; a doua arhitectură full-text (Scite/PMC) datorată pt. cele ce schimbă text canonic (semnalat).
+
+### Confirmate [C]
+- Matatall 2025, *Cell Stem Cell* 32(8):1285-1298.e8, PMID 40609533, DOI 10.1016/j.stem.2025.06.006, PMC12233156. TET2-mutant CH → −47% LOAD (UKB); efect protector TET2-specific mediat de INFILTRARE MIELOIDĂ PERIFERICĂ (microglie din măduvă, fagocitoză↑). → Fluture #3 CONFIRMAT: compartiment mieloid, NU neural/glial.
+- Wei 2015, *PNAS* 112(45):14084-9, PMID 26504214, DOI 10.1073/pnas.1509795112, PMC4653148. Inhibiția FAAH salvează blocajul OXTR ⇒ CB1R downstream necesar-și-suficient ⇒ cascada OXTR→AEA→CB1R SERIALĂ [C] (context NAc/social-reward). Respinge forma aditivă simplă ε_total.
+- Mitnitski/Mogilner/Rockwood 2001, *ScientificWorldJournal* 1:323-36, PMID 12806071, DOI 10.1100/tsw.2001.58, PMC6084020. Frailty Index: deficite +3%/an, distribuție gamma. Ancoră Fluture #1: γ_NM=0.015 ~2× sub rata FI. Rata [C]; maparea FI→γ_NM [S].
+- Hu 2024, *J Gerontol A* 79(8), PMID 38721896, DOI 10.1093/gerona/glae121. CA→demență HR=1.300 (1.129–1.496), N=150.152. Coincide cu memoria (glae121). REZOLVĂ golul de PMID pentru Hu în Registru: Hu 2024 = PMID 38721896.
+- Quansah 2025, *Acta Neuropathol Commun* 13(1):71, PMID 40189544, DOI 10.1186/s40478-025-01988-z, PMC11974201. Tet2 loss (neural, KO) → ↓α-syn (PD). Adâncește Fluture #3: chiar Tet2 NEURAL pierdut poate fi protector (altă boală).
+
+### Auto-corecție Kimi validată [C]
+- 42018759 retras corect de Kimi v2: e Yu et al. *Gerontologist* 66(6), DOI 10.1093/geront/gnag053 (neighborhood disorder × AL), NU lucrarea de traiectorii AL. Capcana Scheffer evitată.
+
+### Corecții la Kimi (unde greșește)
+- ⚠ Armstrong 2023, PMID 37562656, DOI 10.1016/j.nbd.2023.106257 — MISETICHETAT de Kimi ca ancoră fezabilitate P2 („ROSMAP 5hmC×AQP4"). Real: lucrare TET1 (nu TET2); TET1-KO 5xFAD → ↑amiloid (p=0.044). NU stabilește co-profilare 5hmC×AQP4. → Fezabilitate P2 rămâne NEANCORATĂ (flag deschis). Lucrarea = referință pro-ETK pe direcția TET-cerebral↓→↑patologie.
+- ⚠ 41124046 (Sevi 2025, Big-5×AL latino, N=319, nul pe traiectorie) = MISFIT ca ancoră γ_NM. Opțiune: ancorează γ_NM pe FI (12806071) / D_M (Cohen); abandonează sub-ancora AL-personalitate.
+
+## CXXV.2 EXTRAPOLARE — harta de direcționalitate TET (superpoziție)
+- TET1 cerebral (Armstrong) KO → ↑amiloid = PRO-ETK
+- TET2 mieloid (Matatall) → ↓AD = ANTI-ETK
+- TET2 neural (Quansah) → ↓α-syn = ANTI-ETK
+Consecință: literatura TET2 e direcțional ostilă unui lanț naiv „TET2↓→patologie"; TET1-cerebral e prietenos. Ancora ETK (Maejima R-66) e TET2-specifică. → DECIZIE AUTORIALĂ (A/B/C):
+- A: păstrezi TET2, îngustezi G-ETK-3 la TET2 glial/astrocitar→AQP4 deloc, cu contra-exemple declarate în text.
+- B: muți greutatea pe TET1-cerebral (direcție confirmată), TET2-glial secundar; cost: rupi ancora Maejima.
+- C: reformulare „disfuncție TET-familie context-dependentă" (izoformă×compartiment×boală explicit).
+Recomandare nod [S]: A + notă de compartiment obligatorie.
+
+## CXXV.3 Priorități actualizate
+HIGH: (1) scoping G-ETK-3 la compartiment glial + cită Matatall/Armstrong; (2) ancoră γ_NM = FI/D_M + recalibrare FSSP (rulează codul, Fluture #1); (3) ε_total → forma (b) serial-saturantă, Wei 2015 ancoră [C].
+MEDIUM: (4) absorbție referințe noi R-117..R-121 (candidați, proiectorul alocă); (5) P2 fezabilitate = flag deschis; (6) full-text §3.3 pt. Matatall+Wei.
+LOWER: (7) eCB-PTSD heterogen [D]; (8) DU „critical speeding up"/arXiv [S] parcat.
+
+### Referințe candidate (proiectorul alocă R#, nu unilateral)
+- Wei D et al. 2015, PMID 26504214, DOI 10.1073/pnas.1509795112 — OXTR→AEA→CB1R serial (ancoră ε_CB1R) — (C)
+- Matatall KA et al. 2025, PMID 40609533, DOI 10.1016/j.stem.2025.06.006 — TET2 mieloid protector AD (compartiment) — (C)
+- Mitnitski AB et al. 2001, PMID 12806071, DOI 10.1100/tsw.2001.58 — FI 3%/an (ancoră γ_NM) — (C)
+- Armstrong MJ et al. 2023, PMID 37562656, DOI 10.1016/j.nbd.2023.106257 — TET1-KO→↑amiloid cerebral — (C)
+- Quansah E et al. 2025, PMID 40189544, DOI 10.1186/s40478-025-01988-z — Tet2 loss→↓α-syn (compartiment) — (C)
+- Hu W et al. 2024, PMID 38721896, DOI 10.1093/gerona/glae121 — CA→demență HR 1.300 (rezolvă PMID Hu) — (C)
+
+## ÎNCHISE (Partea CXXV)
+- Fluture #3 Kimi (compartiment TET2) = CONFIRMAT primar + adâncit (Quansah).
+- Gol PMID Hu 2024 = rezolvat (38721896).
+- Auto-corecția Kimi 42018759 = validată.
+
+## ACTIVE (adăugate/menținute)
+- DECIZIE AUTORIALĂ ancora TET = OPȚIUNEA A RATIFICATĂ (21 aug 2026, Alexandru): păstrăm TET2, îngustăm G-ETK-3 la TET2 glial/astrocitar→AQP4, cu contra-exemplele (Matatall mieloid, Quansah neural-PD) declarate explicit în text. Scoping efectiv pe corpus = pending „mergi pe corpus".
+- P2 fezabilitate (5hmC×AQP4 co-donor) = NEANCORAT, flag deschis.
+- Full-text a doua arhitectură (§3.3) datorată: Matatall 40609533, Wei 26504214.
+- ε_total forma funcțională (b vs c) = [F propunere], pending.
+- Flag doc: SCRISOARE_CATRE_INSTANTA — HEAD spune canonic v2, în Project doar v1 (2026-08-18); de reconciliat.
+
+## AUTORITATE UNICĂ
+v3.121 · Partea CXXV · 2026-08-21 · stivuit peste v3.120 (Partea CXXIV).
+
+## CXXV.4 Poarta a doua (§3.3) — Scite full-text, ÎNCHISĂ pentru cele două noduri portante
+- Wei 2015 (26504214, DOI 10.1073/pnas.1509795112): full-text excerpts (Results/Discussion) confirmă SERIALITATEA — „heightened anandamide signaling (via FAAH inhibition)… occludes the prosocial effects of oxytocin"; „interruption of AEA degradation offsets OTR blockade on sCPP+cFos". ⇒ OXTR→AEA→CB1R serial [C] pe DOUĂ arhitecturi (PubMed abstract + Scite full-text). Forma aditivă ε_total = respinsă; serial-saturantă (b) susținută. Tally 210 (9 support / 2 contrast / 196 mention).
+- Matatall 2025 (40609533, DOI 10.1016/j.stem.2025.06.006): full-text refuzat prin Scite (contentDenied); compartimentul MIELOID e în titlu; 0 citări contrastante (11 mențiuni). ⚠ EXISTĂ ERATĂ: DOI 10.1016/j.stem.2025.07.011 (2025-09-04) — de verificat înainte de a cita cifra −47% în corpus. Compartiment [C]; cifra −47% = flag pending-eratum.
+
+## CXXV.5 Teme Kimi active → SCRISOARE_CATRE_KIMI_v2 (supersedă v1)
+Rezultate R7 comunicate + 5 teme noi (A: rezoluție TET astrocitar/izoformă pt. decizia A/B/C; B: forma funcțională ε_total serial-saturant vs feedback; C: ancoră γ_NM specifică t_KR vs frailty generic; D: schelet pre-înregistrare P3 ALPS×adversitate; E: cohortă longitudinală acut→cronic eCB — jos). Registrul: „teme Kimi active = SCRISOARE_CATRE_KIMI_v2".
+
+## ACTIVE (adăugate CXXV.4-5)
+- Eratum Matatall (stem.2025.07.011) neverificat — interdicție temporară pe citarea „−47%" până la citirea eratei.
+- ε_total serial-saturant (b) = susținut de Wei full-text; forma exactă (b vs feedback) rămâne [F propunere] → temă Kimi B.
+
 
 
 
