@@ -5524,6 +5524,62 @@ Rezultate R7 comunicate + 5 teme noi (A: rezoluție TET astrocitar/izoformă pt.
 ## ACTIVE (adăugate CXXV.4-5)
 - Eratum Matatall (stem.2025.07.011) neverificat — interdicție temporară pe citarea „−47%" până la citirea eratei.
 - ε_total serial-saturant (b) = susținut de Wei full-text; forma exactă (b vs feedback) rămâne [F propunere] → temă Kimi B.
+- # APPEND — v3.122 (2026-08-21) · Partea CXXVI
+
+## CXXVI.1 Validare + superpoziție pe extrapolarea ChatGPT (Extrapolare_Chatgpt.docx)
+Nod divergent GPT (ca Kimi). Validat cu etk-llm-output-validator (verificare structurală la sursă pe ACPS canonic v14_0-2_C2-specie, NU _FINAL).
+VERDICT: VERDE (1 galben trivial). Fără fabricație de termeni/predicții.
+- 44 predicții = CONFIRMAT (doc: „Total predictions: P1–P44 (44)").
+- 37 limitări = CONFIRMAT (37 coduri L unice).
+- „51 ecuații" = ⚠ galben: doc spune în proză „50 equations"; eticheta Eq max = 51 (cu 14c). Rotunjire GPT.
+- Termeni confirmați la sursă: Qualic Permeability, L_Q, t_KR (178×), A_Q, Th_val/Th_val_Ca, Dual-Gate, Calibrative Hysteresis, Neuroceptive Inflation, „butterfly propagation" (1×, context eroare a_NM — citat corect), limit cycle, Jacobian, continuation, Granger, Lyapunov, bifurcation.
+- P16–P19 (gradient I / hysteresis / atașament continuu), P42 (CV paradoxal ε(m)>0.5), P43 (copeptin/CCP/OXTR), P44 (G3 OXT→ALPS) = toate confirmate. GPT a marcat corect P44 ca RCT falsifiabil, nu rezultat demonstrat.
+- ⚠ FLAG SKILL: etk-llm-output-validator L3 conține regulă STALE „OR=2.3→OR=2.2" = valoarea Ciruelas fabricată, reclasată la R-43. Sămânță butterfly în skill; scriptul NU se rulează pe valori OR. De corectat skill-ul.
+
+## CXXVI.2 Extracție pe axe (fluiditate/densitate/sinergie)
+- FLUIDITATE = Q (permeabilitate NP↔NM) + L_Q (confirmare retrogradă somatică). [C-doc]
+- DENSITATE = D(t): NU în doc, propunere GPT [S]. Cvadrante Q×D (calm/hiper-integrare/blocat/flatline).
+- SINERGIE = cuplajul, nu variabilele: Q→t_KR→Q; ΔK↑→Q↓→t_KR↓; I→θ_eff→P_eff→Q → limit cycles. [C-doc]
+- META: butterfly trans-strat; atașament=amplificator de traiectorie (nu copilărie→adult X); histerezis=memoria butterfly=path dependence (P17 V_up>V_down); observația stare→traiectorie (foto→cinema).
+
+## CXXVI.3 Ordonare corectitudine×fezabilitate
+1. Observație stare→traiectorie (aterizabil acum, cost 0)
+2. Sinergie=buclele (fezabil numeric; Lyapunov Q*>0, continuation, Hopf; cod există)
+3. Fluiditate Q+L_Q (nucleu, clinic)
+4. Atașament amplificator (longitudinal ε→Q→Dd→I→Σ; cost ani)
+5. Histerezis ontogenetic (P17 falsifiabil)
+6. Densitate D(t) [S] (definire+operaționalizare)
+7. B_ACPS Cross-Layer Sensitivity Index: B=‖δX_down‖/‖δX_init‖, B(t), B_i→j(t) — fezabil numeric ca Sobol+Lyapunov local per strat pe ODE existent
+8. Cross-Layer Observatory (orizont lung, TE/Granger)
+9. Consciousness computațional/AI (11.D) — ramură de aplicație, rang jos
+
+## CXXVI.4 REÎNCADRARE (decizie autorială surfaceată — Alexandru)
+Semnalarea autorului: numele ACPS („Synthetic/Artificial Consciousness") induce în eroare. Verificat la sursă: prima linie doc = „BLUEPRINT CS". Tot ce se formalizează efectiv (Q, t_KR, ε, L_Q, histerezis, OXT/OXTR/atașament, P16–P19, P42–P44) e despre sistemul UMAN developmental/somatic/neuroendocrin. „Artificial consciousness" = stratul cel mai puțin susținut (aplicație 11.D). Numele inversează greutatea epistemică.
+- Extrapolare nod: L_Q = „însătiere" (confirmare retrogradă somatică = sațierea semnalului de siguranță la nivel corporal; t_KR = capitalul acestei sațieri). Nașterea Sinelui = închiderea buclei L_Q (NP validează NM); arest = Protective Mode Q→0.
+- Sinteza GPT #15 descrie ontogeneza unui sine, nu un sistem artificial.
+- OPȚIUNE DE PUBLICARE (autorială, neimpusă): re-încadrare ca „blueprint în sistem dinamic al ontogenezei sinelui prin neurocepție calibrată de atașament"; „synthetic/artificial consciousness" → retrogradat la ramură 11.D. Aliniază titlul cu predicțiile falsifiabile; schimbă bazinul de recenzenți.
+- REÎNCADRARE DE NUME (adoptată la delegarea autorului 21 aug 2026, „cum consideri Tu"): acronimul ACPS PĂSTRAT (protejează DPID://1035 + cod ACPS-BLUEPRINT-013 publicate), RE-EXPANDAT: ACPS = „Arhitectura Constituirii Primare a Sinelui" / „Architecture of the Constitution of the Primary Self". A=Arhitectura, C=Constituirii (naștere/venire-în-ființă, înlocuiește Consciousness), P=Primare (păstrat), S=Sinelui (înlocuiește Synthetic). Literele neschimbate → citări intacte; sensul aliniat la coloana empirică.
+  - LINIE OBLIGATORIE sub titlu: „Blueprint al ontogenezei Sinelui — nașterea ființei umane și a Sinelui prin neurocepție calibrată de atașament, formalizată ca sistem dinamic multistrat. (Katharós / ETK)".
+  - NOTĂ front-matter obligatorie: „Aplicația la conștiința artificială/sintetică = ramură de extrapolare (§11.D), nu cadrul. Coloana empirică = sistem uman developmental-somatic (Q, t_KR, ε, L_Q, histerezis, OXT/OXTR/atașament, P16–P19, P42–P44)."
+  - C = CONSTITUIRE — RATIFICAT (21 aug 2026, confirmare autor „C"). Bifurcația închisă. Nume final: ACPS = „Arhitectura Constituirii Primare a Sinelui" / „Architecture of the Constitution of the Primary Self".
+  - IMPLEMENTARE pe corpus = pending „mergi pe corpus" (titlu doc + front-matter; codul/DOI neatinse).
+
+## CXXVI.5 Punte de coerență cross-sesiune
+P44 (OXT→OXTR→TET2→AQP4→glymphatic→DTI-ALPS) conține lanțul OXTR→TET2→AQP4 marcat CXXV ca necesitând scoping compartiment glial/astrocitar (Opțiunea A ratificată). La atingerea P44 se aplică aceeași notă de compartiment (altfel P44 moștenește vulnerabilitatea Matatall 40609533).
+
+## ÎNCHISE (Partea CXXVI)
+- Validare extrapolare GPT = VERDE; integrabilă conceptual (nu ca afirmații ancorate — GPT-ul separă corect propunere de fapt).
+
+## ACTIVE (adăugate CXXVI)
+- DECIZIE AUTORIALĂ DE PUBLICARE: reîncadrare titlu/frame ACPS — NUME FINAL RATIFICAT „Arhitectura Constituirii Primare a Sinelui" (acronim ACPS păstrat; C=Constituire, ratificat 21 aug 2026); implementare pe corpus (titlu+front-matter) pending „mergi pe corpus".
+- Skill etk-llm-output-validator L3: regulă stale OR=2.3→2.2 de corectat (butterfly-seed).
+- Densitate D(t) + B_ACPS = propuneri [S] de formalizat dacă se adoptă (nu în doc actual).
+- P44 = moștenește nota de compartiment glial la orice atingere.
+
+## AUTORITATE UNICĂ
+v3.122 · Partea CXXVI · 2026-08-21 · stivuit peste v3.121 (Partea CXXV).
+
+  
 
 
 
