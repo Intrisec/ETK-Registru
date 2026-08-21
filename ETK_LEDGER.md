@@ -5410,6 +5410,35 @@ FAZA 4: integrare ACPS · GUARD Route B λ≡0 · coerență cross-doc.
 
 **Autoritate unică:** acest consolidat, vârf **v3.118 · Partea CXXII**. Acoperire **0/I→CXXII**. RASP-independență (butterfly Nun eliminat + audit direcție); G-FEP-1 ratificat; VAL3 închis. Verificat fizic; corpus atins (2 fișiere: Eval, F-FEP-tKR). Erratum humanum est. Zero memorie.
 
+# APPEND — v3.119 (2026-08-20) · Partea CXXIII
+
+*Se stivuiește PESTE v3.118 (Partea CXXII, LIVE pe GitHub). Vârf nou. Fără „delta". Adaugă `v3.118` la „AUTORITATEA UNICĂ". **Bloc consolidat (curat): igienă memorie Cochran + separare RASP din subansamble + codificarea independenței RASP în protocolul de lucru (§3.9).** Un singur erratum inevitabil (eroare în CXXII, deja comis). Verificat fizic (grep + editare pe surse). Zero memorie.*
+
+## LINIE DE CHANGELOG (sub v3.118)
+*(v3.119: 20 aug — **memorie Cochran + separare RASP.** (A) **Familia fabricației Cochran — închisă pe toate sursele.** Skill (hard-guard CXXI, comis). Memorie: #6/#8 corectate la dispoziția DUBLĂ — (1) fabricație OR 2.2 / pp.584–596 / DOI …03.002 = interzisă permanent; (2) valorile reale (OR 2.3 [1.6–3.4] AD+FTD; LoF 3.1 [1.9–5.2] AD+FTD+ALS; non-coding 3.7 [1.7–9.4]) = verificate la primar (PMID 32330418 + Scite, replication p=0.0029) DAR F3-NON-CITABILE ca effect-size, permanent (canon LXXVI/R-43: pierd semnificația la ajustarea de vârstă; Bouzid 2023 inversează); se citează asocierea TET2→AD+FTD calitativ [C]. Corpus: sweep confirmă fabricația NE-vie (toate aparițiile = breadcrumb-uri de documentare; `F-eCB-BLA-001` = fals-pozitiv DOI Bedse; `Alzheimer_Insertii_Ghid_v2` folosește corect 632–645 + F3-NECITABIL = canonic). (B) **RASP de-condiționat din subansamble** (dispoziție operator: RASP = terapie de autism de sine stătătoare + suită de teste pe ani; NU se condiționează nimic de RASP). Distincție: a CITA RASP ca protocol separat (DOI Zenodo, glosar, bibliografie, cross-ref F-RASP-001) = separare corectă → PĂSTRAT; a CONDIȚIONA o predicție/endpoint de RASP → SCOS. ACPS `0-2`→`0-4`: P18 „(RASP protocol) / RASP RCT" → HRV longitudinal generic, predicție standalone (ACPS = 0 mențiuni RASP). TheUpstream `-2`: PT3 „RASP-equivalent" → „daily somatic signal in isolated adults". F-TKR-001: G-ETK-TKR-4 „sub RASP standard / RASP+OXT" → „co-reglare standard / co-reglare + OXT"; l.90 + G-ETK-TKR-2 „RASP/IRP"→„IRP/co-reglare"; D-TKR-3 „pilotul RASP"→„un pilot clinic de co-reglare". **Scrisoarea către instanțe (`cum lucrezi`): §3.9 NOU — „RASP este STRICT INDEPENDENT, nu condiționa nimic de el" (principiu nenegociabil, cu distincția citare-vs-condiționare) + capcană §7 → regula devine STANDING pentru toate instanțele, nu corecție punctuală.** (C) **⚠ ERRATUM la CXXII.1 (bloc COMIS pe GitHub — de-aceea erratum, nu rescriere):** rândul „FSSP §3.4 | γ_NM endpoint așteaptă pilotul N=30 | teorie←RASP" = FALS. FSSP l.199: `γ_NM | 0.015 | — (no documented NM endpoint) | [S] unanchored` — FSSP NU menționează RASP, NU condiționează nimic de RASP. Reziduurile FSSP [S] nu sunt gated pe RASP. Livrat: `ACPS_v14_0-4_RASPsep`, `TheUpstreamMechanism_v3-2-1_RASPsep`, `F-TKR-001_v1-3_RASPsep` (Path B, PK, symbol PASS) + `SCRISOARE_CATRE_INSTANTA_v2_RASPindep` (protocol de lucru). 0 referință nouă. 0 corecție silențioasă.)*
+
+## CXXIII.1 Cochran — dispoziția canonică (dublă)
+- **Fabricație (interzisă):** OR 2.2 / pp.584–596 / DOI …03.002.
+- **Real dar F3-NON-CITABIL ca effect-size (permanent):** OR 2.3 (1.6–3.4) AD+FTD; LoF 3.1 (1.9–5.2) AD+FTD+ALS; non-coding 3.7 (1.7–9.4).
+- **Citabil:** asocierea calitativă TET2→AD+FTD [C].
+- Surse curate: skill (CXXI) · memorie #6/#8 · corpus (fabricație ne-vie).
+
+## CXXIII.2 RASP de-condiționat — aterizări
+| Fișier | Locație | Înainte | După |
+|---|---|---|---|
+| ACPS `0-4` | P18 | „(RASP protocol) / RASP RCT" | HRV longitudinal generic |
+| TheUpstream `-2` | PT3 | „RASP-equivalent" | „daily somatic signal in isolated adults" |
+| F-TKR-001 | TKR-4/TKR-2/D-TKR-3/l.90 | „RASP" ca intervenție | „co-reglare" |
+- Păstrat: citările RASP ca protocol separat (DOI Zenodo, cross-ref F-RASP-001).
+- Codificat ca regulă permanentă: **scrisoarea către instanțe §3.9** (RASP strict independent, nenegociabil) + capcană §7.
+
+**ÎNCHISE (această pasă):** **familia Cochran închisă pe toate sursele** (skill CXXI + memorie #6/#8 dispoziție dublă + sweep corpus = fabricație ne-vie); **RASP de-condiționat din subansamble** (ACPS = 0 RASP; TheUpstream PT3; F-TKR predicții generice; citările protocolului separat păstrate; **§3.9 nou în scrisoarea către instanțe = regulă permanentă**); **ERRATUM CXXII.1** — FSSP NU condiționează γ_NM de RASP (γ_NM [S] unanchored). Livrate 3 fișiere de-cuplate (Path B, symbol PASS).
+
+**ACTIVE:** C-2 (T-C2-1 la nod) · a_NM (coliziune rezolvată a_NM^att) · FEP_integ_TVK [S] · clase-capcană T11/T12/T13 · FSSP ODE a_NM^rate/g_NM/γ_NM [S] neancorate (NU gated pe RASP) · G-ETK-R2/R3 (9 predicții [S]) · L-eCB-PTSD [D] · calibrare T_2AG^ev/T_AEA^ton = pending (nod) · L-eCB-5 NEADMIS [S] · ε_total candidat +ε_CB1R [S] · T-eCB-ABX (nod) · adiacență OXTR-metilare Braun/Bock [D] (nod) · R-13 ⛔ argument-de-clasă only (nod marcaj) · `etk_reference_corrector.py` hard-guard = ZIP pending redeploy · G-RASP-1 = doar în ghid Alzheimer, de redenumit/separat (nod) · `ACPS_v14_FINAL_08-08` + `v13` = obsolete (poartă vechiul P18-RASP), neatinse; canonic ACPS = `0-4_RASPsep` · TheUpstream `-1` = quasi-dup al `-2`, de reconciliat · T1/T4/ancore-cronice = pending la nod.
+
+**Autoritate unică:** acest consolidat, vârf **v3.119 · Partea CXXIII**. Acoperire **0/I→CXXIII**. Memorie Cochran (dispoziție dublă) + RASP de-condiționat (3 fișiere) + erratum FSSP (CXXII comis); verificat fizic + symbol PASS. Erratum humanum est. Zero memorie.
+
+
 
 
 
