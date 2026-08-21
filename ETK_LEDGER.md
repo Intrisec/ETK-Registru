@@ -5438,6 +5438,26 @@ FAZA 4: integrare ACPS · GUARD Route B λ≡0 · coerență cross-doc.
 
 **Autoritate unică:** acest consolidat, vârf **v3.119 · Partea CXXIII**. Acoperire **0/I→CXXIII**. Memorie Cochran (dispoziție dublă) + RASP de-condiționat (3 fișiere) + erratum FSSP (CXXII comis); verificat fizic + symbol PASS. Erratum humanum est. Zero memorie.
 
+# APPEND — v3.120 (2026-08-20) · Partea CXXIV
+
+*Se stivuiește PESTE v3.119 (Partea CXXIII, LIVE pe GitHub). Vârf nou. Fără „delta". Adaugă `v3.119` la „AUTORITATEA UNICĂ". **Continuare append-only post-CXXIII: RASP-independență codificată în protocolul de lucru + scrisoare de teme pentru Kimi.** Ambele postdatează CXXIII comis (care a capturat Cochran + de-condiționarea RASP în corpus + erratum FSSP); niciun erratum — continuare, nu corecție. Zero memorie.*
+
+## LINIE DE CHANGELOG (sub v3.119)
+*(v3.120: 20 aug — **protocol + planificare Kimi.** (A) **Scrisoarea către instanțe (`SCRISOARE_CATRE_INSTANTA` → v2):** §3.9 NOU în standardele nenegociabile — „RASP este STRICT INDEPENDENT, nu condiționa NIMIC de el": RASP = terapie de sine stătătoare (autism) + suită de teste pe ani, nu pilon; direcția fixă (teoria produce predicții testabile de orice studiu adecvat; RASP nu validează teoria); distincția citare-vs-condiționare; capcana „teoria așteaptă RASP = direcție corectă" marcată FALSĂ. + linie în §7 (capcane) despre RASP-conditioning (P18/PT3/γ_NM). Efect: regula devine STANDING pentru toate instanțele viitoare, nu corecție de sesiune. (B) **`SCRISOARE_CATRE_KIMI_v1` produsă** (operațional; nod Kimi §5): teme prioritare de generare divergentă [S] extrapolate din ACTIVE — TEMA 1 (HIGH) ancore FSSP (γ_NM/g_NM/a_NM^rate/Q_opt, NU gated pe RASP); TEMA 2 (HIGH) G-ETK-3 veriga AQP4-delocalizare; TEMA 3 (MED) expansiune predicții R2/R3 (cea mai ieftin falsifiabilă); TEMA 4 (MED) ε_total+ε_CB1R & puntea FEP↔TVK/G-FEP-1; TEMA 5 (LOWER, cu avertisment) eCB-PTSD (axa acut/cronic × sex/minoritate/genotip/timing, heterogenitate intactă). + §0 reguli fixe pentru Kimi (marcaj [S], PMID doar reale, fără dihotomii forțate, RASP independent, format per-claim) + §2 „ce NU face Kimi" (verificare/cod/verdicte [C] rămân la nodul cu unelte). (C) **Notă de proces:** re-verific GitHub live la fiecare tur (nu presupun statutul pending) — CXXIII a fost comis între tururi, cu scope-ul de la momentul commit-ului. 0 referință nouă. 0 corecție silențioasă. 0 fișier de corpus atins.)*
+
+## CXXIV.1 Aterizări (protocol + planificare)
+| Artefact | Schimbare | Tip |
+|---|---|---|
+| `SCRISOARE_CATRE_INSTANTA_v2` | §3.9 RASP-independent (nenegociabil) + capcană §7 | regulă permanentă |
+| `SCRISOARE_CATRE_KIMI_v1` | 5 teme prioritare [S] + reguli fixe + „ce NU face" | operațional |
+
+**ÎNCHISE (această pasă):** **RASP-independență codificată ca §3.9** în scrisoarea către instanțe (+ capcană §7) = regulă permanentă pentru toate instanțele; **`SCRISOARE_CATRE_KIMI_v1` produsă** (teme divergente [S] prioritare extrapolate din ACTIVE + guardrails). Ambele postdatează CXXIII comis; continuare append-only, fără erratum.
+
+**ACTIVE:** C-2 (T-C2-1 la nod) · a_NM (coliziune rezolvată a_NM^att) · FEP_integ_TVK [S] (temă Kimi 4) · clase-capcană T11/T12/T13 · FSSP ODE a_NM^rate/g_NM/γ_NM [S] neancorate, NU gated pe RASP (temă Kimi 1) · G-ETK-R2/R3 (9 predicții [S], temă Kimi 3) · G-ETK-3 AQP4-delocalizare [predicție neverificată] (temă Kimi 2) · L-eCB-PTSD [D] (temă Kimi 5, cu avertisment) · calibrare T_2AG^ev/T_AEA^ton = pending (nod) · L-eCB-5 NEADMIS [S] · ε_total candidat +ε_CB1R [S] (temă Kimi 4) · T-eCB-ABX (nod) · adiacență OXTR-metilare Braun/Bock [D] (nod) · R-13 ⛔ argument-de-clasă only (nod marcaj) · `etk_reference_corrector.py` hard-guard = ZIP pending redeploy · G-RASP-1 = doar în ghid Alzheimer, de redenumit/separat (nod) · `ACPS_v14_FINAL_08-08` + `v13` obsolete (P18-RASP vechi), neatinse; canonic ACPS = `0-4_RASPsep` · TheUpstream `-1` = quasi-dup al `-2`, de reconciliat · **protocol de lucru canonic = `SCRISOARE_CATRE_INSTANTA_v2`** · **teme Kimi active = `SCRISOARE_CATRE_KIMI_v1`** · T1/T4/ancore-cronice = pending la nod.
+
+**Autoritate unică:** acest consolidat, vârf **v3.120 · Partea CXXIV**. Acoperire **0/I→CXXIV**. Protocol (§3.9 RASP-independent) + planificare Kimi (5 teme [S]); continuare post-CXXIII, fără erratum; 0 corpus atins. Erratum humanum est. Zero memorie.
+
+
 
 
 
