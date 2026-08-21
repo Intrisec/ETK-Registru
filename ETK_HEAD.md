@@ -1,9 +1,9 @@
 # ETK — HEAD (stare curentă)
 **Proiecție a jurnalului · reconstruit 2026-08-21 · NU se editează de mână**
 
-> **Vârf:** v3.119 · Partea CXXIII (2026-08-20)  
+> **Vârf:** v3.120 · Partea CXXIV (2026-08-20)  
 > **Sursă:** `ETK_LEDGER.md`  
-> **STARE:** Acoperire **0/I → Partea CXXIII** (v3.119) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-21  
+> **STARE:** Acoperire **0/I → Partea CXXIV** (v3.120) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-21  
 > **Regulă:** HEAD = artefact de build ȘI autoritatea de stare (LXXXIV). INDEX-ul de mai jos e REGENERAT din markerii `# APPEND` — nu-l citi din jurnal (acolo e înghețat). Orice schimbare aterizează întâi în jurnal (append + grep), apoi se re-rulează `etk_project_head.py`.
 > **📤 PROCEDURĂ UPLOAD (regulă vie, imună la `-N`):** la finalul sesiunii operatorul urcă **DOAR 2 fișiere** — jurnalul nou `ETK_LEDGER_v3_XX_<stamp>.md` + `ETK_HEAD.md` — și **șterge jurnalul precedent** (ca să nu se adune). Tooling-ul (`etk_ledger_commit.py` + `etk_project_head*.py`) se urcă **o singură dată**. Append-urile **NU se urcă** (commit-ul le pliază). **Interfața poate adăuga sufixe `-N` la upload — E INOFENSIV:** pipeline-ul e imun (commit-ul alege automat jurnalul cel mai recent + proiectorul cel mai capabil, indiferent de `-N`). **Nu redenumi nimic** — singurul gest de igienă e ștergerea jurnalului vechi.
 
@@ -12,7 +12,6 @@
 ## 🗺 INDEX PĂRȚI — regenerat, viu (12 părți-append)
 *Era append XLV→vârf, proiectată din jurnal la fiecare build (O1, fix M-2/M-3). ERA I (0–XLIV) = pliată/înghețată.*
 
-- **v3.108 · Partea CXII** (2026-08-18) — CXII.1 Verdict Kimi R6
 - **v3.109 · Partea CXIII** (2026-08-19) — CXIII.1 Plan de execuție (roadmap FAZA 0–4)
 - **v3.110 · Partea CXIV** (2026-08-19) — CXIV.1 Reîncadrarea flag-ului Mesman
 - **v3.111 · Partea CXV** (2026-08-19) — CXV.1 FAZA 0.4 — PF-04457845 aterizat (RAPORT_SUPERPOZITIE, axa eCB/Med)
@@ -24,29 +23,33 @@
 - **v3.117 · Partea CXXI** (2026-08-20) — CXXI.1 Amenințarea și neutralizarea
 - **v3.118 · Partea CXXII** (2026-08-20) — CXXII.1 RASP — audit de independență (direcția dependenței)
 - **v3.119 · Partea CXXIII** (2026-08-20) — CXXIII.1 Cochran — dispoziția canonică (dublă)
+- **v3.120 · Partea CXXIV** (2026-08-20) — CXXIV.1 Aterizări (protocol + planificare)
 
 ---
 
-## ⚠ ERORI / FLAG-URI ACTIVE (18)
+## ⚠ ERORI / FLAG-URI ACTIVE (21)
 *Doar cele deschise. Cele închise trăiesc în jurnal.*
 
 - C-2 (T-C2-1 la nod)
 - a_NM (coliziune rezolvată a_NM^att)
-- FEP_integ_TVK [S]
+- FEP_integ_TVK [S] (temă Kimi 4)
 - clase-capcană T11/T12/T13
-- FSSP ODE a_NM^rate/g_NM/γ_NM [S] neancorate (NU gated pe RASP)
-- G-ETK-R2/R3 (9 predicții [S])
-- L-eCB-PTSD [D]
+- FSSP ODE a_NM^rate/g_NM/γ_NM [S] neancorate, NU gated pe RASP (temă Kimi 1)
+- G-ETK-R2/R3 (9 predicții [S], temă Kimi 3)
+- G-ETK-3 AQP4-delocalizare [predicție neverificată] (temă Kimi 2)
+- L-eCB-PTSD [D] (temă Kimi 5, cu avertisment)
 - calibrare T_2AG^ev/T_AEA^ton = pending (nod)
 - L-eCB-5 NEADMIS [S]
-- ε_total candidat +ε_CB1R [S]
+- ε_total candidat +ε_CB1R [S] (temă Kimi 4)
 - T-eCB-ABX (nod)
 - adiacență OXTR-metilare Braun/Bock [D] (nod)
 - R-13 ⛔ argument-de-clasă only (nod marcaj)
 - etk_reference_corrector.py hard-guard = ZIP pending redeploy
 - G-RASP-1 = doar în ghid Alzheimer, de redenumit/separat (nod)
-- ACPS_v14_FINAL_08-08 + v13 = obsolete (poartă vechiul P18-RASP), neatinse; canonic ACPS = 0-4_RASPsep
+- ACPS_v14_FINAL_08-08 + v13 obsolete (P18-RASP vechi), neatinse; canonic ACPS = 0-4_RASPsep
 - TheUpstream -1 = quasi-dup al -2, de reconciliat
+- protocol de lucru canonic = SCRISOARE_CATRE_INSTANTA_v2
+- teme Kimi active = SCRISOARE_CATRE_KIMI_v1
 - T1/T4/ancore-cronice = pending la nod.
 
 _Erori închise (în jurnal, nu aici): ~0._
@@ -173,4 +176,4 @@ _Erori închise (în jurnal, nu aici): ~0._
 | R-116 | Nave G, Camerer C, McCullough M (2015), *Perspect Psychol Sci* 10(6):772–789, DOI 10.1177/1745691615600138 | 26581735 | (C) |
 
 ---
-*Generat de etk_project_head.py din ETK_LEDGER.md. 83 referințe · 18 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
+*Generat de etk_project_head.py din ETK_LEDGER.md. 83 referințe · 21 active · 25 deschise. Pentru istorie/provenență → jurnalul.*
