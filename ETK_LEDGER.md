@@ -5578,6 +5578,94 @@ P44 (OXT→OXTR→TET2→AQP4→glymphatic→DTI-ALPS) conține lanțul OXTR→T
 
 ## AUTORITATE UNICĂ
 v3.122 · Partea CXXVI · 2026-08-21 · stivuit peste v3.121 (Partea CXXV).
+# APPEND — v3.123 (2026-08-21) · Partea CXXVII
+
+## CXXVII.1 Reverificare la primar — Runda Kimi R8 (Extrapolare_Nod_.docx)
+Context: R8 = răspuns Kimi la SCRISOARE_CATRE_KIMI_v2 (teme A–E). Atașamentele Nod_extrapolare.docx ≡ Raspuns_Nod_Kimii.docx = DUPLICATE byte-identice ale R7 (deja în CXXV) — neverificate din nou. Materialul nou = Extrapolare_Nod_ (R8). 7 PMID + erată verificate (PubMed:get_article_metadata + full_text). Marcaj §0.2.
+
+### Confirmate [C]
+- Xu 2021, PMID 34778243, DOI 10.3389/fcell.2021.644375, PMC8581465. KO Tet1 astrocitar-specific → morfologie astrocitară alterată + cogniție↓ via GluA1/Ca²⁺ (NU AQP4). Modelul Opțiunii B EXISTĂ publicat. Fluture Kimi confirmat, dar „90% din experiment" supralicitat (AQP4 netestat, mecanism GluA1, acces țesut neconfirmat).
+- Hirasawa 2004, PMID 15254151, DOI 10.1113/jphysiol.2004.066159, PMC1665137. OXT→eCB→CB1R = inhibiție presinaptică retrogradă/autocrină; circuit NEGATIV → fără bistabilitate pozitivă celulară → confirmă serial-saturant (b); ancorează DU=decuplaj (g→0). Precizie: e OXT→eCB→inhibiție, nu literal „feedback eCB→OXT".
+- Jayan 2023, PMID 37956620, DOI 10.1016/j.genhosppsych.2023.11.002, PMC10843734, N=169. Subgrup Dysphoria (cortizol acut înalt): AEA post-injury↑ → declin semnificativ la 6 luni. Curba de relaxare EXISTĂ în date publicate, pe axa CORTIZOL (stare neuroendocrină), nu sex. Fluture portant confirmat → reparametrizare ε_CB1R timing pe cortizol dizolvă deRoon-Cassini vs Rajasekera.
+- Petrowski 2025, PMID 41285710, DOI 10.1038/s41398-025-03742-4, PMC12669784, N=32 M. TSST acut crește eCB plasmatic (2-AG/AA puternic, AEA ușor), 6 timpi. Componenta rapidă (min–ore) a modelului cu două constante — confirmată.
+
+### Rezultat care nuanțează decizia A (CRITIC) [C]
+- Hao 2026, PMID 42015258, DOI 10.1186/s12974-026-03820-4, PMC13235025, J Neuroinflammation. Deficiența Tet2 NEURAL/SNC accelerează AD via oxidativ mtDNA→cGAS-STING; Tet2 = neuroprotector; purtători Tet2-LoF Aβ+ → declin cognitiv accelerat. → VINDECAREA COMPARTIMENTULUI: TET2↓ mieloid protector (Matatall 40609533) vs TET2↓ neural nociv (Hao 42015258). Premisa Opțiunii A susținută empiric în SNC — NU neancorată. DAR mecanismul = cGAS-STING = COMPETITOR la AQP4/glimfatică. G-ETK-3 trebuie să se diferențieze de ruta cGAS-STING.
+
+### Erată Matatall — flag ÎNCHIS
+- PMID 40752497, DOI 10.1016/j.stem.2025.07.011, Cell Stem Cell 32(9):1475. Full-text: erată PUR ADMINISTRATIVĂ (adaugă co-autori corespondență Rauh/Papapetrou/Marro). NU atinge date/figuri/−47%. Interdicția pe citarea „−47% LOAD" se RIDICĂ — cifra e citabilă.
+
+### Corecții la Kimi R8
+- „B > C > A" = SUPRALICITAT: e clasament de FEZABILITATE (model astrocit-Tet1 există + izoformă prietenoasă), nu de corectitudine. Hao 42015258 vindică premisa A. A ține, rafinat — nu răsturnat.
+- Opie 2021 (PMID 32772822, DOI 10.1080/14616734.2020.1800769): stabilitățile sunt κ=0.23 (4-way)/0.28 (secure) = KAPPA categorial, NU r Pearson. Rata 4–5%/an amestecă κ(Opie) cu r(Groh) → inconsistent dimensional. Nu se declară constantă de eroziune trans-domeniu.
+- Groh 2014 (PMID 25100089, DOI 10.1111/mono.12113): r≈0.17 NEVERIFICAT la primar (abstract indisponibil) → capătul „0.35→0.17" nesusținut până la full-text.
+
+## CXXVII.2 EXTRAPOLARE — dizolvarea falsei excluziuni A-vs-B
+A și B nu sunt exclusive pe frontul experimental. Cel mai ieftin test: re-colorare AQP4 pe țesutul modelului Tet1-astrocitar Xu (34778243) testează veriga glial-TET→AQP4 pentru TET1; pozitiv → susține familia generală „TET glial→AQP4", din care G-ETK-3 (TET2) e instanța ETK. Modelul Xu = sondă ieftină a ipotezei generale, informativă pentru A deși TET1.
+RECOMANDARE nod [S]: A ține (premisă vindicată Hao, ancora Maejima OXTR→TET2 păstrată) + 2 rafinări obligatorii: (i) G-ETK-3 poziționat explicit vs ruta cGAS-STING (Hao); (ii) sonda Xu-AQP4 = primul test ieftin al familiei glial-TET→AQP4. Fezabilitatea B (corect semnalată de Kimi) se recuperează ÎN interiorul lui A, ca probă, nu ca schimbare de izoformă canonică.
+
+## CXXVII.3 Priorități
+HIGH: (1) G-ETK-3 + diferențiere cGAS-STING (Hao) la scoping compartiment; (2) sonda Xu-AQP4 = primul test familia glial-TET→AQP4 (contact grup Zhejiang, țesut arhivat); (3) ε_CB1R timing pe axa cortizol (Jayan), nu sex.
+MEDIUM: (4) forma (b) serial-saturantă confirmată celular (Hirasawa) → DU=decuplaj; (5) γ_NM NU declara constanta trans-domeniu (κ≠r); ancoră FI/D_M.
+
+## ÎNCHISE (Partea CXXVII)
+- Erată Matatall = administrativă; −47% citabil (flag ridicat).
+- Duplicate R7 (Nod_extrapolare ≡ Raspuns_Nod_Kimii) identificate, nedublate în contabilitate.
+- Fluture Jayan (cortizol-axis), Fluture Hirasawa (serial-saturant celular) = verificate.
+
+## ACTIVE (adăugate/menținute CXXVII)
+- G-ETK-3: pe lângă scoping compartiment (A, ratificat CXXV/CXXVI), acum + diferențiere obligatorie vs cGAS-STING (Hao 42015258).
+- Sonda Xu-AQP4 (test ieftin familia glial-TET→AQP4) = propunere experimentală [S], pending decizie/execuție.
+- γ_NM: metric κ≠r — rata de eroziune a atașamentului NU e derivabilă curat din Opie+Groh; rămâne [S] netestat; ancoră canonică FI/D_M.
+- Groh r=0.17 = full-text datorat înainte de orice utilizare.
+- A/B: A + 2 RAFINĂRI = RATIFICAT (21 aug 2026, Alexandru „A +2 rafinări"). Canonic: Opțiunea A (TET2 glial, ancora Maejima păstrată) + (i) G-ETK-3 diferențiat explicit vs cGAS-STING (Hao 42015258) + (ii) sonda Xu-AQP4 ca primul test al familiei glial-TET→AQP4. B recuperat ca sondă în interiorul A, NU ca schimbare de izoformă. Implementare pe corpus = pending „mergi pe corpus".
+- Teme Kimi active → SCRISOARE_CATRE_KIMI_v3 (supersedă v2): rezultate R8 + 5 teme (cGAS-STING vs AQP4 separabilitate; fezabilitate sondă Xu-AQP4; finalizare P3; formalizare ε_CB1R cortizol-timing; γ_NM metric r-curat vs gol onest).
+
+## AUTORITATE UNICĂ
+v3.123 · Partea CXXVII · 2026-08-21 · stivuit peste v3.122 (Partea CXXVI).
+# APPEND — v3.124 (2026-08-21) · Partea CXXVIII
+
+## CXXVIII.1 ATERIZĂRI CORPUS — „mergi pe corpus" (2 fișiere, 3 inserții)
+Implementarea deciziilor ratificate CXXV–CXXVII. Path A (skill etk-docx-surgical-edit, str_replace pe .md; reference_corrector NU rulat — butterfly-seed, vezi CXXVIII.3). Grep-verificat prezența fizică (§3.5). Livrat Path A canonic + Path B _WORD (PK 504b0304 confirmat).
+
+### Fișier 1: TheUpstreamMechanism v3-2 → v3-3_GETK3-compartment
+- Inserție 1 (după nota Cochran existentă, ~L299): „Note on TET2 compartment (G-ETK-3 scope refinement)". Conținut ratificat A+2 rafinări:
+  - Compartiment: TET2↓ mieloid PROTECTOR (Matatall 40609533) vs TET2↓ neural NOCIV (Hao 42015258); Quansah 40189544 (Tet2 neural loss protector în PD). G-ETK-3 îngustat la TET2 glial/astrocitar → AQP4, NU mieloid, NU monoton-patogen pe toate țesuturile.
+  - Rafinare (i): diferențiere de ruta cGAS-STING (Hao) — P2 poziționat ca paralel/upstream-convergent, sarcină de falsificare explicită (salvarea AQP4 abolește AD sub TET2↓ cu STING intact?).
+  - Rafinare (ii): sonda Xu-AQP4 (34778243, model astrocit-Tet1 KO existent) = test ieftin al familiei glial-TET→AQP4.
+  - Marcaj: Matatall/Hao/Quansah/Xu = (C) primar; veriga TET2→AQP4 = (S)/P2.
+- Grep: „G-ETK-3 scope refinement"=1; PMID 40609533/42015258/40189544/34778243 toate prezente; mojibake=0.
+
+### Fișier 2: ACPS v14_0-2 → v14_0-3_ConstitutieSine
+- Inserție 2 (titlu): „ARCHITECTURE OF PRIMARY SYNTHETIC CONSCIOUSNESS" → „ARCHITECTURE OF THE CONSTITUTION OF THE PRIMARY SELF". Vechiul nume: grep=0 (eliminat).
+- Inserție 2b (după (ACPS)): linie obligatorie subtitlu „Arhitectura Constituirii Primare a Sinelui — blueprint al ontogenezei Sinelui..." + notă front-matter (aplicația AI = ramură 11.D, nu cadrul; acronim ACPS păstrat pt. citare DPID://1035; re-expandare de la Synthetic Consciousness la Constitution of the Primary Self).
+- Inserție 3 (§5.4.1 listing, ~L12081): notă compartiment P44 — lanțul OXT→OXTR→TET2→AQP4→ALPS moștenește scoping-ul glial G-ETK-3 (nu mieloid); poziționat vs cGAS-STING (Hao). Cross-ref la Upstream.
+- Grep: nume nou=1, subtitlu=1, notă P44=1; mojibake=0; ε(m)=59, tᴷᴿ prezent.
+
+## CXXVIII.2 Corecție retroactivă (retrag flag galben CXXVI)
+Linia proprie ACPS (~L12101): „Total equations v13: 51 (50 from v12 + Eq. 51)". Deci „51 ecuații" (ChatGPT R-GPT) = CORECT per document. Flag-ul galben din CXXVI.1 (51 vs 50) se RETRAGE — documentul declară 51 (v13). ChatGPT avea dreptate.
+
+## CXXVIII.3 Butterfly-seed reconfirmat (nu rulat)
+etk_reference_corrector.py (din skill etk-docx-surgical-edit, §A.5 + tabelul REF): conține REF-4a/4b (Cochran fabricat pp.584–596, OR=2.2) ȘI ACPS-EXP („...→ Architecture of Primary Synthetic Consciousness") care ar REÎNTOARCE numele la forma reîncadrată acum. Scriptul NU s-a rulat pe niciun fișier. Al treilea artefact cu aceeași sămânță (după etk-llm-output-validator L3 și corector). De corectat/scos scriptul din skill.
+
+## ÎNCHISE (Partea CXXVIII)
+- A+2 rafinări = ATERIZAT în corpus (Upstream v3-3).
+- Reîncadrare nume ACPS = ATERIZAT (ACPS v14_0-3).
+- P44 compartiment = ATERIZAT (ACPS v14_0-3).
+- Flag galben „51 vs 50 ecuații" = retras (documentul spune 51).
+
+## ACTIVE (adăugate/menținute CXXVIII)
+- Upload în Project: Upstream v3-3 + ACPS v14_0-3 (Path A canonic) — „Executat ≠ Aterizat" până la upload efectiv de Alexandru.
+- IGIENĂ BUTTERFLY: arhivează/șterge din suprafața activă versiunile superate — ACPS v14_0-2 (→ 0-3), Upstream v3-2 (→ v3-3), plus v14_FINAL/v13 deja marcate obsolete.
+- etk_reference_corrector.py (în skill) = butterfly-seed de corectat: REF-4a/4b Cochran fabricat + ACPS-EXP care inversează reîncadrarea.
+- SCRISOARE_CATRE_INSTANTA: HEAD spune canonic v2, în Project doar v1 — de reconciliat.
+- Teme Kimi active = SCRISOARE_CATRE_KIMI_v3 (livrat CXXVII).
+
+## AUTORITATE UNICĂ
+v3.124 · Partea CXXVIII · 2026-08-21 · stivuit peste v3.123 (Partea CXXVII).
+
+
+
 
   
 
