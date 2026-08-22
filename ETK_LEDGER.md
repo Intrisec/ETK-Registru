@@ -5663,6 +5663,46 @@ etk_reference_corrector.py (din skill etk-docx-surgical-edit, §A.5 + tabelul RE
 
 ## AUTORITATE UNICĂ
 v3.124 · Partea CXXVIII · 2026-08-21 · stivuit peste v3.123 (Partea CXXVII).
+# APPEND — v3.125 (2026-08-22) · Partea CXXIX
+
+## CXXIX.1 REVERIFICARE LA PRIMAR — Runda Kimi R9 (`Kimi_nod_runda_9.docx`)
+Nod = generator divergent; output-ul NU aterizează, trece prin reverificare (§5 scrisoare). Rundă disciplinată: zero PMID fabricat, zero miscitare structurală. Imagini embedded inspectate separat = 18 placeholder-uri blank identice (md5 unic, tiparul R5, inofensiv) + 1 diagramă-rezumat text (img_15), fără cascadă. Kimi a marcat corect totul [S]/[F]; niciun [C] emis de nod.
+
+**16 PMID verificate la primar (PubMed metadata, nivel abstract) — toate reale + corect caracterizate:**
+
+- **P3-scoop [existență confirmată; abstract-D]:** 42336327 (Wang M 2026, J Affect Disord, DOI 10.1016/j.jad.2026.122165) — DTI-ALPS × traumă-copilărie (CTQ) × MDD, n=160 (86 MDD + 74 HC), r=−0.251 p=0.02 în MDD, mediație indirect effect coef=0.0001 p=0.0372. Cifra n=160 a lui Kimi = exactă.
+- Suport P3: 41167434 (Li C **2025** — DTI-ALPS mediază traumă→răspuns antidepresiv; DOI 10.1016/j.jad.2025.120563); 40526121 (Wang ML **2025** — ALPS↓ veterani PTSD; DOI 10.1007/s00406-025-02037-5).
+- TEMA A (STING/AQP4): 40410932 (Thanos 2025 — STING-KO protejează Aβ-AD, 5xFAD murin; DOI 10.1002/alz.70305); 39844196 (Liu 2025 — TDP43→mtDNA-cGAS-STING astrocitar în NMOSD; DOI 10.1186/s12974-025-03348-z); 41966779 (Abdelaziz 2026 — REVIEW model propus cGAS-STING-glimfatic-gut în PD, fără date primare; DOI 10.1016/j.intimp.2026.116628); 42107812 (Zhou 2026 — depolarizare AQP4 upstream de neuroinflamație postop; DOI 10.1016/j.bbi.2026.106797); 41229730 (Yue 2025 — HDAC7-KO, cGAS/STING astrocitar funcțional; DOI 10.3389/fncel.2025.1683595); 41619353 (Lin 2026 — dALPS UKB n>65k GWAS; DOI 10.1016/j.ebiom.2026.106133).
+- TEMA E (γ_NM): 23210665 (Pinquart 2013 — meta 127 studii/21.072 atașamente, r=.39, nesemnificativ >15 ani; DOI 10.1080/14616734.2013.746257); 21707199 (Fraley 2011 — model prototip, N=203/30z + N=388/1an; DOI 10.1037/a0024150); 33043839 (Waters 2021 — rank-order r=.43 adolescență→midlife; DOI 10.1080/14616734.2020.1832548).
+- TEMA D (eCB): 35884902 (Trevino 2022 — 2-AG peri-traumă→durere cronică via cortizol, path analysis; DOI 10.3390/biomedicines10071599); 22763622 (Dlugos 2012 — TSST↑AEA/NAE, ΔPEAΔcort; DOI 10.1038/npp.2012.100); 41285710 (Petrowski 2025 — TSST↑eCB plasmatic 6 puncte; DOI 10.1038/s41398-025-03742-4).
+
+*Toate = candidate scouting R9, verificate la primar dar NEÎNCADRATE R- și NEATERIZATE în corpus (executat ≠ aterizat; încadrarea R- = decizie autorială).*
+
+## CXXIX.2 CONEXIUNE DE ANSAMBLU — TEMA A operaționalizează CXXVIII, nu introduce arhitectură nouă
+CXXVIII.1 (rafinare i) a formulat deja sarcina de falsificare P2 vs cGAS-STING: „salvarea AQP4 abolește AD sub TET2↓ cu STING intact?". **TEMA A R9 = operaționalizarea experimentală a acestei sarcini** (factorial 2×2 pe TET2-cKO astrocitar: inhibitor STING H-151 × polarizare AQP4) + ancorele ei la primar (40410932, 39844196, 41229730). TEMA B (sonda GSE164025/Tet1-KO) se leagă de nota Xu-AQP4 (34778243) din CXXVIII.1. Insight de poziționare (Kimi, coerent): negativul transcriptomic *filtrează* G-ETK-3, nu-l falsifică — fiind rută de polarizare SPAȚIALĂ, nu de expresie; framing sprijinit indirect de 42107812 (depolarizare, nu downregulation) + 41966779 (mislocalizare AQP4).
+
+## CXXIX.3 SEMNALĂRI (de reparat/calibrat)
+- **Derivă de an [minoră]:** 41167434 = 2025 (Kimi „Li 2026"); 40526121 = 2025 (Kimi „Wang 2026"). De corectat la orice citare în corpus.
+- **GSE164025 = self-report NEREPRODUS [S]:** Aqp4 log2FC=−1.02 padj=0.48 (minare GEO Kimi) NU reprodus în această pasă (GEO ne-allowlistat). Per §3.4 — nu intră în corpus până la re-minare la nodul cu unelte. Raționamentul defensiv depinde de cifră.
+- **40849292 (Bergunde 2025) — glosă simplificatoare:** direcția AEA capilar e simptom-dependentă (SCĂZUT cu depresie/anxietate; RIDICAT cu PTSD/încărcătură traumatică); eșantion feminin n=54, fără control. Split-ul *susține* inferența de non-monotonie a lui Kimi — dar din motivul corect, nu dintr-o reducere uniformă.
+- **⚠ NEPOTRIVIRE DE TIP r∞ ↔ Q_opt [portant]:** reîncadrarea γ_NM ca relaxare-spre-reziduu (r(t)=r∞+A·e^(−λt), γ_NM:=λ) e CORECTĂ și portantă (decay pur supraestimează eroziunea pe orizont lung). DAR r∞≈0.39 e coeficient de stabilitate *rank-order* (persistența ordinii diferențelor individuale), NU un *nivel*. Maparea r∞→Q_opt tratează o corelație rank-order ca prag de nivel al capitalului — constructe diferite (clasa de capcană §7: confuzia unei mărimi cu alta). Puntea are nevoie de asumpție-punte explicită (rank-order ⇒ podea de nivel) înainte de FSSP; altfel se coboară epistemic. „Nu forțăm nimic."
+
+## CXXIX.4 [F]/[S] NEATERIZAT (corect)
+Propunerile formale — Bateman bi-exponențial AEA(t|C₀) și forma relaxare-spre-plateau γ_NM — coerente intern, marcate [F]/[S], NU aterizează (scule de modelare, nu afirmații empirice). Ipotezele explicite ale nodului (transfer minute→luni NEVALIDAT; AEA plasmatic ca proxy central; A(C₀) posibil non-monotonă) = onest declarate.
+
+## ÎNCHISE (Partea CXXIX)
+- Reverificare R9 la primar = EXECUTATĂ (16/16 PMID reale + corect caracterizate; imagini curate).
+- Butterfly imagini R9 = inspectat, curat (18 blank + 1 diagramă-text).
+
+## ACTIVE (adăugate/menținute CXXIX)
+- **Decizii autoriale deschise:** (1) γ_NM în FSSP — formă relaxare-spre-reziduu DA/NU + tratamentul punții r∞↔Q_opt (opțiuni: a=λ/r∞ separați nemapați; b=asumpție-punte [S] falsificabilă; c=parcare până la cohortă cu măsuri continue ce hrănește D+E); (2) repoziționare P3 (Wang 2026 = proof-of-concept citat, prioritate rămasă = prospectiv ABCD + UKB×CTS-5); (3) TEMA B wet-lab (Tet2^fl/fl×GFAP-Cre, ~8–20k€, 4–9 luni) = decizie de resurse.
+- GSE164025 = re-minare la nodul cu unelte înainte de orice utilizare a cifrei.
+- Candidate R9 (16 PMID) verificate la primar, în așteptarea deciziei de încadrare R-/aterizare.
+- Calibrare: „URGENȚĂ MARE" P3 (Kimi) → urgență reală, scoop SLAB (mediere minusculă, p la limită, transversal, caveat de autor). Prioritatea prospectiv-developmental rămâne genuin prim-de-fel.
+
+## AUTORITATE UNICĂ
+v3.125 · Partea CXXIX · 2026-08-22 · stivuit peste v3.124 (Partea CXXVIII).
+
 
 
 
