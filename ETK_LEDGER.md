@@ -5741,6 +5741,86 @@ Scoop 42336327 (Wang 2026) = real dar SLAB (mediere indirect coef=0.0001 p=0.037
 
 ## AUTORITATE UNICĂ
 v3.126 · Partea CXXX · 2026-08-22 · stivuit peste v3.125 (Partea CXXIX).
+# APPEND — v3.127 (2026-08-22) · Partea CXXXI
+
+## CXXXI.1 AUDIT „LA ZI" — subansamble + ACPS final (SUPERPOZIȚIE, verificat fizic)
+Investigație de statut cerută de operator. Zero memorie: vârf live (v3.126·CXXX) + grep pe disc + jurnal. Constatări:
+
+**(A) ACPS pe suprafață = doar `0-2`, STALE.** Grep `ACPS_v14_0-2_C2-specie`: „Synthetic Consciousness"=1 (renumire CXXVIII absentă), „RASP"=1 / „P18"=2 (RASPsep CXXIII absentă). Canonicele `0-3_FAZA4`/`0-4_RASPsep`/`0-3_ConstitutieSine` = ABSENTE de pe disc. Risc butterfly viu: editare pe 0-2 regresează tot.
+
+**(B) FORK de lineage ACPS (atestat de jurnal).** Ramura 1: 0-2→`0-3_FAZA4` (CXX: D3/D4/GUARD)→`0-4_RASPsep` (CXXIII: RASPsep, P18 standalone, 0 mențiuni RASP). Ramura 2: 0-2→`0-3_ConstitutieSine` (CXXVIII: renumire „Constitution of the Primary Self"+P44), pornită IAR din 0-2. **Niciun ACPS unic nu are toate aterizările.** Cauză-rădăcină: baza dată repetat instanțelor (0-2) ≠ vârf canonic. Confirmare la nivel de fișier = necesită fișierele reale (nu-s pe suprafață).
+
+**(C) Inserții Alzheimer = DEJA aterizate (memoria era stale).** `Q_v5_Ro` (8 aug): Alzheimer×9, TET2×11, ALPS×3, AQP4×4, Window II×3, Fereastra II×1. Ghidul v2 țintea „Qualia v4.1", dar v5 le-a absorbit. Q2–Q5 substanțial prezente; U1 în `TheUpstream §11.5` (FAZA 3) + rafinat G-ETK-3 (CXXVIII v3-3). NU inserții lipsă = problema.
+
+**(D) Executat ≠ Aterizat (fișiere canonice NEurcate în Project):** ACPS canonic (orice formă), Upstream v3-3, `SCRISOARE_CATRE_INSTANTA_v2` (pe disc doar v1 — fără §3.9 RASP-independență!), F-gNM-001. Suprafața ≠ adevăr.
+
+**(E) Butterfly seeds active:** `etk_reference_corrector.py` (Cochran fabricat OR 2.2 + ACPS-EXP care inversează renumirea) — ZIP corectat livrat, DAR skill viu = cel vechi până la redeploy. Versiuni obsolete pe suprafață (0-2, v14_FINAL_08-08, v13, Upstream -1/-2, NP_Dep -4/-5, F-eCB -1/-2). SCRISOARE v1 pe disc (protocol vechi).
+
+## CXXXI.2 LISTĂ DE PRIORITIZARE — strict pe „updating la zi"
+*Ordine = risc-butterfly × dependență (propagare ≥3 module = primul). P3 = muncă nouă, nu updating — separat.*
+
+**P0 — CRITIC (butterfly viu / incoerență de coerență):**
+- **U-1 · Unificare ACPS canonic.** Rezolvă forkul: aplică renumire+P44 (CXXVIII) PESTE `0-4_RASPsep` (are FAZA4+RASPsep) → un singur `0-5` care conține TOT. NECESITĂ ca operatorul să furnizeze fișierele reale (0-4_RASPsep + 0-3_ConstitutieSine) pentru diff/merge — nu-s pe suprafață. Blochează orice editare ulterioară de ACPS.
+- **U-2 · Redeploy `etk_reference_corrector.py`** (Settings→Capabilities) SAU scoate scriptul din skill. Până atunci, orice rulare reintroduce fabricația Cochran + inversează renumirea ACPS. Principiu: artefact cu adevăr înghețat = scos de pe suprafața activă.
+
+**P1 — ÎNALT (Executat ≠ Aterizat; igienă de suprafață):**
+- **U-3 · Urcă vârfurile canonice + șterge obsoletele** (un singur pas de igienă): urcă ACPS unificat, Upstream v3-3, SCRISOARE v2, F-gNM-001; șterge/arhivează 0-2, v14_FINAL_08-08, v13, Upstream -1/-2, dubluri NP_Dep/F-eCB. Efect: suprafața = vârf → instanțele viitoare pornesc din canonic (rupe cauza-rădăcină a forkului).
+- **U-4 · SCRISOARE_CATRE_INSTANTA v2 pe suprafață** (disc = v1, fără §3.9 RASP-independență). Orice instanță care citește v1 lucrează fără regula standing.
+
+**P2 — MEDIU (decis/queued, neaterizat):**
+- **U-5 · G-ETK-NUN-1** (predicția Nun Study: metilare glială OXTR-934 mai joasă la rezilienți vs concordanți la Braak egal) — de inserat (PARCAT, netestat).
+- **U-6 · G-RASP-1** = doar în ghid Alzheimer → redenumit/separat (coliziune de nume, ca G-FEP-1).
+- **U-7 · Confirmare per-secțiune Q2–Q5 în Qualia v5** (prezente global; grep-verificat pe conținut = de bifat, nu de re-inserat) + actualizare Ghid (țintește „v4.1", acum v5).
+
+**P3 — MUNCĂ NOUĂ (nu updating — listat pentru completitudine):**
+- FSSP bloc matematic (cel mai mare deficit unic); λ punctual γ_NM (Jones/Fraley tabele); încadrare R- candidați R9 + re-minare GSE164025; teme Kimi R10.
+
+## ÎNCHISE (Partea CXXXI)
+- Audit „la zi" = EXECUTAT (verificat fizic: ACPS fork + stale 0-2 pe suprafață; inserții AD confirmate aterizate în Qualia v5; Executat≠Aterizat inventariat; butterfly seeds listate).
+- Listă de prioritizare pe updating = CREATĂ (nu exista) → CXXXI.2.
+
+## ACTIVE (adăugate/menținute CXXXI)
+- U-1 unificare ACPS = BLOCANT, cere fișierele reale (0-4_RASPsep + 0-3_ConstitutieSine) de la operator.
+- U-2 redeploy/eliminare reference_corrector = butterfly, prioritar.
+- U-3 urcare canonice + ștergere obsolete = igienă care rupe cauza forkului.
+- U-4 SCRISOARE v2 pe suprafață.
+- U-5 G-ETK-NUN-1 · U-6 G-RASP-1 rename · U-7 confirmare Q2–Q5 + update Ghid.
+- Memorie de corectat: „inserții Alzheimer Q2–Q5 pending" = STALE (aterizate în Qualia v5).
+
+## AUTORITATE UNICĂ
+v3.127 · Partea CXXXI · 2026-08-22 · stivuit peste v3.126 (Partea CXXX).
+# APPEND — v3.128 (2026-08-22) · Partea CXXXII
+
+## CXXXII.1 VERIFICARE RASP-INDEPENDENȚĂ pe fișierele URCATE (la nivel de fișier)
+Operatorul a urcat în Project `ACPS_v14_0-3_ConstitutieSine` + `TheUpstreamMechanism_v3-3` (întrebare explicită: „e trecut că RASP e independent?"). Ambele acum pe suprafață (Path A, magic `**BL`/`*KAT` — sufixul `_WORD` NU e OOXML real). Verificat prin grep, nu presupus.
+
+**(A) Upstream v3-3 = RASP-INDEPENDENT ✓.** 11 mențiuni RASP, TOATE citări corecte (bibliografie Zenodo l.269, glosar l.383, cross-ref l.426, RASP ca intervenție descrisă l.69/173/260). Predicția cândva condiționată — PT3 — e reformulată standalone: „daily somatic signal: RASP-equivalent in isolated adults" (l.218). Direcția corectă peste tot (citare ≠ condiționare). Neatins.
+
+**(B) ACPS 0-3_ConstitutieSine = NU era RASP-independent ✗ → CORECTAT.** O singură mențiune RASP (l.9525), dar era exact condiționarea: „P18: I decreases... after ≥6 weeks (RASP protocol). Methodology: RASP RCT + HRV W0/W6/W12." Vechiul P18 pe care RASPsep (CXXIII) îl transformase în `0-4_RASPsep` — dar `0-3_ConstitutieSine` a fost ramificat din `0-2` (pre-RASPsep), deci n-a moștenit corecția. **Fork confirmat la nivel de fișier.**
+
+## CXXXII.2 CORECȚII APLICATE (ACPS_v14_0-3-1_RASPindep)
+Pe copie (Project read-only), 2 editări chirurgicale, grep-verificate:
+- **P18 (l.9525):** eliminată condiționarea RASP → predicție standalone: „...after ≥6 weeks of consistent co-regulatory validation. Methodology: longitudinal HRV measurement (W0/W6/W12) in a controlled co-regulation intervention." → **RASP total = 0** ✓.
+- **Titlu vechi (l.6929):** „Architecture of Primary Synthetic Consciousness (ACPS)" → „Architecture of the Constitution of the Primary Self (ACPS)" (aliniat la titlul ratificat L3). Renumire completă.
+- **PĂSTRAT corect (l.9): „Primary Synthetic Consciousness"** = numele legitim al ramurii de extrapolare §11.D (nota de framing) — NU rămășiță, NU atins.
+
+## CXXXII.3 GOL RĂMAS (onest — fork nu-i închis complet)
+`0-3-1_RASPindep` are acum: renumire completă + P44 + **RASP independent**. DAR încă lipsește **FAZA4** (grep: `s(Syt4)⊥`=0, `a_NM^att`=0) — notele explicite D3/D4 (ortogonalitate) + dezambiguizarea a_NM^att, care trăiesc în `0-4_RASPsep`. Pentru vârful canonic UNIC (rename+P44+RASPsep+FAZA4) e nevoie de merge cu `0-4_RASPsep` — ABSENT de pe suprafață. Blocaj U-1 (CXXXI) parțial ridicat (RASP rezolvat), FAZA4 rămâne.
+
+## ÎNCHISE (Partea CXXXII)
+- Verificare RASP pe fișierele urcate = EXECUTATĂ (Upstream v3-3 independent ✓; ACPS 0-3 condiționat → corectat).
+- Corecția RASP P18 în ACPS = APLICATĂ + verificată (RASP=0).
+- Renumire ACPS = completată (l.6929).
+
+## ACTIVE (adăugate/menținute CXXXII)
+- `ACPS_v14_0-3-1_RASPindep` = de urcat ÎN LOCUL lui `0-3_ConstitutieSine` (înlocuire, NU adăugare — evită al 4-lea fork). Șterge și dublura (Project are 2× 0-3, 2× Upstream — igienă).
+- U-1 (unificare ACPS) = cere `0-4_RASPsep` pentru merge FAZA4 → apoi `0-5` canonic final. Rămâne blocant până la furnizarea fișierului.
+- Path A/B: `0-3-1` e Path A (markdown); nu se deschide în Word. Pentru citire în Word = conversie Path B separată (pandoc, verifică PK).
+- Restul listei CXXXI (U-2 reference_corrector, U-3 igienă, U-4 SCRISOARE v2, U-5..U-7) = neschimbat.
+
+## AUTORITATE UNICĂ
+v3.128 · Partea CXXXII · 2026-08-22 · stivuit peste v3.127 (Partea CXXXI).
+
 
 
 
