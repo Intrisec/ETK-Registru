@@ -5702,6 +5702,46 @@ Propunerile formale — Bateman bi-exponențial AEA(t|C₀) și forma relaxare-s
 
 ## AUTORITATE UNICĂ
 v3.125 · Partea CXXIX · 2026-08-22 · stivuit peste v3.124 (Partea CXXVIII).
+# APPEND — v3.126 (2026-08-22) · Partea CXXX
+
+## CXXX.1 DECIZII AUTORIALE 1+2 — ratificate prin delegare explicită
+Alexandru a delegat explicit deciziile 1 (γ_NM + puntea r∞↔Q_opt) și 2 (repoziționare P3) instanței, din poziția de ansamblu, cu instrucțiunea de a executa ce e prioritar și clar. Domeniu = arhitectural/epistemic (nu somatic/qualia — acolo primatul rămâne al autorului). Decizia 3 (wet-lab, resurse) = NEATINSĂ, rămâne autorială. Ambele ratificări = vetabile ulterior de autor.
+
+## CXXX.2 DECIZIA 1 — γ_NM: formă adoptată, punte r∞↔Q_opt corectată (F-gNM-001 v1)
+A doua arhitectură obținută la full-text (nu doar abstract): Jones et al. 2018, *Child Development*, PMC5600628, PMID 28301042 ([DOI](https://doi.org/10.1111/cdev.12775)) — 5 valuri anuale; adolescenți r=.31–.60 (medie .42), adulți r=.57–.83 (medie .72); modelul PROTOTIP bate revisionist-ul; corelațiile se stabilizează, NU tind la zero; citat autorial: „a constant source of variance contributing to attachment at each assessment".
+
+**Rezoluție (F-gNM-001):**
+- Formă adoptată [F]: r(lag)=r∞+A·e^(−λ·lag); **γ_NM:=λ** (relaxare-spre-plateau, nu decay pur). Decay pur = predicția revisionist (r∞≡0), respinsă de date.
+- **r∞ ≢ Q_opt** [corecție de tip, fermă]: r∞ = cotă de varianță a factorului-prototip stabil ≈ Var(stabilă)/Var(total), NU un nivel. Q_opt = podea de nivel, identificat separat (punct fix ODE + pilot RASP). Puntea = descompunere de varianță, NU identitate.
+- Asumpția-punte (rank-order ⇒ podea de nivel) = [S] falsificabilă, declarată explicit.
+- Dependență de măsură [D]: plateau robust pt. măsuri reprezentaționale (ECR: Fraley/Jones/Waters); „n.s. >15 ani" (Pinquart) = măsuri comportamentale pooled. Capitalul ETK = reprezentațional → regim prototip. Rezolvă tensiunea Pinquart↔Waters fără forțare.
+- Onest deschis: λ punctual NU emis (matricea lag-rezolvată e în figură/tabel, necaptată în text; corpul dă doar intervale/medii). r∞ = parametru liber mărginit ~.39–.43, NU fixat.
+
+Efect: γ_NM iese din [S] neancorat → [F] formă + [D-cond] valoare (pending calc). Butterfly prevenit: fixarea r∞=Q_opt ar fi propagat o confuzie de tip în fiecare predicție FSSP pe orizont lung.
+
+## CXXX.3 DECIZIA 2 — repoziționare P3 (ratificată)
+Scoop 42336327 (Wang 2026) = real dar SLAB (mediere indirect coef=0.0001 p=0.0372, transversal caz-control, caveat de autor „indirect marker, cautious interpretation"). Repoziționare adoptată:
+- P3 se reformulează din „prima asociere ALPS×traumă-copilărie" în **„primul test PROSPECTIV-DEVELOPMENTAL pre-înregistrat (ABCD) + replicare epidemiologică (UKB×CTS-5, field IDs 20487–20491)"**.
+- Wang 2026 (42336327) + Li 2025 (41167434) + Wang ML 2025 (40526121) = citate ca dovadă-de-concept clinică transversală, NU scooperi ai priorității.
+- Prioritatea prospectiv/cauzal-developmental rămâne genuin prim-de-fel (nimeni n-a publicat ALPS×adversitate prospectiv pe ABCD; UKB×CTS-5 liber — coerent cu Lin 2026 dALPS UKB care NU atinge trauma copilăriei).
+- Restul scheletului P3 (nul dublu-replicat, covariate, QC mișcare, fără RASP) = neschimbat din R8.
+
+## ÎNCHISE (Partea CXXX)
+- Decizia 1 (γ_NM formă + punte) = REZOLVATĂ prin delegare → F-gNM-001 v1. γ_NM: [S] neancorat → [F]/[D-cond].
+- Decizia 2 (repoziționare P3) = RATIFICATĂ prin delegare.
+- Flag activ CXXVIII „FSSP ODE ... γ_NM [S] neancorat" (temă Kimi 1) = ridicat parțial (γ_NM ancorat ca formă; a_NM^rate/g_NM rămân separat).
+
+## ACTIVE (adăugate/menținute CXXX)
+- F-gNM-001 v1 (Path A canonic) — de urcat în Project + de cross-ref la blocul ODE FSSP când se construiește.
+- Calc λ punctual din matricea lag-rezolvată (Jones 2018 Fig.; Fraley 2011 supp) = task nod-cu-unelte.
+- Puntea varianță→Q_opt: derivare formală + test pe pilot RASP (γ_NM alimentat de date).
+- Decizia 2 → de propagat în scheletul P3 (framing repoziționat) când se atinge fișa P3.
+- Decizia 3 (wet-lab Tet2^fl/fl×GFAP-Cre, ~8–20k€, 4–9 luni) = rămâne autorială, neatinsă.
+- Vetabil de autor: forma γ_NM și asumpția-punte [S].
+
+## AUTORITATE UNICĂ
+v3.126 · Partea CXXX · 2026-08-22 · stivuit peste v3.125 (Partea CXXIX).
+
 
 
 
