@@ -5820,6 +5820,45 @@ Pe copie (Project read-only), 2 editări chirurgicale, grep-verificate:
 
 ## AUTORITATE UNICĂ
 v3.128 · Partea CXXXII · 2026-08-22 · stivuit peste v3.127 (Partea CXXXI).
+# APPEND — v3.129 (2026-08-22) · Partea CXXXIII
+
+## CXXXIII.1 FORK ACPS ÎNCHIS — 0-5 canonic unificat (0-4 pierdut, FAZA4 re-derivat din jurnal)
+Operatorul confirmă: **`0-4_RASPsep` nu există la el** — „livrat" în CXXIII (v3.119) n-a persistat (filesystemul sesiunilor se resetează). Ramura FAZA4+RASPsep = pierdută ca fișier. NU blocant: conținutul FAZA4 e înregistrat integral în jurnal (CXX / v3.116), sursă scrisă canonică (nu memorie) — exact scopul unui ledger append-only: reconstrucția unui fișier pierdut.
+
+**Re-derivare FAZA4 din CXX, ancorată în conținut deja prezent în fișier** (nu afirmații noi — note de coerență internă):
+- **D3 (ortogonalitate, §4.3.2 după Gate 1):** cei doi factori ai Γ_OXTR — e^(−κ·ε) (poarta de PRODUCȚIE, Eq.12b) × s(Syt4) (poarta de SECREȚIE, Qualia v5 §8.1.1) — se ÎNMULȚESC; ε nu mișcă s(Syt4) → **s(Syt4) ⊥ ε**; a treia pârghie ortogonală = JZL184 (↓MAGL→↑T_eCB→↑C_R, G-ETK-DG-3). Ancoră verificată: structura-produs Γ_OXTR era deja la l.1255.
+- **D4 (distincție, §5.6.3 după Eq.PSW-2):** I_PSW (calitatea CONSTRUCȚIEI prenatale, scalar lent) ≠ C_R(t) (Eq.14c, pulsul de CONFIRMARE moment-cu-moment care poartă L_Q); scale distincte, a nu se confunda.
+- **a_NM (dezambiguizare, §3.3.1):** a_NM^att (ACPS, Eq.5c/5d, atenuare periferie→creier) ≠ a_NM^rate (FSSP §3.4.1, coeficient de rată ODE [S]); același glif, referenți distincți, fără relație numerică.
+
+## CXXXIII.2 CONȚINUTUL 0-5 CANONIC (verificat prin grep)
+Un singur fișier care conține TOATE aterizările din toate ramurile:
+| Element | Sursă | Verificare |
+|---|---|---|
+| Renumire „Constitution of the Primary Self" + titlu l.6929 aliniat | CXXVIII (0-3_ConstitutieSine) | titlu ratificat=1; „Primary Synthetic Consciousness"=0 (l.9 §11.D extrapolare = păstrat legitim) |
+| P44 compartiment | CXXVIII | P44 prezent |
+| Independență de protocol (P18 standalone) | CXXIII/CXXXII (fix P18) | **RASP în corp = 0** (invariant RASPsep restaurat; proveniența reformulată fără token) |
+| FAZA4 D3/D4 + a_NM^att/a_NM^rate | CXX, re-derivat din ledger | s(Syt4)⊥ε=1; Distinctness=1; a_NM^att/rate prezent |
+| GUARD Route B λ≡0 | deja în 0-2 (CXX: verificat, nu reinserat) | λ≡0 prezent |
+
+Linie de proveniență adăugată în front-matter (v14.0-5, ce unifică, supersedă toate 0-x) — atacă **cauza-rădăcină** a forkului: fișierul se auto-identifică acum ca vârf, deci instanțele viitoare nu mai ramifică din 0-2.
+
+## CXXXIII.3 NOTĂ DE PROVENIENȚĂ (transparență)
+Notele FAZA4 sunt RE-DERIVATE din înregistrarea CXX a jurnalului (fișierul-sursă 0-4 pierdut), NU copiate dintr-un fișier. Sunt note clarificatoare ancorate în structură deja prezentă (produsul Γ_OXTR, Eq.PSW-2 vs Eq.14c, §3.3.1 a_NM), nu afirmații empirice noi → risc de drift minim. Verificabile de operator contra CXX în ledger.
+
+## ÎNCHISE (Partea CXXXIII)
+- Fork ACPS = ÎNCHIS. `ACPS_v14_0-5_CANONIC_2026-08-22` = vârf unic, conține tot.
+- U-1 (CXXXI, unificare ACPS) = REZOLVAT prin re-derivare din ledger (fără a mai depinde de 0-4 pierdut).
+- 0-3-1_RASPindep (interimar CXXXII) = superseded de 0-5.
+
+## ACTIVE (adăugate/menținute CXXXIII)
+- **`ACPS_v14_0-5_CANONIC` = de urcat ca ACPS canonic; șterge de pe suprafață TOATE celelalte 0-x** (0-2, 0-3_ConstitutieSine ×2, 0-3-1, v14_FINAL_08-08, v13) — igienă care omoară forkul la sursă (U-3).
+- Path A: 0-5 e markdown (magic `**BL`); nu se deschide în Word. Conversie Path B (pandoc + verificare PK) = separat, doar pentru citire.
+- 0-4_RASPsep = declarat PIERDUT (nu se mai caută; conținutul lui = absorbit în 0-5 via ledger).
+- Rest listă CXXXI neschimbat: U-2 reference_corrector redeploy · U-4 SCRISOARE v2 pe suprafață · U-5 G-ETK-NUN-1 · U-6 G-RASP-1 rename · U-7 confirmare Q2–Q5.
+
+## AUTORITATE UNICĂ
+v3.129 · Partea CXXXIII · 2026-08-22 · stivuit peste v3.128 (Partea CXXXII).
+
 
 
 
