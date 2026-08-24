@@ -1,9 +1,9 @@
 # ETK — HEAD (stare curentă)
 **Proiecție a jurnalului · reconstruit 2026-08-24 · NU se editează de mână**
 
-> **Vârf:** v3.132 · Partea CXXXVI (2026-08-24)  
+> **Vârf:** v3.137 · Partea CXLI (2026-08-24)  
 > **Sursă:** `ETK_LEDGER.md`  
-> **STARE:** Acoperire **0/I → Partea CXXXVI** (v3.132) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-24  
+> **STARE:** Acoperire **0/I → Partea CXLI** (v3.137) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-24  
 > **Regulă:** HEAD = artefact de build ȘI autoritatea de stare (LXXXIV). INDEX-ul de mai jos e REGENERAT din markerii `# APPEND` — nu-l citi din jurnal (acolo e înghețat). Orice schimbare aterizează întâi în jurnal (append + grep), apoi se re-rulează `etk_project_head.py`.
 > **📤 PROCEDURĂ UPLOAD (regulă vie, imună la `-N`):** la finalul sesiunii operatorul urcă **DOAR 2 fișiere** — jurnalul nou `ETK_LEDGER_v3_XX_<stamp>.md` + `ETK_HEAD.md` — și **șterge jurnalul precedent** (ca să nu se adune). Tooling-ul (`etk_ledger_commit.py` + `etk_project_head*.py`) se urcă **o singură dată**. Append-urile **NU se urcă** (commit-ul le pliază). **Interfața poate adăuga sufixe `-N` la upload — E INOFENSIV:** pipeline-ul e imun (commit-ul alege automat jurnalul cel mai recent + proiectorul cel mai capabil, indiferent de `-N`). **Nu redenumi nimic** — singurul gest de igienă e ștergerea jurnalului vechi.
 
@@ -12,11 +12,6 @@
 ## 🗺 INDEX PĂRȚI — regenerat, viu (12 părți-append)
 *Era append XLV→vârf, proiectată din jurnal la fiecare build (O1, fix M-2/M-3). ERA I (0–XLIV) = pliată/înghețată.*
 
-- **v3.120 · Partea CXXIV** (2026-08-20) — CXXIV.1 Aterizări (protocol + planificare)
-- **v3.121 · Partea CXXV** (2026-08-21) — CXXV.1 Reverificare la primar — Runda Kimi R7 (ExtrapolareKimi + Raspuns_Nod_Kimi v2)
-- **v3.123 · Partea CXXVII** (2026-08-21) — CXXVII.1 Reverificare la primar — Runda Kimi R8 (Extrapolare_Nod_.docx)
-- **v3.124 · Partea CXXVIII** (2026-08-21) — CXXVIII.1 ATERIZĂRI CORPUS — „mergi pe corpus" (2 fișiere, 3 inserții)
-- **v3.125 · Partea CXXIX** (2026-08-22) — CXXIX.1 REVERIFICARE LA PRIMAR — Runda Kimi R9 (`Kimi_nod_runda_9.docx`)
 - **v3.126 · Partea CXXX** (2026-08-22) — CXXX.1 DECIZII AUTORIALE 1+2 — ratificate prin delegare explicită
 - **v3.127 · Partea CXXXI** (2026-08-22) — CXXXI.1 AUDIT „LA ZI" — subansamble + ACPS final (SUPERPOZIȚIE, verificat fizic)
 - **v3.128 · Partea CXXXII** (2026-08-22) — CXXXII.1 VERIFICARE RASP-INDEPENDENȚĂ pe fișierele URCATE (la nivel de fișier)
@@ -24,6 +19,11 @@
 - **v3.130 · Partea CXXXIV** (2026-08-22) — CXXXIV.1 CICLU KIMI R10 (λ / γ_NM pentru FSSP) — emitere + verificare răspuns
 - **v3.131 · Partea CXXXV** (2026-08-22) — CXXXV.1 PATCH F-gNM-001 §5 (v1→v1.1) — λ neidentificabil, aterizat
 - **v3.132 · Partea CXXXVI** (2026-08-24) — CXXXVI.1 POARTĂ DE COERENȚĂ pre-Zenodo (8 documente) — butterfly evitat
+- **v3.133 · Partea CXXXVII** (2026-08-24) — CXXXVII.1 VERIFICARE KIMI R11 (a_NM^rate + g_NM) — exemplar, negativ onest
+- **v3.134 · Partea CXXXVIII** (2026-08-24) — CXXXVIII.1 MUNCĂ PARALELĂ FSSP — nod (numeric) + Kimi (divergent), non-interferent
+- **v3.135 · Partea CXXXIX** (2026-08-24) — CXXXIX.1 FINDING 3 (F-FSSP-SENS-001 §4) — REZOLUȚIE: fără saturare la naștere
+- **v3.136 · Partea CXL** (2026-08-24) — CXL.1 ANALIZĂ KIMI R12 — 19 predicții falsificabile FSSP, exemplar
+- **v3.137 · Partea CXLI** (2026-08-24) — CXLI.1 CORECȚIE ÎNCADRARE — RASP strict independent
 
 ---
 
