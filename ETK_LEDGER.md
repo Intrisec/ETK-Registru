@@ -5858,6 +5858,47 @@ Notele FAZA4 sunt RE-DERIVATE din înregistrarea CXX a jurnalului (fișierul-sur
 
 ## AUTORITATE UNICĂ
 v3.129 · Partea CXXXIII · 2026-08-22 · stivuit peste v3.128 (Partea CXXXII).
+# APPEND — v3.130 (2026-08-22) · Partea CXXXIV
+
+*(Acest bloc rescrie curat draftul CXXXIV „emitere-only" de dinainte — acoperă tot ciclul R10. Se comite ACESTA, nu ambele.)*
+
+## CXXXIV.1 CICLU KIMI R10 (λ / γ_NM pentru FSSP) — emitere + verificare răspuns
+Temă emisă (`SCRISOARE_CATRE_KIMI_R10_lambda`): extragere matrice stabilitate lag-rezolvată + fit candidat λ, cu garde (r∞≢Q_opt, nu forța plateau, locație-sursă, tot [S]). Răspuns primit (`Raspuns_Kimi_23_08_2026.docx`) — verificat.
+
+**Imagini:** 13, toate hash `bce8fce7` (10001B) = placeholder-blank (tiparul R5/R9). Butterfly curat.
+
+**Verdict Kimi R10 = EXEMPLAR (disciplină epistemică).** A marcat tot [S], și-a declarat propriile inputuri neverificate, NU a fabricat un λ curat, a raportat că datele NU susțin plateau și că λ e prost-constrâns. Garde respectate integral.
+
+## CXXXIV.2 VERIFICAREA (descompusă)
+- **Structura sursei = CONFIRMATĂ la primar** (According to PubMed, Jones JD et al. 2017/2018, Child Dev 89(3):871–880, PMID 28301042, [DOI](https://doi.org/10.1111/cdev.12775)): adulții = PĂRINȚI (mame+tați), adolescenți ECR-S scurt, părinți ECR complet, 5 valuri T1–T5 (14→18 ani), dimensiuni avoidance/anxiety. Cadrul Table 1 (adolescenți)/Table 2 (părinți) al lui Kimi = corect. Intervale confirmate: adolescenți .31–.60 (medie .42), adulți .57–.83 (medie .72). „Jones 2018" corect (Fraley = coautor #2; Fraley 2011 = paper distinct, real).
+- **Fit-ul = REPRODUS EXACT (a doua arhitectură, rulare cod proprie, scipy curve_fit):** F1 λ̂=0.453±0.525/r∞̂=0.279/A=0.466/R²=0.60/RMSE=0.066; F1a λ̂=0.215/r∞̂=0.000(bound)/R²=0.91; F1b λ̂=0.504/R²=0.37; F2 λ̂=0.143±0.885/r∞̂=0.570(bound)/R²=0.15. TOATE identice cu raportul Kimi la 3 zecimale → fit rulat corect + raportat onest.
+- **Celulele individuale (lag,r) = NEVERIFICABILE la nod** — sunt în Table 1/2, absente din textul PMC extractabil; Kimi le-a auto-declarat „neverificate contra PDF". Câteva valori (.65, .62 ado; .85 adult) depășesc ușor intervalele-funcție-T1, dar sunt plauzibile pentru matricea pairwise completă (corelații între valuri adiacente > cele T1-ancorate). Neadjudicabil fără PDF Tables 1–2. **Rămâne [S].**
+- **Fraley 2011 ancore** (asimptote .80/.30, p.981-982) = folosite doar ca sanity-check, neverificate la primar, ne-portante.
+
+## CXXXIV.3 REZULTAT (SUPERPOZIȚIE — ce dă efectiv tema)
+**λ NU aterizează ca valoare.** Rezultatul real = constatare de IDENTIFICABILITATE [D, reprodusă]:
+- Fereastra 1–4 ani (singura matrice per-lag, Jones) e prea scurtă pentru a separa λ de r∞ — se schimbă între ele (CI pe λ include 0 și negativ în FIECARE subset pur-de-clasă).
+- Niciun subset Jones nu susține statistic r∞ > 0 (avoidance-ado → r∞≈0 la bound; adulți → fără decădere detectabilă în fereastră, lag4≈lag1).
+- Singurul lucru care stabilizează λ̂ (≈0.12/an) = adăugarea punctului Waters la ~20 ani — DAR clasă de instrument diferită (secure base script ≠ ECR); pool invalid („stabilizare împrumutată").
+- Bandă plauzibilă slabă doar pentru self-report adolescent: λ ∈ [0.2, 0.6]/an (τ≈1.7–5 ani), încredere slabă, CI include 0 → prior moale, NU estimare.
+- Downgrade onest (Kimi): fit pe corelații brute (Tables), nu pe funcția model-implied (Fig. 2, reliability-corrected, inaccesibilă) — discrepanță mică dar reală.
+
+## CXXXIV.4 CONSECINȚĂ ARHITECTURALĂ (F-gNM-001 §5 actualizat)
+γ_NM (λ) NU se poate ancora din literatura cross-studiu existentă (ferestre scurte + instrumente mixte + trade-off λ↔r∞). Pentru a estima λ e nevoie de date longitudinale **within-instrument** cu acoperire largă de lag (orizont scurt + lung în ACELAȘI instrument). λ se alătură astfel lui Q_opt în bucketul „identificat din date dedicate, nu din literatură" (F-gNM-001 §5).
+**Clarificare anti-butterfly:** λ e estimabil din ORICE cohortă longitudinală within-instrument — task de parametrizare din date, NU cantitate RASP-dependentă. Pilotul RASP generează una din multele surse posibile; asta NU e retrofit al eficacității RASP ca validare a teoriei (independența RASP se păstrează).
+
+## ÎNCHISE (Partea CXXXIV)
+- Ciclu Kimi R10 = emis + verificat. Fit reprodus exact; structură confirmată la primar; garde respectate.
+- Task „calc λ punctual" (CXXX/CXXXIV draft) = ÎNCHIS cu rezultat NEGATIV: literatura existentă nu poate ancora λ (identificabilitate insuficientă).
+
+## ACTIVE (adăugate/menținute CXXXIV)
+- F-gNM-001 → de actualizat §5: λ = neidentificabil din literatură; necesită date within-instrument wide-lag (bucket cu Q_opt). [D]
+- Verificare finală celule (lag,r): opțional, via PDF Tables 1–2 (web_fetch HTML PMC sau PDF furnizat de Alexandru) — dar λ nu aterizează oricum, deci non-blocant.
+- Rest listă updating (CXXXI/CXXXIII): U-2 reference_corrector · U-3 urcă 0-5 + șterge 0-x · U-4 SCRISOARE v2 · U-5 G-ETK-NUN-1 · U-6 G-RASP-1 · U-7 Q2–Q5 = neschimbat.
+
+## AUTORITATE UNICĂ
+v3.130 · Partea CXXXIV · 2026-08-22 · stivuit peste v3.129 (Partea CXXXIII).
+
 
 
 
