@@ -5898,6 +5898,74 @@ Temă emisă (`SCRISOARE_CATRE_KIMI_R10_lambda`): extragere matrice stabilitate 
 
 ## AUTORITATE UNICĂ
 v3.130 · Partea CXXXIV · 2026-08-22 · stivuit peste v3.129 (Partea CXXXIII).
+# APPEND — v3.131 (2026-08-22) · Partea CXXXV
+
+## CXXXV.1 PATCH F-gNM-001 §5 (v1→v1.1) — λ neidentificabil, aterizat
+Actualizat `F-gNM-001_v1-1`: §5 primul bullet trece din „calc pending nod-cu-unelte" în rezultatul CXXXIV — **λ punctual = NEIDENTIFICABIL din literatură [D]**. Fereastra 1–4 ani (Jones) prea scurtă pentru a separa λ de r∞ (trade-off, CI include 0); niciun subset Jones nu susține r∞>0; stabilizarea la λ̂≈0.12/an = împrumutată din altă clasă (Waters ≠ ECR); bandă slabă self-report ado λ∈[0.2,0.6]/an = prior moale. Consecință aterizată: λ (ca Q_opt) necesită date within-instrument wide-lag; NU RASP-dependent. Versiune v1.1; cross-ref ledger actualizat CXXX→CXXXIV.
+
+## CXXXV.2 TEMĂ KIMI R11 EMISĂ — a_NM^rate + g_NM (parametri FSSP)
+Pregătită `SCRISOARE_CATRE_KIMI_R11_aNMrate_gNM`. Scout de ancore empirice pentru cei doi parametri ODE ai capitalului NM, ancorat în ODE-ul real (verificat prin rularea codului):
+
+  dNM = ( a_NM · NP/100 · Q · S5  dacă t>26 ) − g_NM · NM · L
+
+- a_NM^rate = producția/acumularea capitalului oxitocinergic; g_NM = clearance/decădere. Ambii marcați în cod „⚠ FĂRĂ endpoint NM documentat → [S] neancorate" (a_NM=0.60, g_NM=0.015; t în săptămâni).
+
+**Garde impuse:** (1) a_NM^rate ≠ a_NM^att (interdicție de confuzie — eroare de tip, tocmai dezambiguizată în ACPS 0-5); (2) NM = sistemul OXT specific, nu neuromodulatori la general; (3) nu fabrica rată fără endpoint (negativ valid ca la λ); (4) fiecare cifră cu locație-sursă; (5) fără curățare în ancore prea frumoase; (6) tot [S]. Literaturi candidate: cinetică metilare OXTR (Maejima 2025, în corpus), turnover OXT, traiectorie developmentală OXTR.
+
+**Clauză reverificare:** output R11 → nod (PMC/Scite/rulare cod) înainte de FSSP §3.4.1. Independent de RASP.
+
+## ÎNCHISE (Partea CXXXV)
+- F-gNM-001 §5 = patch-uit (v1.1), λ neidentificabil aterizat în fișă.
+- Temă Kimi R11 (a_NM^rate/g_NM) = pregătită + emisă.
+
+## ACTIVE (adăugate/menținute CXXXV)
+- `F-gNM-001_v1-1` = de urcat în locul v1 în Project.
+- Așteptare output Kimi R11 → reverificare la primar înainte de aterizare FSSP §3.4.1.
+- Track A rămas: U-2 reference_corrector redeploy/șterge · U-4 SCRISOARE v2 pe suprafață · frontieră = bloc matematic FSSP · P2 (G-ETK-NUN-1, G-RASP-1 rename, confirmare Q2–Q5).
+- ACPS fork = ÎNCHIS (0-5 pe suprafață, 0-x șterse) — confirmat CXXXV.
+
+## AUTORITATE UNICĂ
+v3.131 · Partea CXXXV · 2026-08-22 · stivuit peste v3.130 (Partea CXXXIV).
+# APPEND — v3.132 (2026-08-24) · Partea CXXXVI
+
+*(Stivuit peste CXXXV — draftul F-gNM v1.1 + Kimi R11. Se comit în ordine: CXXXV apoi CXXXVI.)*
+
+## CXXXVI.1 POARTĂ DE COERENȚĂ pre-Zenodo (8 documente) — butterfly evitat
+Rulat `etk-cross-document-coherence` pe bundle-ul candidat (ACPS 0-5, Qualia v5, NP_Dep v5-5, TVKNM v2.3, Upstream v3-3, FSSP v2.6, RASP v3, TDSAF v3), înainte de orice depozit public.
+
+**DECIZIE CHEIE (butterfly): version-drift-ul flagat = FALSE-POSITIVE. Bulk-bump-ul de versiune RESPINS.** Check B a raportat 5 „drift" (Qualia→ACPS v11d/v12, Qualia→FSSP v2.0, TVKNM→ACPS v13, FSSP/RASP→NP_Dep v4). La inspecție per-linie, TOATE sunt referințe istorice/de deferare, NU citări-vii stale:
+- Qualia L45/L341/L581/L723/L413 = pointeri de deferare („derivare ordinul doi *amânată pentru ACPS v12*", „prioritate *deschisă* pentru ACPS v12", „necesar și în ACPS v12") — TODO-uri deschise; eticheta v12 e istoricul cozii.
+- Qualia L695 = proveniență („termeni introduși prin integrarea FSSP v2.0") — fapt istoric.
+- TVKNM L15 = notă de reconciliere de versiune care documentează că fișierul e conținutul referit ca „TVKNM v2.3 în ACPS v13".
+A le bumpa la v14 ar FALSIFICA istoria/proveniența/nota de reconciliere = corecție silențioasă interzisă (scrisoare §1). Gate-ul nu distinge istoric de citare-vie (limitare documentată a skill-ului). **Nicio editare de versiune.**
+
+## CXXXVI.2 Check A (parametri) — cu caveat de zgomot
+- θ HIGH [27, 30, 100, 170]: real = distincția θ_literature≈100 vs θ_bifurcation≈170 (netaggată explicit, pendinte din aprilie); zgomot = 27/30 (probabil valori spectru NP mis-parsate — de confirmat). 170 canonic per skill.
+- ΔK [0.25, 0.305, 0.190]: 0.305/0.190 canonice; 0.25 + dublura Dd_max [1.0/0.91] = review uman (context vs drift).
+- Caveat: tabelul canonic al skill-ului e din „Registrul Master v5" (aprilie), posibil stale față de CXXXV — findings Check A se interpretează, nu se aplică orb.
+- Check C: G-ETK-4 izolat (minor); heuristica prinde doar G-ETK-1..4, ratează G-ETK-NUN-1/DG-3/G-FEP-1.
+
+## CXXXVI.3 Set canonic rezolvat
+- **NP_Depresia canonic = `-5`** (bistabil). Diff vs `-4` = 58 linii, toate curățări de formatare (markere bold rătăcite) → -5 supersedă -4; `R2` (2866 linii) = pre-bistabil, mai veche. Deposit = -5; -4 și R2 se scot de pe suprafață.
+- **RASP v4 / TDSAF v4 = ABSENTE pe suprafață** (doar v3). Registrul revendică v4 — ori pierdute/neurcate (ca ACPS 0-4), ori aspiraționale. Decizie de resurse (Alexandru): găsit/reconstruit v4, sau depozit v3 conștient. NU editabil de nod.
+
+## CXXXVI.4 Verdict Zenodo
+Referințele de versiune = OK ca istorie (nicio editare). Blocante reale rămase: (1) status RASP v4/TDSAF v4; (2) sprawl NP_Dep — REZOLVAT (canonic -5). Acțiune opțională sigură (aditivă, nedistructivă): o notă „hartă de versiuni" la nivel de depozit (versiuni curente: ACPS v14, FSSP v2.6, NP_Dep v5, TVKNM v2.3, Upstream v3-3) — clarifică pentru cititor fără a atinge referințele istorice. Item de conținut separat (neblocant): audit dacă itemele „deferate ACPS v12" s-au rezolvat în v14.
+
+## ÎNCHISE (Partea CXXXVI)
+- Poartă de coerență pre-Zenodo = RULATĂ. Version-drift = reclasificat FALSE-POSITIVE (butterfly evitat: bulk-bump respins).
+- NP_Dep canonic = desemnat (-5).
+
+## ACTIVE (adăugate/menținute CXXXVI)
+- Decizie ta: status RASP v4/TDSAF v4 (găsit/reconstruit/depune v3).
+- Opțional: notă hartă-de-versiuni la nivel de depozit (o pot redacta).
+- θ_literature vs θ_bifurcation: tagging explicit (pendinte din aprilie) + confirmare 27/30 non-θ.
+- Audit items „deferate ACPS v12" (rezolvate în v14?) — conținut, separat.
+- Rest updating (CXXXI/CXXXIII): U-2 reference_corrector · U-4 SCRISOARE v2 · frontieră FSSP · P2.
+
+## AUTORITATE UNICĂ
+v3.132 · Partea CXXXVI · 2026-08-24 · stivuit peste v3.131 (Partea CXXXV).
+
 
 
 
