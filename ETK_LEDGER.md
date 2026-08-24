@@ -5965,6 +5965,171 @@ Referințele de versiune = OK ca istorie (nicio editare). Blocante reale rămase
 
 ## AUTORITATE UNICĂ
 v3.132 · Partea CXXXVI · 2026-08-24 · stivuit peste v3.131 (Partea CXXXV).
+# APPEND — v3.133 (2026-08-24) · Partea CXXXVII
+
+## CXXXVII.1 VERIFICARE KIMI R11 (a_NM^rate + g_NM) — exemplar, negativ onest
+Răspuns `R_11_Kimi.docx` verificat. Imagini: 10, toate placeholder-blank (hash bce8fce7) — butterfly curat. Kimi: negativ parțial onest (ca R10), zero rate fabricate, garde respectate (`a_NM^rate ≠ a_NM^att` menținut; NM = sistem OXT specific; locație-sursă pe tot; [S] integral).
+
+**6 citări portante verificate la primar (According to PubMed) — toate reale + corect caracterizate:**
+- Reiner 2022 (PMID 34822109, DOI 10.1007/s12031-021-01930-7): OXTR-DNAm „intrapersonally stable, unaffected by psychotherapy" → mărginire g_NM. ✓
+- Maejima 2025 (PMID 40788779, DOI 10.1111/acel.70198): OXT nazal 10μg/zi×10z → refacere neuroni OXT+/TET2/5hmC; OXTR-null ↓TET2. REAL Maejima (acel.70198), distinct de Uvnäs-Moberg comentariu (acel.70363) — ținute separate corect. ✓
+- Unternaehrer 2012 (PMID 22892716, DOI 10.1038/tp.2012.77): OXTR-DNAm dinamic sub TSST, artefact de compoziție celulară — flagat corect. ✓
+- Mens 1983 (PMID 6831225, DOI 10.1016/0006-8993(83)90478-x): t½ OXT în LCR = 19 min (șobolan) — EXACT (Kimi îl marcase secundar). ✓
+- Modahl 1998 (PMID 9513736): OXT plasmatic RIA copii — real. ✓
+- Rokicki 2022 (PMID 35347267, DOI 10.1038/s41386-022-01305-5): vârf expresie OXTR copilărie timpurie — real. ✓
+
+## CXXXVII.2 CE ATERIZEAZĂ [D] — clarificarea NM=infrastructură
+Insight structural, logic-forțat + verificat: peptidul OXT are t½ de minute (Mens 1983 LCR 19 min; plasmă 1–6 min FDA) → la pas săptămânal peptidul → ~0. Dar NM e monoton >0 pe săptămâni în ODE. **Deci variabila NM NU modelează tonusul peptidic, ci infrastructura OXTR (densitate/expresie/metilare)**, care e stabilă pe săptămâni (Reiner 2022). **De enunțat explicit în FSSP §3.4.1 la aterizare.** [D, verificat]
+
+## CXXXVII.3 CE NU ATERIZEAZĂ ca valoare (negativ onest, ca λ)
+- **g_NM:** fără ancoră cinetică directă. Mărginit INDIRECT: (0, 0.02]/săpt. plauzibil din stabilitatea OXTR-DNAm (Reiner 2022). Statut: „[S] mărginit indirect — stabilitate DNAm", NU ancorat. Curentul 0.015/săpt. e compatibil.
+- **a_NM^rate:** fără rată cinetică de acumulare. Constrângere DOAR structurală: capitalul se instalează pe fereastra gestațională (~14 săpt.) → platou expresional în copilărie (~300 săpt.); a_NM trebuie să sature NM pe acea fereastră (nu instant, nu pe ani). Propunere test de sensibilitate: variază a_NM ca NM→90% platou la 40 săpt. GA, raportează banda.
+
+## CXXXVII.4 PATTERN (SUPERPOZIȚIE) — FSSP e structurally-constrained, nu point-calibrated
+A DOUA familie de parametri FSSP (după λ, CXXXIV) unde literatura cross-studiu NU poate ancora o valoare, dar POATE da constrângeri structurale/de mărginire. Lecție arhitecturală consolidată: parametrii dinamici FSSP (λ, a_NM^rate, g_NM) sunt structural-constrânși, NU point-identificați din literatură. FSSP se prezintă onest ca model cu benzi de sensibilitate, nu cu precizie falsă — ceea ce ÎNTĂREȘTE credibilitatea. [D]
+
+## ÎNCHISE (Partea CXXXVII)
+- Kimi R11 = verificat (6/6 citări reale + corecte; garde respectate; imagini curate).
+- Insight NM=infrastructură = aterizat [D], de enunțat în FSSP §3.4.1.
+- Task a_NM^rate/g_NM = închis cu rezultat structural (mărginit indirect g_NM; constrângere structurală a_NM^rate), NU ancorare de valoare.
+
+## ACTIVE (adăugate/menținute CXXXVII)
+- FSSP §3.4.1: la aterizare, enunț explicit NM=infrastructură OXTR (nu peptid) + g_NM „[S] mărginit indirect (0,0.02]/săpt." + test sensibilitate a_NM^rate (NM→90% platou la 40 săpt. GA).
+- Reverificare full-text la nevoie: Maejima Fig.1 valori absolute; magnitudine RCT intranazal OXTR-DNAm — necaptate (Kimi le-a marcat goluri).
+- Rest: RASP v4/TDSAF v4 (decizie ta) · scop Zenodo · frontieră FSSP · U-2/U-4.
+
+## AUTORITATE UNICĂ
+v3.133 · Partea CXXXVII · 2026-08-24 · stivuit peste v3.132 (Partea CXXXVI).
+# APPEND — v3.134 (2026-08-24) · Partea CXXXVIII
+
+*(Stivuit peste CXXXVII — analiza Kimi R11. Se comit în ordine: CXXXVII apoi CXXXVIII.)*
+
+## CXXXVIII.1 MUNCĂ PARALELĂ FSSP — nod (numeric) + Kimi (divergent), non-interferent
+Frontiera FSSP împărțită în două fluxuri care nu se suprapun: nodul face sweep-ul numeric (cere cod); Kimi generează predicții (nu cere unelte).
+
+## CXXXVIII.2 NOD — Sweep de sensibilitate ODE (F-FSSP-SENS-001)
+Rulare cod proprie (fssp_sim v1.3 ODE), reprodusă. Trei rezultate:
+- **[C, reprodus] Incertitudine izolată pe frunză.** `dNP/dQ/dPc` nu depind de NM. Sweep a_NM∈{0.2,0.6,1.0}×g_NM∈{0.005,0.015,0.02} (MIA): NP*=59.4353, Q*=0.4885, Pc*=0.6531 IDENTICE pe toate 9 combinațiile; doar NM* variază. Parametrii neancorați NU contaminează nicio predicție-nucleu.
+- **[D] a_NM = gauge de scală.** NM* ~liniar cu a_NM (0.6→1.045); NM fără unitate empirică (R11) → a_NM = alegere de unități pentru o frunză, nu rată fizică. Nefalsificabil ca valoare absolută.
+- **[S, decizie autorială] NM nu saturează la naștere.** Producție activă pe (26,40); NM 78% la t=38, încă în creștere la t=40. Constrângerea R11 „platou la ~40 săpt. GA" NU e satisfăcută de structură. (a) NM continuă postnatal, sau (b) fereastra/rata cer revizuire — NU se repară orb.
+
+**Enunț publicabil (pentru Zenodo/prezentare):** parametrii dinamici neancorați empiric guvernează exclusiv un readout terminal (NM); predicțiile cauzale-nucleu (NP, Q, Pc, I_FSSP, ordonarea pe severitate) sunt invariante la variația lor pe benzile structurale. Precizia lipsă e izolată acolo unde nu afectează falsificabilitatea nucleului.
+
+## CXXXVIII.3 KIMI — Temă R12 emisă (predicții falsificabile FSSP)
+Pregătită `SCRISOARE_CATRE_KIMI_R12_predictii_FSSP`. Generează set de predicții falsificabile date fiind NM=infrastructură. Garde: predicții pe cauzalitatea-nucleu (NP/Q/Pc/I, severitate, timing), NU pe magnitudinea absolută NM (readout gauge — rezultatul nodului dat ca constrângere); fiecare cu condiție de falsificare; distincție de P-predicțiile ACPS; fără ecuații/parametri noi; tot [S]. Explicit: Kimi NU rulează simulări (aia e a nodului, paralel).
+
+## ÎNCHISE (Partea CXXXVIII)
+- Sweep sensibilitate FSSP = EXECUTAT (nod). Incertitudinea a_NM/g_NM = izolată pe frunză (robustețe nucleu confirmată numeric).
+- Temă Kimi R12 (predicții FSSP) = emisă.
+
+## ACTIVE (adăugate/menținute CXXXVIII)
+- F-FSSP-SENS-001 v1 = de urcat în Project.
+- Decizie autorială: NM saturare-la-naștere vs continuare postnatală (Finding 3) — afectează fereastra de producție în ODE.
+- Așteptare Kimi R12 → încadrare predicții la nod.
+- FSSP §3.4.1 la aterizare: NM=infrastructură + izolarea a_NM/g_NM + g_NM „[S] mărginit indirect" + test sensibilitate a_NM.
+- Rest: RASP v4/TDSAF v4 (decizie ta) · scop Zenodo · U-2/U-4.
+
+## AUTORITATE UNICĂ
+v3.134 · Partea CXXXVIII · 2026-08-24 · stivuit peste v3.133 (Partea CXXXVII).
+# APPEND — v3.135 (2026-08-24) · Partea CXXXIX
+
+*(Stivuit peste CXXXVIII. Se comit în ordine: CXXXVII → CXXXVIII → CXXXIX.)*
+
+## CXXXIX.1 FINDING 3 (F-FSSP-SENS-001 §4) — REZOLUȚIE: fără saturare la naștere
+Verificat în cod: `fssp_lifecourse_v0_2.py` tratează deja tranziția — Fereastra I (GW8–40) construiește NM (`t>26`); Fereastra II (0–80 ani) menține/erodează NM (fără termen de producție; `dNM = −0.03·Pc·NM/100·10 + 0.005·t_KR − g_NM·NM·L·0.2`).
+
+**Decizie clară (biologie verificată, NU se forțează):** NM NU trebuie să satureze la naștere. Rokicki 2022 (PMID 35347267, verificat CXXXVII) — infrastructura OXTR crește prenatal și atinge vârful în **copilăria timpurie (~6 ani), nu la naștere**. Deci „NM încă urcă la t=40" în sim-ul perinatal e CORECT. Poarta `t>26` = neatinsă. A forța platoul la naștere ar contrazice dovada verificată = butterfly evitat.
+
+## CXXXIX.2 PROBLEMĂ ARHITECTURALĂ SCOASĂ LA IVEALĂ (butterfly)
+Referentul lui NM se schimbă peste tranziția nașterii în lifecourse: prenatal = **construcția infrastructurii OXTR**; postnatal (comentariu cod) = **„cogniția/neurocepția matură"** erodată de Pc. Același simbol, două referințe (izomorf cu ciocnirea a_NM^att / a_NM^rate, deja dezambiguizată). În plus, modelul **oprește construcția la naștere**, ceea ce contrazice Rokicki (construcție până la ~6 ani).
+
+## CXXXIX.3 FURCĂ ARHITECTURALĂ — decizie autorială (semnătura lui Alexandru)
+Granița construcție/mentenanță:
+- **(A)** la naștere (simplu; „build oprit la naștere" contrazice Rokicki → necesită justificare: linia de bază prenatală = ce contează, rafinarea postnatală abstractizată în mentenanță).
+- **(B)** *(recomandat de nod)* la ~6 ani — NM continuă construcția prin copilăria timpurie (fidel Rokicki), apoi platou/erodare; boundary-ul Fereastra I/II se mută de la naștere la ~6 ani.
+În ambele: **dezambiguizarea semantică a lui NM peste tranziție** = obligatorie de enunțat (prenatal=infrastructură instalată; postnatal=capital matur menținut), altfel sămânță de butterfly.
+
+## ÎNCHISE (Partea CXXXIX)
+- Finding 3 = rezolvat parțial: NM NU saturează la naștere (biologie) — poartă `t>26` neatinsă. Sim perinatal corect ca segment prenatal.
+
+## ACTIVE (adăugate/menținute CXXXIX)
+- **Decizie autorială deschisă:** furca A/B (granița build/mentenanță la naștere vs ~6 ani). Recomandare nod = B. La decizie: formalizez (fișă + edit lifecourse boundary) + nota de dezambiguizare semantică NM.
+- Dezambiguizare NM prenatal (infrastructură) vs postnatal (capital matur) = de enunțat în FSSP §3.4.1 indiferent de A/B.
+- F-FSSP-SENS-001 §4 = actualizat cu rezoluția (fără saturare la naștere).
+- Rest: Kimi R12 pending · RASP v4/TDSAF v4 (decizie ta) · scop Zenodo · U-2/U-4.
+
+## AUTORITATE UNICĂ
+v3.135 · Partea CXXXIX · 2026-08-24 · stivuit peste v3.134 (Partea CXXXVIII).
+# APPEND — v3.136 (2026-08-24) · Partea CXL
+
+*(Stivuit peste CXXXIX. Chain pending de comis în ordine: CXXXVII → CXXXVIII → CXXXIX → CXL.)*
+
+## CXL.1 ANALIZĂ KIMI R12 — 19 predicții falsificabile FSSP, exemplar
+Răspuns `Kimi_runda_12_.docx` verificat. Imagini: 36, toate placeholder-blank (bce8fce7) — butterfly curat. Verdict: cel mai puternic răspuns Kimi din serie.
+
+**19 predicții [S] pe 5 categorii:** developmental (FP-D1..4), severitate (FP-S1..3), bistabilitate (FP-B1..3), traiectorii (FP-T1..4), infrastructură OXTR (FP-O1..5). Fiecare cu enunț + observabil + condiție de falsificare + orizont/populație + lanț de propagare ACPS.
+
+**Garde respectate integral (verificat):**
+- NU folosește magnitudinea absolută NM (gara 1) — toate pe direcție/timing/ordonare/formă/stabilitate rank-order. Confirmat explicit de Kimi.
+- Onestitate pe suprapuneri (gara 2) — nu are P16–P19/P42+ verbatim; mapare marcată tentativă [S]; cere grep la nod înainte de numerotare finală.
+- Nu forțează consensul — FP-T3 vs FP-B1 predicții OPUSE (șoc acut vs adversitate susținută), semnalat explicit ca tensiune de rezolvat empiric.
+- Fiecare falsificabilă; fără ecuații/parametri noi; tot [S].
+
+**Referințe structurale verificate contra codului ODE (fssp_sim v1.3):** S_max(S4)=0.85, S_max(S5)=0.70, tₕ(S4)=30, n_S5=2 — se potrivesc. Fără drift de constante.
+
+**Insight de ansamblu (secțiunea F):** predicțiile formează un GRAF de falsificare, nu listă. FP-O4 = poarta (readout periferic orb → O1/O2/O5 neinterpretabile); FP-B1/B2/B3 = trei fețe ale aceleiași frontiere (2/3 informativ); FP-T3⊥FP-B1 (acut vs susținut). Cluster critic E: O1→O4→O5.
+
+## CXL.2 CE RĂMÂNE LA NOD (reverificare pending — NU aterizat)
+- Grep pe `ACPS_v14_0-5_CANONIC` → maparea finală suprapuneri P16–P19/P42+ → numerotarea FP + încadrarea în corpusul de predicții FSSP.
+- FP-O1 prag r>0.6 = alegere de design (Kimi flagat — literatura pe stabilitatea metilării OXTR e heterogenă); rămâne [S].
+- Confirmare constante MC referite (Th_ACK_MC≈0.1359, R²(Sev→NP)≈0.6327, elasticitate CVII 0.08–0.50) la încadrare — predicțiile sunt calitative, deci non-portante, dar de confirmat.
+
+## ÎNCHISE (Partea CXL)
+- Analiză Kimi R12 = executată (19 predicții verificate ca formă/garde; referințe structurale confirmate; imagini curate).
+- Ciclu R12 = complet (temă CXXXVIII → răspuns → analiză CXL).
+
+## ACTIVE (adăugate/menținute CXL)
+- Set predicții FSSP (19 FP) = de încadrat la nod (grep mapare ACPS + numerotare) înainte de aterizare în corpus. NU aterizat (rămâne [S]).
+- STATUS Drum reactualizat (v2) — reflectă CXXXVI→CXL + progresul FSSP.
+- Decizii autoriale deschise: Finding 3 furcă A/B (build boundary) · RASP v4/TDSAF v4 · scop Zenodo · FSSP in/out.
+- Chain de comis: CXXXVII → CXXXVIII → CXXXIX → CXL.
+
+## AUTORITATE UNICĂ
+v3.136 · Partea CXL · 2026-08-24 · stivuit peste v3.135 (Partea CXXXIX).
+# APPEND — v3.137 (2026-08-24) · Partea CXLI
+
+*(Chain pending: CXXXVII → CXXXVIII → CXXXIX → CXL → CXLI, de comis în ordine.)*
+
+## CXLI.1 CORECȚIE ÎNCADRARE — RASP strict independent
+Confirmat de operator + scrisoare/memorie: **RASP e STRICT INDEPENDENT de ansamblul teoretic** — NU e un modul de „adus la zi" în bundle. Faptul că există predicții pe care RASP le poate confirma/infirma e altceva (RASP testează, nu face parte din teorie). STATUS Drum v2 îl încadrase greșit printre subansamble → corectat: RASP se depune/tratează SEPARAT, nu ca piesă a bundle-ului teoretic. **TDSAF** = da, de adus la v4 (pas de bundle, separat). **FSSP = prioritate Zenodo.**
+
+## CXLI.2 NOD — Robustețea FSSP (F-FSSP-ROBUST-001), rulare cod proprie
+fssp_sim v1.3 rulat. Piesa centrală a prezentării „structural-constrained, sensitivity-band":
+- **ROBUST [C]:** separare sănătos/advers (I_FSSP det. Optimal 0.1152 vs advers 0.0826–0.0885, ΔI −23…−28%; MC Optimal 0.0777 vs advers 0.0552–0.0596); stabilitate numerică (seed-robust <3%, 0/4 divergențe); izolare a_NM/g_NM pe frunza NM.
+- **FRAGIL [C, raportat onest]:** ordonarea fină advers-vs-advers = NU robustă. ρ(severitate→I_FSSP)=−0.40, CI95% boot [−1,+1], n=4; Epigenetic/MIA/Stres se grupează strâns cu IQR suprapuse. Modelul NU pretinde ranking fin — raportează zonă de suprapunere.
+- **Convergență [D]:** confirmă numeric FP-S3 (Kimi R12 — benzile adverse se suprapun); coerent cu FP-S2 (ordonarea pe axe separate Q/Pc, nu pe I_FSSP). Modelul își prezice propria limitare.
+
+Enunț defendabil Zenodo: „FSSP separă robust sănătos de advers și e numeric stabil; NU pretinde ranking fin între tipuri de adversitate (benzi suprapuse, prezis explicit FP-S3); parametrii neancorați guvernează exclusiv un readout terminal (NM)."
+
+## CXLI.3 KIMI — Temă R13 emisă (model card FSSP)
+Pregătită `SCRISOARE_CATRE_KIMI_R13_modelcard_FSSP`. Draftează model card-ul (secțiuni ne-numerice): scop/domeniu, variabile+statut, parametri cu statut epistemic, rezumat predicții R12, ce pretinde/nu pretinde, limitări, scop de utilizare. Garde: nu inventa numere de robustețe (placeholder „[nod completează]"); statut epistemic corect pe fiecare element; nu re-genera predicțiile; nu supraevalua; RASP NU apare ca modul. Non-interferent cu robustețea nodului.
+
+## ÎNCHISE (Partea CXLI)
+- Robustețe FSSP = executată (nod). Robust vs fragil caracterizat; convergență cu FP-S3 confirmată.
+- Încadrare RASP = corectată (independent, nu în bundle).
+- Temă Kimi R13 (model card) = emisă.
+
+## ACTIVE (adăugate/menținute CXLI)
+- F-FSSP-ROBUST-001 v1 = de urcat în Project.
+- Așteptare Kimi R13 → verificare statut epistemic + completare secțiune robustețe la nod.
+- FSSP §3.4.1 la aterizare: NM=infrastructură + izolare a_NM/g_NM + robustețe (ROBUST-001) + 19 predicții (încadrate).
+- TDSAF → v4 (pas de bundle). RASP = SEPARAT (nu în bundle teoretic).
+- Decizii autoriale: Finding 3 A/B · RASP v4/TDSAF v4 (soartă fișiere) · FSSP in/out (recomandare: in, „sensitivity-band") · scop Zenodo.
+- Chain de comis: CXXXVII → CXXXVIII → CXXXIX → CXL → CXLI.
+
+## AUTORITATE UNICĂ
+v3.137 · Partea CXLI · 2026-08-24 · stivuit peste v3.136 (Partea CXL).
+
 
 
 
