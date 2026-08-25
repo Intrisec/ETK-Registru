@@ -6129,6 +6129,51 @@ Pregătită `SCRISOARE_CATRE_KIMI_R13_modelcard_FSSP`. Draftează model card-ul 
 
 ## AUTORITATE UNICĂ
 v3.137 · Partea CXLI · 2026-08-24 · stivuit peste v3.136 (Partea CXL).
+# APPEND — v3.138 (2026-08-25) · Partea CXLII
+
+*(Stivuit peste CXLI. Închide bucla „Așteptare Kimi R13" (CXLI-ACTIVE) + flag-ul „mapare FP" (CXL.2). Sesiune FSSP.)*
+
+## CXLII.1 VERIFICARE + COMPLETARE MODEL CARD FSSP (Kimi R13)
+`Raspuns_Kimi_ultim.docx` (Kimi R13, model card FSSP, DRAFT [S]) verificat la nod contra corpus LIVE (v3.137/CXLI) + reprodus numeric (fssp_sim v1.3). OOXML real.
+
+**Verificări trecute [C]:** 19 predicții / 5 categorii / FP-O4=poartă (≡ CXL); NM=infrastructură OXTR nu tonus (CXXXVII); λ/a_NM/g_NM structural-constrânși, a_NM=gauge (≡ SENS-001+F-gNM v1.1); RASP independent (CXLI); constante strat + variabile ≡ cod ODE + FSSP Academic v2.6.
+
+**Reproducere numerică [C, rulat]:** determinist I_FSSP Optimal 0.1152 vs advers 0.0826–0.0885 (reducere 23–28%); MC N=8000 Optimal 0.0777 [0.0465,0.1072] vs advers 0.0552–0.0596; ρ(severitate→I_FSSP)=−0.400 IC [−1,+1] fragil; seed-robust <3%; 0/4 divergențe. Identic F-FSSP-ROBUST-001.
+
+**Reparate la nod (completări, NU corecții bibliometrice):**
+1. Anexa A robustețe „[nod completează]" → COMPLETATĂ din F-FSSP-ROBUST-001 (enunț defendabil Zenodo). Checklist Anexa B item 3 satisfăcut.
+2. t_KR: [S] „de confirmat" → CONFIRMAT construct canonic „accumulated time in Katharós Range" (FSSP Academic v2.6; ACPS/NP_Depresia).
+3. I_FSSP = „Integration Index" [C] (FSSP Academic v2.6).
+4. Etichetă versiune card v3.132/CXXXVI „în curs" → vârf LIVE v3.137/CXLI (părțile comise).
+
+**Statut card:** DRAFT [S] → NOD-VERIFICAT. Livrat .docx Path B real (PK verificat). Eligibil documentație FSSP Zenodo.
+
+## CXLII.2 ÎNCADRARE 19 PREDICȚII FP (R12) — flag CXL.2 ÎNCHIS
+`Kimi_runda_12_.docx` verificat la sursă (cerut + livrat de operator; NU lucrat din memorie). Imagini 36 × hash `bce8fce7` placeholder-blank (≡ CXL). R12 a declarat onest (gară 2) că NU are verbatim P16–P19/P42+ → a cerut grep la nod; executat. Fișă: **F-FSSP-FP-ENCADRARE-001 v1**.
+
+**Verdict [C]:**
+- Niciun FP nu duplică ACPS P16–P19/P42–P44. ACPS=calibrare adult/postnatală; FP=ontogeneză prenatală GW8–40. Fereastră distinctă → set FSSP propriu, NU renumerotare în seria P.
+- Referințe încrucișate reale (grep): FP-O3 EXTINDE TVKNM P-V4 (constrângere temporală: infrastructură doar cronic); FP-O4 = precondiție validitate readout pentru P-V2. Extensii, nu duplicate.
+- Reparație R12: `P-NEW-B` (referit de FP-O3) = ID FANTOMĂ (grep negativ pe corpus); conținutul „OXT intranazal cronic ASD" există în ACPS/NP_Depresia nenumerotat. FP-O3 se reancorează la locația reală, se elimină ID-ul fantomă.
+- Toate 19 rămân [S] falsificabile; aterizează ca bloc de predicții FSSP propriu (apendice, ref R12), cross-ref P-V2/P-V4. Inserție fizică în FSSP Academic = pas separat la comandă.
+
+## CXLII.3 DECIZIE AUTORIALĂ DESCHISĂ (semnalată, neîncadrată)
+Finding 3 furca A/B (SENS-001 §4 / CXXXIX): NM nu saturează la naștere. A = build/mentenanță la naștere; B = graniță ~6 ani (build postnatal continuă). Recomandare nod = B. Card + încadrare compatibile cu ambele → NU blochează; blochează formalizarea FSSP §3.4.1 (boundary + dezambiguizare semantică NM prenatal/postnatal). Decizia ta.
+
+## ÎNCHISE (Partea CXLII)
+- Verificare Model Card FSSP R13 = executată (structură + garde + reproducere numerică); Anexa A completată; bucla „Așteptare Kimi R13" (CXLI) închisă.
+- Încadrare 19 FP = executată (grep ACPS + TVKNM); flag CXL.2 „mapare FP" ÎNCHIS; ID fantomă P-NEW-B semnalat spre reparare.
+- Cicluri R12 (încadrare) + R13 (card) = complete.
+
+## ACTIVE (adăugate/menținute CXLII)
+- Model Card FSSP nod-verificat (.docx Path B) + F-FSSP-FP-ENCADRARE-001 = de urcat în Project.
+- FP-O3 reancorare (eliminare ID P-NEW-B) = edit R12/apendice la aterizare fizică.
+- Inserție apendice 19 FP în FSSP Academic = pas de editare la comandă.
+- Decizii autoriale deschise: Finding 3 furca A/B · RASP v4/TDSAF v4 · scop Zenodo · FSSP in/out (recomandare nod: in, „sensitivity-band").
+- Chain de comis (dacă în urmă): CXXXVII → CXXXVIII → CXXXIX → CXL → CXLI → CXLII.
+
+## AUTORITATE UNICĂ
+v3.138 · Partea CXLII · 2026-08-25 · stivuit peste v3.137 (Partea CXLI).
 
 
 
