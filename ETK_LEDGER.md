@@ -6174,6 +6174,63 @@ Finding 3 furca A/B (SENS-001 §4 / CXXXIX): NM nu saturează la naștere. A = b
 
 ## AUTORITATE UNICĂ
 v3.138 · Partea CXLII · 2026-08-25 · stivuit peste v3.137 (Partea CXLI).
+# APPEND — v3.139 (2026-08-26) · Partea CXLIII
+
+## CXLIII.1 UPLOAD ZENODO — CONFIRMAT (dovezi vizuale operator)
+Operatorul a urcat pe Zenodo bundle-ul de 6 module: FSSP, TVKNM, Qualia, NP_Depresia, ACPS,
+Upstream. Registrul anterior (v3.138/CXLII) NU conținea evenimentul; „scop Zenodo" și
+„FSSP in/out" figurau ca decizii DESCHISE. Prin upload se ÎNCHID: scop = bundle 6; FSSP = IN.
+Verificare = capturi de ecran furnizate de operator (nu acces API din instanță).
+
+## CXLIII.2 HARTĂ VERSIUNI — DOCUMENT vs RECORD ZENODO
+- ACPS: doc v14.0-5 CANONIC · record Zenodo (v6) sub concept-DOI existent · titlu ratificat ✓
+- Qualia: doc v5 · record ✓ (subtitlu „Architecture of the Primary Constitution of the Self")
+- Upstream: doc v3-3 · record (v2) ✓
+- FSSP: record „Version 2.7", CC BY-NC-ND 4.0 · [vezi A1: divergență de etichetă]
+- TVKNM: doc v2.3 · record neverificat vizual (presupus în bundle)
+- NP_Depresia: doc v5.0 · Zenodo DOI 10.5281/zenodo.18890150 · [vezi A2, A3]
+
+## CXLIII.3 CONCEPT-DOI ACPS — REZOLVAT
+ACPS urcat ca (v6) = VERSIUNE NOUĂ sub concept-DOI 10.5281/zenodo.19021008, NU record nou.
+Continuitate de citare (DPID://1035) PĂSTRATĂ.
+
+## CXLIII.4 ABATERI CONFIRMATE FIZIC (3)
+- A1 · FSSP haos etichetă: record=2.7, filename=2.6, corp=„Version 2.0" (grep disc: 5×2.0,
+  1×2.6). De unificat pe UN număr în corp+filename+record. Acțiune: confirmă fișierul urcat;
+  bump antet la 2.7 + re-depune versiune; adu v2.7 ca sursă canonică (copia Project=stale 2.6).
+- A2 · NP_Depresia v5 EN: nume ACPS vechi „Architecture of Primary Synthetic Consciousness"
+  ×2 (L9 subtitlu + L26 corp, frază portantă), 0× nume ratificat. Incoerent cu ACPS v6 co-depus.
+  Opț: (a) propagă redenumirea „…Constitution of the Primary Self" (autorial); (b) lasă istoric
+  + notă changelog. Aceeași corecție de aplicat și în copia canonică Path A din Project.
+- A3 · NP_Depresia v5 EN (OOXML real): DPID://1035 (= DeSci ACPS-BLUEPRINT-013) stampilat
+  greșit pe NP_Depresia (L10 antet + L696 subsol) — mislink factual, nu autorial. De înlocuit
+  cu DPID propriu al NP_Depresia sau de eliminat token. Path A de verificat pentru aceeași contaminare.
+
+## CXLIII.5 VERIFICĂRI POZITIVE (NP_Depresia v5 EN, OOXML real)
+- Independență RASP RESPECTATĂ: L151 declară explicit fereastra ≥6 săpt ca extrapolare ETK
+  de testat în pilot RASP (endpoint SME TET2/OXTR-DNAm/EAA W0/W6/W12), NU ancorată de Maejima.
+  Direcție corectă (teoria așteaptă datele). Fără cuplaj circular.
+- Dye 2024 corect (JAMA Netw Open 7(8):e2427063, PMID 39120899) + corecție internă onestă
+  (claim „male newborns Bohlin p<0.05" retras; nou-născut = NUL) + nota E-7 (preprint→publicat).
+- Fără Cochran/Ciruelas/OR fabricat. Formula κ (e^(−κ·ε)) consistentă. Versiune v5.0 corectă.
+
+## CXLIII.6 PENDING NELIVRAT
+- Changelog de versiune ACPS (mai→aug) pentru recordul Zenodo (STATUS §3.3) — neredactat.
+- Verificare vizuală/record TVKNM v2.3 + NP_Depresia v5 pe Zenodo.
+- Confirmare rezolvare Zenodo DOI 10.5281/zenodo.18890150 (NP_Depresia) la record curent.
+
+## ÎNCHISE (Partea CXLIII)
+- „scop Zenodo" = ÎNCHISĂ (bundle 6). „FSSP in/out" = ÎNCHISĂ (IN).
+- Concept-DOI ACPS = ÎNCHIS (v6, continuitate păstrată).
+
+## ACTIVE (adăugate CXLIII)
+- A1 FSSP unificare etichetă versiune (corp/filename/record) + reconciliere sursă v2.7.
+- A2 NP_Depresia subtitlu/corp nume-vechi ACPS — decizie propagare (+ Path A).
+- A3 NP_Depresia DPID://1035 contaminare — înlocuire/eliminare (+ verificare Path A).
+- Changelog versiune ACPS Zenodo — de redactat.
+
+## AUTORITATE UNICĂ
+v3.139 · Partea CXLIII · 2026-08-26 · stivuit peste v3.138 (Partea CXLII).
 
 
 
