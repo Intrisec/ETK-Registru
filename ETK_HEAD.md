@@ -1,9 +1,9 @@
 # ETK — HEAD (stare curentă)
-**Proiecție a jurnalului · reconstruit 2026-08-25 · NU se editează de mână**
+**Proiecție a jurnalului · reconstruit 2026-08-26 · NU se editează de mână**
 
-> **Vârf:** v3.138 · Partea CXLII (2026-08-25)  
+> **Vârf:** v3.139 · Partea CXLIII (2026-08-26)  
 > **Sursă:** `ETK_LEDGER.md`  
-> **STARE:** Acoperire **0/I → Partea CXLII** (v3.138) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-25  
+> **STARE:** Acoperire **0/I → Partea CXLIII** (v3.139) · 12 părți-append indexate viu · ERA I (0–XLIV) pliată · regenerat 2026-08-26  
 > **Regulă:** HEAD = artefact de build ȘI autoritatea de stare (LXXXIV). INDEX-ul de mai jos e REGENERAT din markerii `# APPEND` — nu-l citi din jurnal (acolo e înghețat). Orice schimbare aterizează întâi în jurnal (append + grep), apoi se re-rulează `etk_project_head.py`.
 > **📤 PROCEDURĂ UPLOAD (regulă vie, imună la `-N`):** la finalul sesiunii operatorul urcă **DOAR 2 fișiere** — jurnalul nou `ETK_LEDGER_v3_XX_<stamp>.md` + `ETK_HEAD.md` — și **șterge jurnalul precedent** (ca să nu se adune). Tooling-ul (`etk_ledger_commit.py` + `etk_project_head*.py`) se urcă **o singură dată**. Append-urile **NU se urcă** (commit-ul le pliază). **Interfața poate adăuga sufixe `-N` la upload — E INOFENSIV:** pipeline-ul e imun (commit-ul alege automat jurnalul cel mai recent + proiectorul cel mai capabil, indiferent de `-N`). **Nu redenumi nimic** — singurul gest de igienă e ștergerea jurnalului vechi.
 
@@ -12,7 +12,6 @@
 ## 🗺 INDEX PĂRȚI — regenerat, viu (12 părți-append)
 *Era append XLV→vârf, proiectată din jurnal la fiecare build (O1, fix M-2/M-3). ERA I (0–XLIV) = pliată/înghețată.*
 
-- **v3.127 · Partea CXXXI** (2026-08-22) — CXXXI.1 AUDIT „LA ZI" — subansamble + ACPS final (SUPERPOZIȚIE, verificat fizic)
 - **v3.128 · Partea CXXXII** (2026-08-22) — CXXXII.1 VERIFICARE RASP-INDEPENDENȚĂ pe fișierele URCATE (la nivel de fișier)
 - **v3.129 · Partea CXXXIII** (2026-08-22) — CXXXIII.1 FORK ACPS ÎNCHIS — 0-5 canonic unificat (0-4 pierdut, FAZA4 re-derivat din jurnal)
 - **v3.130 · Partea CXXXIV** (2026-08-22) — CXXXIV.1 CICLU KIMI R10 (λ / γ_NM pentru FSSP) — emitere + verificare răspuns
@@ -24,6 +23,7 @@
 - **v3.136 · Partea CXL** (2026-08-24) — CXL.1 ANALIZĂ KIMI R12 — 19 predicții falsificabile FSSP, exemplar
 - **v3.137 · Partea CXLI** (2026-08-24) — CXLI.1 CORECȚIE ÎNCADRARE — RASP strict independent
 - **v3.138 · Partea CXLII** (2026-08-25) — CXLII.1 VERIFICARE + COMPLETARE MODEL CARD FSSP (Kimi R13)
+- **v3.139 · Partea CXLIII** (2026-08-26) — CXLIII.1 UPLOAD ZENODO — CONFIRMAT (dovezi vizuale operator)
 
 ---
 
