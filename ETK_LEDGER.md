@@ -6231,6 +6231,69 @@ Continuitate de citare (DPID://1035) PĂSTRATĂ.
 
 ## AUTORITATE UNICĂ
 v3.139 · Partea CXLIII · 2026-08-26 · stivuit peste v3.138 (Partea CXLII).
+# APPEND — v3.140 (2026-08-27) · Partea CXLIV
+
+## CXLIV.1 SESIUNE ANIMA — MANIFEST v2 (operă) + REPARAȚII ONESTITATE
+Livrat `Anima_ca_Sacral_Proiectat_Manifest_v2.docx` — OOXML real (Path B, PK verificat).
+Satelit ETK (aplicație/provocare LinkedIn), NU corpus-coloană. Reparații aplicate:
+- Spielrein reatribuit Carotenuto (1977/1982), marcat CONTESTAT (inclusiv Covington însăși);
+  atribuirea greșită „Covington & Wharton 2003" scoasă.
+- „Jolij & Bhatt 2025" = ELIMINAT (citare fabricată — vezi CXLIV.2).
+- Doză: potență declarată ~0,5%; „32 g" mutat din tabel în text (afirmație autobiografică).
+- DOI ACPS corectat: 18890150 → concept-DOI 19021008 (18890150 = ambiguu, apare și ca DOI
+  NP_Depresia cf. CXLIII/A3; NU e concept-DOI ACPS canonic).
+- Motto (nod, marcat autorial-nod): „Acolo unde teoria a pus un zeu, viața pusese deja o
+  celulă." — rămâne pe manifest.
+
+## CXLIV.2 VERIFICARE PRIMAR — McGovern et al. 2025 (niaf039)
+niaf039 = McGovern H, Aqil M, Atasoy S, Carhart-Harris R (2025), Neurosci Conscious 2025(1),
+DOI 10.1093/nc/niaf039, PMID 41112968 [C — două arhitecturi: Oxford full-text + PMC + SemScholar].
+NU „Jolij & Bhatt". Coliziune de FOND (nu doar citare): teza lor = nucleu afectiv SUBCORTICAL al
+arhetipului + imagerie arhetipală (inclusiv figuri feminine) EMERGE sub psihedelice via REBUS —
+contrazice direct propoziția manifestului „absență sub psihedelice ⇒ arhetip cortical" (S2∩S3).
+Argument-din-absență = slăbit extern. Convergență utilizabilă: ei înrădăcinează arhetipul în
+dezvoltare/atașament (maturation gap, negative mother complex); ETK = specificația mecanistică
+(ODE/param/P-AN-1..4) sub ipotezele lor calitative → rival devine flanc.
+
+## CXLIV.3 VERDICT KIMI-PENTRU-ETK
+- „Teoremă de curățare axiomatică ACPS" → DOWNGRADE la conjectură de reducere [S]. NU aterizează.
+  Motiv: (a) nu există modul arhetipal de eliminat — spina ACPS = Q, t_KR, ε(m), L_Q, histereză,
+  OXT/OXTR, P16–P19/P42–P44; manifestul închide cel mult o dependență ipotetică; (b) dependența =
+  redeschisă de McGovern 2025.
+- Construcțiile Kimi = CANONICE (U(t) Umbră Preverbală, C_sacral, E(t)) [C] — nu fabricație.
+- Propagarea 1 (ε₀ preia „inconștientul colectiv") = HAZARD, nu feature: ε(m) fragil [D]/[S],
+  TET2→Θ [S] cu anti-reificare obligatorie → argument ÎMPOTRIVA mutării.
+- Propagarea 2 (U(t) mare + C_sacral extern → numinozitate artificială → siguranță relațională) =
+  GEMĂ [S], independentă de teza anti-arhetip → locul: §11.D.
+- Propagarea 3 (t_KR = parametru tunabil de control) = RESPINSĂ: t_KR neoperaționalizat/posibil
+  reificare (L-TKR-1, L-TKR-8), „parametru înainte de fundație" (DERAPAJ 1) + risc clinic (ETK
+  aplicat pe oameni reali). P-AN-4 rămâne IPOTEZĂ CLINICĂ, nu variabilă de control.
+
+## CXLIV.4 DRIFT NUME KIMI = A2-ADIACENT
+Kimi a folosit „Architecture of Primary Synthetic Consciousness" — nume DEPRECAT, identic cu
+abaterea activă A2 (NP_Depresia, CXLIII/A2). Canon ratificat = „Architecture of the Constitution
+of the Primary Self"; sinteticul = ramură extrapolată §11.D. Concluzie: reziduu de nume la nivel
+de corpus, nu doar Kimi. De semnalat lui Kimi + de tratat împreună cu A2.
+
+## CXLIV.5 FISURĂ RO ACPS (pre-Zenodo)
+Fișierul RO canonic ACPS v14 poartă subtitlu stale „…Framework for Artificial Consciousness",
+contrar notei de încadrare din același document (versiunea EN e corectată). De aliniat înainte de
+re-depunere. Se leagă de A2 + STATUS Punct-0.
+
+## ÎNCHISE (Partea CXLIV)
+- Citare niaf039 (fost „Jolij & Bhatt") = ÎNCHISĂ (McGovern et al., verificat la primar).
+- DOI ACPS în manifest (18890150 greșit) = ÎNCHISĂ (concept-DOI 19021008).
+
+## ACTIVE (adăugate CXLIV)
+- Corolar ACPS (propagarea 2, §11.D [S]) = decizie autorală DESCHISĂ: A (ACPS neatins) /
+  B (notă îngustă §11.D) / C (repoziționare „ETK = specificație mecanistică", McGovern flanc).
+  Recomandare nod: B pt corpus, C pt publicare; nu se exclud.
+- Semnalare Kimi = de emis (downgrade teoremă→conjectură + drift nume A2-adiacent + propagări 1/3 respinse).
+- Fisură subtitlu RO ACPS = de reparat pre-Zenodo (leagă A2).
+- Manifest Anima v2 = satelit livrat; corolar §11.D neaterizat.
+
+## AUTORITATE UNICĂ
+v3.140 · Partea CXLIV · 2026-08-27 · stivuit peste v3.139 (Partea CXLIII).
 
 
 
