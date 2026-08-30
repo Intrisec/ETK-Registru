@@ -6294,6 +6294,51 @@ re-depunere. Se leagă de A2 + STATUS Punct-0.
 
 ## AUTORITATE UNICĂ
 v3.140 · Partea CXLIV · 2026-08-27 · stivuit peste v3.139 (Partea CXLIII).
+# APPEND — v3.141 (2026-08-30) · Partea CXLV
+
+## CXLV.1 INVENTAR RASP + RASP v4 (S1-S4 + F0 individualizat + corecție Alaerts) + DOC SINTEZĂ PREDICȚII
+SUPERPOZIȚIE (multi-tur, un commit). Zero memorie (memoria dădea vârf „v3.145+" FALS; live = v3.140/CXLIV,
+re-confirmat de 3 ori în sesiune). Din ledger live + disc + primar PubMed.
+
+**(A) Inventar RASP.** Formă audio pură (v1/v2): ritm cardiac matern ~1-1.3 Hz (banda δ) → entrainment
+oscilator cortical δ (Goswami/TSF); 9 min A-B-A N=10; PM1-PM5 = terapie independentă de ETK.
+Fuziune (v3): EMS §4bis + PM6 (reversibilitate epigenetică prin audio) + PM7 + OXTR-δ Bridge.
+
+**(B) RASP v4 PRODUS** (dispoziție „mergi pe a" + rafinări operator). Path A editat pe RASP_Protocol_v3,
+livrat Path B (PK OK) + Path A pentru Project.
+- S1 §5.5.1: 2-AG retrograd closed-loop → upgrade PM6; [C] Castillo 2012 (23040807) + Wei 2015 (26504214).
+- S2 §4bis.1: metilare OXTR = gain → PM7 mecanistic; [C] Gregory 2009 + Moerkerke 2024 (38167302).
+- S3 §6.3: analogie clearance, ETICHETATĂ analogie teoretică, non-portantă.
+- S4 §5.5.3: canal 3 CCP-Adaptive (triple-channel), SCHIȚĂ - definiție operațională pendinte.
+- §2.5bis: F0 individualizat (PRAAT, semnătura propriei mame), ancoră [C] DeCasper & Fifer 1980 (7375928);
+  increment terapeutic = ipoteză testabilă, nu efect afirmat.
+- CORECȚIE (primar): "Alaerts et al. 2023" (Tab.1.1, sprijin hipermetilare) = ERONAT / finding-inversat.
+  Real = Evenepoel et al. 2023 (37391413, Transl Psychiatry 13:235): NICIUN tipar global de metilare OXTR
+  în ASD. Celulă corectată la Gregory 2009 + notă de corecție; heterogenitate întărită.
+Bump v3→v4, clauză independență în statut. Simbol PASS, mojibake 0, grep landings 1/1, citare eronată 0.
+NU am rulat etk_reference_corrector.py (butterfly-seed Cochran).
+**Verificare primar (2 arhitectură), 5 referințe:** Wei 2015, Castillo 2012, Moerkerke 2024,
+Evenepoel 2023, DeCasper & Fifer 1980 - toate PubMed-confirmate. 0 fabricație.
+
+**(C) Document sinteză predicții PRODUS** (Path B): cronologie 6 valuri + piloni standalone + subset
+testabil-RASP; fiecare predicție = origine + ce demonstrează + butterfly.
+
+## ÎNCHISE (Partea CXLV)
+- Inventar RASP executat; RASP v4 PRODUS (S1/S2 aterizate cu ancore primar-verificate, S3 etichetat,
+  S4 schițat, F0 individualizat specificat, corecția Alaerts→Evenepoel aplicată).
+- Document cronologie/sinteză predicții produs.
+
+## ACTIVE (adăugate/menținute CXLV)
+- ⚠ BUTTERFLY: citarea eronată "Alaerts 2023 = hipermetilare OXTR ASD" reparată DOAR în RASP v4;
+  probabil prezentă și în TVKNM (ghidul o flagase) - de verificat la coerență în restul corpusului. NU ating tăcut.
+- RASP v4 = pe disc (Path A + Path B); NU pe Zenodo; de urcat în Project ca Path A dacă devine canonic.
+- RASP v4 rezidual: S4 CCP-Adaptive definiție operațională pendinte; pilot N=30 = roadmap (în afara documentului).
+- U-4: SCRISOARE_CATRE_INSTANTA pe disc = v1 (fără §3.9) - de urcat v2.
+- R-44 ≥15 min = verificare full-text pending pre-EMS (Zăgrean N=30).
+- F-RASP-001 poartă LXX.3(B-F) deschisă; G-RASP-1 de redenumit/separat; G-RASP-3=0.
+- Restul ACTIVE ≡ CXLIV (neatinse).
+
+v3.141 · Partea CXLV · 2026-08-30 · stivuit peste v3.140 (Partea CXLIV). Fără „Δ" numit „delta". Zero memorie.
 
 
 
