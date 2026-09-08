@@ -62,7 +62,6 @@ _Erori închise (în jurnal, nu aici): ~0._
 - Nuanță: în v3.2 σ e rezolvat prin derivare (P6) → pentru coloana de publicare, delta σ nu mai e necesar. Pentru ACPS_v13 și TDSAF rămâne deschis, iar 
 - VI.10 Fișiere: livrate 23 iul / de șters
 - ⚠ ÎNCĂ PREZENTE, de șters DUPĂ verificarea merge-ului: ETK_1.md · ETK_AVP_2.md · ETK_SCRISOARE_INSTANTA_v2/v3/v4 · ETK_INSERTII_PENDINTE_CONSOLIDAT_20
-- 🔴 NECITIT ÎNCĂ: BioSkepsis_VAL3_Intrebari_2026-07-17.md — singurul fișier .md din proiect pe care nicio instanță nu l-a deschis. Conține întrebările V
 - X.5 Ce rămâne deschis, onest
 - 2. Veriga AVP→ATP rămâne slabă, single-lab (B-25). Ancora oferită (32406599) e review, re-descrie Haam/Tasker — nu replicare independentă. Route C răm
 - 3. Q3-specific rămâne deschis (B-21). Disocierea generală 2-AG/AEA = (C), dar replicarea OXTR→AEA în SON de grup non-Tasker nu a fost livrată — „Cover
@@ -81,8 +80,9 @@ _Erori închise (în jurnal, nu aici): ~0._
 - LXX.3 Abateri de reparat (înainte de absorbție)
 - *Se stivuiește PESTE v3.68 (Partea LXXII). Titlu „v3.69 (2026-08-09)"; changelog sub v3.68; adaugă Partea LXXIII; adaugă v3.68 la „AUTORITATEA UNICĂ".
 - FLAG OR Cochran rămâne DESCHIS — endpoint-ul PMC a dat doar abstract; verificarea la corpul full-text (singura cale de ridicare a interdicției, LXXVI.
-- T14 / dispoziție operator: rezidualul structural al pliererii (3 coliziuni) = închis prin ratificare -a/-b zero-risc; atașamentul verificat cu 4 corec
 - LXXX.3 MANIFEST DE ȘTERGERE — sigure de șters (subsumate 100%)
+- Redundante de șters în plus: ETK_REGISTRU_GENERAL_v3_38_2026-07-30.md (snapshot, subsumat), ETK_REGISTRU_v3_38_APPEND_Part_XLII*, ETK_REGISTRU_v3_40_A
+- Livrabile azi: consolidat complet + ETK_MANIFEST_STERGERE_2026-08-10.md (fișiere-sursă sigure de șters).
 
 ---
 
