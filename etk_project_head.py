@@ -78,12 +78,33 @@ def references(text):
     return seen
 
 def open_work(text):
-    """Linii care semnalează muncă deschisă. Deduplicate, scurtate."""
+    """Linii care semnalează muncă deschisă. Deduplicate, scurtate.
+    CONȘTIENT DE ÎNCHIDERI (patch 2026-09-08): un marcaj deschis nu mai e
+    surfațat dacă un rând ULTERIOR îl închide explicit — fie prin numele
+    fișierului (cheie unică) pe o linie care conține 'închis'/'STALE', fie
+    dacă linia însăși e o declarație de închidere. Rezolvă flagul-fantomă
+    (ex. VAL3 'NECITIT' închis în CXXII dar reapărut din linia imutabilă)."""
     markers = ["DESCHIS", "PENDING", "NEATINS", "NECITIT", "de șters", "TOT PENDING",
                "rămâne deschis", "de reparat", "în așteptarea deciziei"]
+    fn_re = re.compile(r"[\w\-.]+\.(?:md|docx)")
+    def is_closure(low):
+        # închidere STRICTĂ: linia declară explicit un FLAG închis/stale
+        return ("flag" in low) and (("închis" in low) or ("stale" in low))
+    # 1) strânge fișierele declarate închise: doar de pe linii de închidere-de-flag
+    closed_files = set()
+    for line in text.split("\n"):
+        if is_closure(line.lower()):
+            for fn in fn_re.findall(line):
+                closed_files.add(fn)
     out = []
     for line in text.split("\n"):
         if not any(m in line for m in markers):
+            continue
+        # o linie care ANUNȚĂ închiderea unui flag nu e muncă deschisă
+        if is_closure(line.lower()):
+            continue
+        # marcaj deschis pentru un fișier închis explicit altundeva = suprimat
+        if any(fn in line for fn in closed_files):
             continue
         # scoate zgomotul: rânduri de tabel, linii de changelog, dumpuri ACTIVE/ÎNCHISE
         if line.lstrip().startswith("|"):        # rând de tabel
