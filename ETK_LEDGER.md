@@ -6340,6 +6340,35 @@ testabil-RASP; fiecare predicție = origine + ce demonstrează + butterfly.
 
 v3.141 · Partea CXLV · 2026-08-30 · stivuit peste v3.140 (Partea CXLIV). Fără „Δ" numit „delta". Zero memorie.
 
+# APPEND — v3.142 (2026-09-08) · Partea CXLVI
+
+## CXLVI.1 ORDINE SURSE + IGIENĂ PROIECȚIE (memorie vs autoritate GitHub; flag-fantomă VAL3)
+
+Changelog:
+- **ORDINE SURSE (boot-order).** Regula de precedenta explicita: autoritatea de stare = ETK_LEDGER.md (GitHub, live) proiectat in ETK_HEAD.md; fisierul de memorie al Project-ului (registru-etk.md) = pointer derivat, NU autoritate. Reparat in memorie: (a) registru-etk.md redus la POINTER PUR (fara stare inghetata); (b) pointer de boot in preferintele de proiect (blocul injectat la fiecare pornire). Cauza nedumeririi recurente ("instanta raporteaza dintr-un registru vechi, apoi afla ca e pe GitHub") = coliziune de nume + ordinea de injectare la boot.
+- **SCRISOARE_CATRE_INSTANTA v2** (produsa). §2 rescris: nume reale ETK_LEDGER.md/ETK_HEAD.md (nu gh_*); dezambiguizare reziduu-disc vs canonic-GitHub dupa CALE; eliminata dependenta orfana de PUNCT-0 (mecanica facuta autonoma in §2). §3.9 NOU = precedenta surselor de stare (anti-butterfly). Inchide U-4.
+- **INVENTAR igiena Project** (produs). 2 duplicate byte-identice de sters (STATUS -1; o copie Upstream _WORD/_EN). 7 versiuni superate = candidati de retras (decizia operatorului, doar dupa grep de citare Zenodo/ledger). Mislabel semnalat: TheUpstreamMechanism_v3-3_EN.docx = copie RO byte-cu-byte, NU traducere.
+- **FLAG-FANTOMA VAL3 — RADACINA REPARATA.** Flagul "NECITIT" al BioSkepsis_VAL3_Intrebari reaparea in HEAD desi inchis in CXXII (v3.118, executat per operator). Cauza: proiectorul grepa "necitit" pe linia imutabila si nu recunostea inchiderea scrisa ca proza. PATCH etk_project_head.py (open_work constient de inchideri): suprima un marcaj deschis cand o linie ulterioara declara explicit "flag ... inchis/STALE" + numele fisierului, sau cand linia insasi e o declaratie de inchidere. Testat pe ledgerul viu: dispare exact VAL3; varf, index (12), referinte (83), erori active = identice. Sintaxa OK.
+
+Verificat live: clone main, commit caf6114, varf reprodus prin proiector (HEAD comis identic cu proiectia, unica diferenta = data de regenerare). Fara reziduu ETK_LEDGER*/ETK_HEAD* pe discul Project.
+
+## INCHISE (Partea CXLVI)
+- Nedumerirea "registru vechi din memorie vs GitHub": diagnosticata + reparata in stratul de memorie (pointer pur + boot pointer).
+- U-4 (SCRISOARE v2): §2 corectat + §3.9 adaugat.
+- Flag-fantoma VAL3 in HEAD: radacina reparata prin patch de proiector (nu doar re-notare). Confirmat: VAL3 a fost procesat (rulari B-19..B-27, inchis CXXII).
+
+## ACTIVE (adaugate/mentinute CXLVI)
+- DEPLOY tooling: etk_project_head.py patch-uit = de comis in repo (inlocuieste proiectorul existent, acelasi nume); Action-ul regenereaza HEAD fara VAL3.
+- INVENTAR §B: 7 retrageri de versiuni = decizia operatorului (grep de citare inainte de stergere).
+- Mislabel Upstream _EN (copie RO) = de rezolvat (traducere reala sau redenumire) inainte de bundle EN Zenodo.
+- Restul ACTIVE identic cu CXLV (neatinse).
+
+## Autoritate unica
+ETK_LEDGER.md (GitHub Intrisec/ETK-Registru) -> ETK_HEAD.md (proiectat cu etk_project_head.py patch-uit). Citire live.
+
+v3.142 · Partea CXLVI · 2026-09-08 · stivuit peste v3.141 (Partea CXLV). Append-only respectat; nicio parte-continut modificata. Zero memorie.
+
+
 
 
 
