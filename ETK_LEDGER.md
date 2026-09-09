@@ -6367,6 +6367,48 @@ Verificat live: clone main, commit caf6114, varf reprodus prin proiector (HEAD c
 ETK_LEDGER.md (GitHub Intrisec/ETK-Registru) -> ETK_HEAD.md (proiectat cu etk_project_head.py patch-uit). Citire live.
 
 v3.142 · Partea CXLVI · 2026-09-08 · stivuit peste v3.141 (Partea CXLV). Append-only respectat; nicio parte-continut modificata. Zero memorie.
+# APPEND — v3.143 (2026-09-09) · Partea CXLVII
+
+> Sesiune LinkedIn — două livrabile publice dintr-o pasă. Un singur salt de vârf: CXLVI → CXLVII.
+
+## CXLVII.1 SINTEZĂ NUCLEU DIFERENȚIAL ETK → FIȘĂ DE SINE STĂTĂTOARE (public / LinkedIn)
+
+**Changelog**
+- Extras și consolidat, din documentele canonice reale (Path A, zero memorie), sistemul cuplat de ecuații diferențiale care constituie spina matematică ETK. Livrat ca fișă academică independentă `ETK_Differential_Core.pdf` (4 pag., xelatex, PK/`%PDF-` verificat).
+- Surse citite live/primar: ACPS_v14_0-5_CANONIC (index Eq. 1–49 + sistem 21a–g), Q_v5_Ro (Ec. 8b–12), NP_Depresia_v5-1_bistabil (§4.5–4.9, bistabil §4.7.1–4.7.2), TheUpstreamMechanism_v3-3 (lanț AD calitativ), FSSP (cod).
+- **A doua arhitectură (execuție) pe blocul FSSP:** rulat `fssp_sim_v1_3_calibrated.py`. REPRODUS: I_FSSP(Optimal, GW40) = 0.1152; pierdere continuitate −23.1% (Stres), −24.1% (MIA), −28.3% (Epigenetic); 0/4 divergențe ODE; mediane stabile pe 5 seed-uri (42/1/7/123/999). NM* finit 1.05→0.54 pe gradient de severitate.
+
+**ÎNCHISE**
+- Fișă nucleu-diferențial = livrată, verificată vizual (randare pg.1–2), PDF real. Marcaj epistemic aplicat pe fiecare ecuație [C]/[D]/[S]/[F]. Nodul V_NM (neurocepția matură) prezentat ca structura-contribuție: formă = [F], parametri (α_c, α_ref, a_NM, g_NM) = [S] neancorați — enunț onest al graniței „arhitectural nou vs. de măsurat".
+
+## CXLVII.2 TRADUCERE NOD NM → PROPUNERE DE-O-ECUAȚIE ÎN LIMBAJ ACTIVE-INFERENCE („Direcția A", public / LinkedIn)
+
+**Changelog**
+- Extras nodul V_NM (Ec. 12 Qualia / Eq. 9,21 ACPS) și tradus, fără vocabular Katharós, în forma standard predictive-processing: neurocepția = precizie-ponderare a erorilor de predicție interoceptivă; contribuția ETK = precizia are o componentă LENTĂ, developmentală, cu substrat molecular (metilare OXTR) și fereastră critică. Livrat: `ETK_NeuroceptionPrecision_A.pdf` (2 pag., xelatex, PK/`%PDF-` verificat, randare QA).
+- O singură ecuație-nucleu (dual-atractor precizie-ponderat) + 2 definiții-suport (π sigmoid în capital de co-reglare c; c gated de ε) + 3 predicții falsificabile în limbaj PP.
+- Redenumiri de expunere (NU în corpus): Q→π, V_NP→μ_N, V_NM→μ_M, VK_ref→μ_0. Corpusul intern rămâne neatins.
+
+**VERIFICARE LA PRIMAR (PubMed, obligatoriu pentru document public)**
+- Seth & Friston 2016 — Phil Trans R Soc B 371(1708), PMID 28080966, DOI 10.1098/rstb.2016.0007 — ✔.
+- Cecil et al. 2014 — Mol Psychiatry 19(10):1071–7, PMID 25199917, DOI 10.1038/mp.2014.95 — ✔ (= R-100).
+- McLaughlin et al. 2015 — PNAS 112(18):5637–42, PMID 25902515, DOI 10.1073/pnas.1423363112 — ✔ (= R-95).
+- Maejima et al. 2025 — Aging Cell 24(10):e70198, PMID 40788779, DOI 10.1111/acel.70198 — ✔ (= R-66).
+
+**CAPCANĂ EVITATĂ (log onest)**
+- PMID candidat 24726573, presupus „Quattrocki & Friston 2014", s-a dovedit la primar = O'Doherty „The problem with value" (Neurosci Biobehav Rev). PMID plauzibil-din-memorie, exact tiparul avertizat în scrisoare §7. NEINTRODUS. Documentul stă pe 4 ancore verificate, nu 5 cu una fabricată.
+
+**ÎNCHISE**
+- Fișă Direcția A = livrată, verificată. Marcaj: mapare neurocepție↔precizie [C]; metilare OXTR developmentală/predictivă [D]; reversibilitate OXT→TET→demetilare [C mecanism / D inter-specie — șoarece, nazal, 10 zile]; fereastră critică umană [C]. Claim-nou (precizia interoceptivă indexată de starea de metilare) = [S], falsificabil prin 3 teste.
+
+## ACTIVE (comune ambelor subsecțiuni)
+- **COER-1: P vs P_eff.** Capul canonic (ACPS v14, Eq. 11a) folosește P_eff = max(P−P_min,0) în dQ/dt (stare Q=0 exactă); sateliții (Qualia v5 Ec. 11, NP_Depresia v5 Eq. 6) încă poartă P(t) direct. Opțiune: propagă P_eff SAU adnotează version-staging.
+- **COER-2: termen 3 în dV_NM/dt.** γ_SVK·Q·𝟙{Dd>0.25}·(V_NP−V_NM) apare în Qualia v5 (Ec. 12), absent din forma-nucleu ACPS/NP. Opțiune: promovează la canon SAU marchează extensie Qualia-locală.
+- **COER-3: parametri NM neancorați.** a_NM, g_NM (FSSP) + α_c, α_ref (nucleu) — nicio ancoră endpoint documentată. Confirmat de HEAD. Publicarea valorilor fără tag [S] ar supraestima modelul.
+- **Cuplaj precizie-interoceptivă ↔ metilare OXTR la om** = [S] netestat (predicția P1 a fișei A). Țintă empirică; se leagă natural de endpoint-urile SME din pilotul RASP (TET2 / OXTR-DNAm), FĂRĂ a cupla RASP retroactiv ca „endpoint natural" (păstrează independența RASP, canon CXLI).
+
+**Autoritate unică:** GitHub `Intrisec/ETK-Registru`, HEAD regenerat din acest jurnal. Vârf ridicat CXLVI → CXLVII.
+
+**Provenență:** ecuații transcrise din corpus (nu memorie); referințe verificate la primar via PubMed; 0 valori numerice noi introduse. Blocul FSSP = singura verificare numerică executabilă în pasă; ACPS/Qualia/NP = transcriere verificată prin randare.
 
 
 
