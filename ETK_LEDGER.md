@@ -6409,6 +6409,33 @@ v3.142 · Partea CXLVI · 2026-09-08 · stivuit peste v3.141 (Partea CXLV). Appe
 **Autoritate unică:** GitHub `Intrisec/ETK-Registru`, HEAD regenerat din acest jurnal. Vârf ridicat CXLVI → CXLVII.
 
 **Provenență:** ecuații transcrise din corpus (nu memorie); referințe verificate la primar via PubMed; 0 valori numerice noi introduse. Blocul FSSP = singura verificare numerică executabilă în pasă; ACPS/Qualia/NP = transcriere verificată prin randare.
+# APPEND
+## v3.144 · Partea CXLVIII (2026-09-11)
+
+**CXLVIII.1 — SUPERPOZIȚIE narcisism × ETK + VERIFICARE a-2-a-arhitectură (Scite) → F-VAL-NARC-001**
+
+Sursă: text clinic extern („Narcisismul, o protecție care s-a instalat", kohutian-kernbergian) în superpoziție cu corpusul (ACPS v14, Qualia Q v5 §2.2, FSSP LifeCourse E1, Fișa Zâmbetului, Constanta Elena).
+
+PUNTE FORMALĂ: text kohutian ↔ ACPS (Sinele Primar) ↔ Fereastra II = „validare prin oglindire afectivă" ↔ Inflația Neuroceptivă (Eq. 48, γ_I/β_θ) ↔ Validare(τ)=Θ_OXT·tanh(t_KR/·), Poarta 2 (Validare<θ_c).
+- Mapare 2 tipuri: Tip1 (preverbal, fără scut) = Δε-max / t_KR≈0 / Q→0 / Mediator-compromis-structural. Tip2 (rană tardivă, scut) = Inflație θ peste t_KR parțial.
+- Întrerupătorul („emoții oprite") = colaps Q (Tip1) vs. silențierea V_NP sub V_NM (Tip2).
+
+A-2-A ARHITECTURĂ (Scite, full-text, provenanță înregistrată):
+- MODEL-MASCĂ = CONTESTAT [contra]. Bosson 2008 (meta, fără sprijin în populații normale) 10.1111/j.1751-9004.2008.00089.x; Marissen 2016 (NPD, nesusținut) 10.1016/j.psychres.2016.04.070; ține doar la extremă (Thomas 2012, 10.1002/pmh.1219) + dinamic (Hardaker 2019, 10.1080/15298868.2019.1667862). ⇒ „sub răceală întotdeauna durere" = NECITABIL ca [C]; rămâne [S]/[D].
+- DEZACTIVARE ≠ ABSENȚĂ (grandios) = [C]. Reis 2021, 10.3389/fpsyg.2021.679168.
+- RĂDĂCINĂ ATAȘAMENT insecur = [C]. Reis 2021; Rohmann 2012 (10.1027/1016-9040/a000100); Loeffler 2020 (10.3389/fpsyg.2020.519330).
+- NUCLEU COMUN = auto-importanță îndreptățită / nevoia de validare = [C]. Krizan & Herlache 2018 (10.1177/1088868316685018); Fadhila 2024 (10.21776/ub.jppbr.2024.005.01.7).
+
+CE DĂ ASTA ETK:
+1. Convergență externă independentă pe axa Fereastră-II-validare: literatura de personalitate numește nucleul narcisismului „intense need for validation" (Krizan & Herlache) — susține că Validare(τ)/oglindirea nu e postulat intern, ci construct real. [întărire C pe axa validare]
+2. Gard butterfly: model-mască contestat ⇒ „rana sub scut" (Tip2) stă [S], NU se promovează la [C]. Protejează modulul Inflație de un import contestat.
+3. Ancore [C] utilizabile (dezactivare-nu-absență + atașament + nucleu-validare) → citabile în F-VAL-NARC-001 §8 și în orice modul de validare viitor.
+
+RĂMÂN [S] (netestate): ε-gating → non-conversie validare(V_NM)→t_KR (falsif: demetilare OXT nu reduce foamea la scor egal); 2 rute etiologice (deprivare vs. supravalorizare Brummelman) pe aceeași Eq. 48.
+
+ARTEFACTE: F-VAL-NARC-001 v1 (.md Path A + .docx OOXML) = propunere, NU inserție canonică. Manifest public „Foamea de a fi văzut" (LinkedIn) = DECUPLAT de corpus.
+
+STATUT: sinteză + verificare; nimic aterizat în fișiere canonice. Rafinare onestă: Tip1 ≠ narcisism vulnerabil (Pincus/Miller) — e deficit/depresie goală.
 
 
 
